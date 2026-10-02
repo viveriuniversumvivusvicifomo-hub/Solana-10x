@@ -1,0 +1,27 @@
+{
+  "kind": "solmodelos_rescore_ack_parity_csv",
+  "generated_at": "2026-10-01T16:31:16+02:00",
+  "source_csv": "cycle0/artifacts/helius_parity_replay_ge10_20261001.csv",
+  "note": "CSV is score-level (BOSS rebuild); full +q5b feature matrix not in this file \u2014 scores taken as live rebuild via wired helpers.",
+  "n_rows": 12,
+  "n_oos_ge_0.99": 12,
+  "n_live_ge_0.99_among_high": 10,
+  "pct_live_ge_0.99_among_high": 0.8333333333333334,
+  "failures_ge0.99": [
+    {
+      "mint": "BZofTtkyrBM2EDdRBN6GCavdWvxd61xbLTVFnoPgpump",
+      "oos_score": 0.9998178426097192,
+      "live_rebuild_score": 0.7307414447202645,
+      "n_trades_pre_t0": 1,
+      "gaps": "['sol=118.8722/coingecko_asof', 'helius_bc:pages=1 stop=short_page', 'helius_mint:pages=3 stop=max_pages', 'helius_merged n=291 le_t0=2 floor=1790090994', 'rpc_window n_sigs=14 pages_reason=short_reached@page29']"
+    },
+    {
+      "mint": "4M3gYZ2dQ39KuBuJYVmQi5qrtFfMpMWHpJhhx7Wapump",
+      "oos_score": 0.9998456806403022,
+      "live_rebuild_score": 0.5733110582686363,
+      "n_trades_pre_t0": 1,
+      "gaps": "['sol=118.8722/coingecko_asof', 'helius_bc:pages=1 stop=short_page', 'helius_mint:pages=3 stop=max_pages', 'helius_merged n=302 le_t0=2 floor=1790060579', 'rpc_empty:max_pages=50']"
+    }
+  ],
+  "recalibration_needed": false
+}

@@ -1,0 +1,40 @@
+{
+  "model": "q5b_last.joblib",
+  "set_name": "+q5b",
+  "train_t0_max_calib": "2026-09-20 17:48:12+00:00",
+  "n_expand": 82089,
+  "n_oos_after_train_end": 9851,
+  "tail5k": {
+    "n": 5000,
+    "min": 0.0077080772128191475,
+    "p50": 0.1703672628904114,
+    "p90": 0.7661314381914225,
+    "p95": 0.9997871372746044,
+    "max": 0.99985275449228,
+    "n_ge_0.9": 432,
+    "n_ge_0.99": 418,
+    "frac_ge_0.9": 0.0864,
+    "frac_ge_0.99": 0.0836
+  },
+  "oos_after_fold5_train_end": {
+    "n": 9851,
+    "min": 0.0077080772128191475,
+    "p50": 0.17139839063007614,
+    "p90": 0.7867147305969515,
+    "p95": 0.9997930170070598,
+    "max": 0.99985275449228,
+    "n_ge_0.9": 901,
+    "n_ge_0.99": 868,
+    "frac_ge_0.9": 0.09146279565526343,
+    "frac_ge_0.99": 0.08811288194091971
+  },
+  "thr_suggestion": {
+    "keep_cli_0.9": true,
+    "keep_config_0.99_doc": true,
+    "do_not_overwrite_q5b_last": true,
+    "reason": "Pump live max<<0.9; Dune OOS still has ultra-select mass near 1.0 \u2014 mismatch is feature/parity not thr. Need Pump-aligned matrix or prior-stamp fix before thr/model swap."
+  },
+  "dune_calls": 0,
+  "refit_ran": false,
+  "note": "Score-distribution proxy only (existing q5b_last). Full WF refit deferred \u2014 no Pump feature matrix."
+}

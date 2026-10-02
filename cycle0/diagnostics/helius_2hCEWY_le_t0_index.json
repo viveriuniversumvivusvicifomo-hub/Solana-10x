@@ -1,0 +1,52 @@
+{
+  "gaps": [
+    "helius_bc:pages=1 stop=short_page",
+    "helius_mint:pages=20 stop=max_pages",
+    "helius_merged n=1775 le_t0=4 floor=1790041261",
+    "rpc_bc_window n_sigs=4 new=0 pages_reason=short_reached@page1",
+    "rpc_mint_window n_sigs=5 new=1 pages_reason=short_reached@page8",
+    "getBlock_449233140_n=1704_new=1704",
+    "getBlock_449233141_n=943_new=943",
+    "getBlock_449233142_n=1345_new=1345",
+    "slot_window slot=449233141 n_sigs=3992 mint_new=17",
+    "create_to_t0 mode=enhanced+rpc_sig_window+slot n_raw=22 le_t0=5"
+  ],
+  "n": 5,
+  "txs": [
+    {
+      "sig": "2E5GiJM7RQ9U11AEfcKaZxpGRo8ZNTyttvmFfL9yNbJ5L2vJqertJdBceWUsWgCofPSuQTpfZqSbzZRTUUfnCPsD",
+      "type": "CREATE_POOL",
+      "source": "PUMP_AMM",
+      "ts": 1790041266,
+      "err": false
+    },
+    {
+      "sig": "2qTzpLaffC9WndDcqN8aM5HMsXcFgcr2eyaG5YiGZdhHkMn4jCkMq1QiBe3GrbCzcEPTty9Vi2qKJg7dobyy6yVF",
+      "type": "SWAP",
+      "source": "PUMP_FUN",
+      "ts": 1790041266,
+      "err": false
+    },
+    {
+      "sig": "4t3XKdmUDW1MkZjQai11f7JwCaKD7tBEoFYRw4fE3ueLZ2nnNppPaRvtaoQ2dJ5nB8vMVuJDDpQLqfwkSRjz4Quw",
+      "type": "SWAP",
+      "source": "PUMP_FUN",
+      "ts": 1790041266,
+      "err": false
+    },
+    {
+      "sig": "xWGrzEKU7htKsUiEcdY9Yg3Drf1uqV4kJcoXLdu2BUoZrB5MmcNV2TQpiUxMvKYahx7s8t5JtLqwsUct8ZugUxs",
+      "type": "CREATE",
+      "source": "PUMP_FUN",
+      "ts": 1790041266,
+      "err": false
+    },
+    {
+      "sig": "2SBSMPFqpmTTtks2HiCYecbvpLYoHWSZbNGJu9NS5druizDuGyViR2vm99NYWGkRdiYwDFHEhPPt6GeELuXxt7xB",
+      "type": "SWAP",
+      "source": "PUMP_AMM",
+      "ts": 1790041266,
+      "err": false
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "fold": 5,
+  "test_n": 9851,
+  "label": "hit_10x_30d",
+  "thr_histgb": 0.9,
+  "thr_lite_default": 0.85,
+  "accept_sets": {
+    "histgb@0.9": {
+      "name": "histgb@0.9",
+      "n": 901,
+      "rate": 0.09146279565526343,
+      "prec": 0.9922308546059934,
+      "pos": 894
+    },
+    "lite@0.85": {
+      "name": "lite@0.85",
+      "n": 967,
+      "rate": 0.09816262308395086,
+      "prec": 0.9307135470527405,
+      "pos": 900
+    },
+    "lite@0.55": {
+      "name": "lite@0.55",
+      "n": 1481,
+      "rate": 0.1503400669982743,
+      "prec": 0.6934503713706954,
+      "pos": 1027
+    },
+    "both_h09_l085": {
+      "name": "both",
+      "n": 887,
+      "rate": 0.0900416201400873,
+      "prec": 0.992108229988726,
+      "pos": 880
+    },
+    "both_h09_l055": {
+      "name": "both_055",
+      "n": 898,
+      "rate": 0.09115825804486855,
+      "prec": 0.9922048997772829,
+      "pos": 891
+    },
+    "lite085_only": {
+      "name": "lite_only",
+      "n": 80,
+      "rate": 0.008121002943863568,
+      "prec": 0.25,
+      "pos": 20
+    },
+    "histgb_only": {
+      "name": "hist_only",
+      "n": 14,
+      "rate": 0.0014211755151761242,
+      "prec": 1.0,
+      "pos": 14
+    },
+    "lite055_only": {
+      "name": "lite055_only",
+      "n": 583,
+      "rate": 0.059181808953405746,
+      "prec": 0.2332761578044597,
+      "pos": 136
+    }
+  },
+  "spearman_histgb_lite": 0.6514026757627857,
+  "histgb_pass_mints_sample": [
+    "Cdya1VdAg3eaWYbAf3rsPn5nJTSxpvnNa6iDgnDBpump",
+    "CwUoifWaMnqxNLMxarz8cVW7VApbMj8mYNafb5mWpump",
+    "4PzF6nWBh4c6tdAToxgm2uLZdJNZFU2g8Kyf8qQFpump",
+    "RdftpFvYUgkic5k2sGonSB6pP2QEBE4SeTPzfXHpump",
+    "G7dbRvtBVoVRNXqR8e8UZKtpjdGtoKhgVBxtTtF3pump",
+    "7ZnNEZuv5w8vXy1oSqvog2CRs3QRZ7FS1RRegcQ9pump",
+    "gJRxAf8WB4C2Gn3SCTaAGDLXuDDRGos4aejzpCCpump",
+    "3QPs4WcDXBCYvj3aX2f8haFLUf8UbiDHYmMfpFHDpump",
+    "DQTWAihk3zYfqqk85FHbCakDUR2GGRDATLZYA5XEpump",
+    "CWCLRtBJBpnenVAvQhwDHG9Js7eqrHyFNQ3mPeq7pump"
+  ],
+  "lite085_pass_mints_sample": [
+    "Cdya1VdAg3eaWYbAf3rsPn5nJTSxpvnNa6iDgnDBpump",
+    "CwUoifWaMnqxNLMxarz8cVW7VApbMj8mYNafb5mWpump",
+    "4PzF6nWBh4c6tdAToxgm2uLZdJNZFU2g8Kyf8qQFpump",
+    "14NWVx7UjzHYVDAwCzPgom8YNT3FKfVzhEAqu1uCpump",
+    "RdftpFvYUgkic5k2sGonSB6pP2QEBE4SeTPzfXHpump",
+    "G7dbRvtBVoVRNXqR8e8UZKtpjdGtoKhgVBxtTtF3pump",
+    "7ZnNEZuv5w8vXy1oSqvog2CRs3QRZ7FS1RRegcQ9pump",
+    "gJRxAf8WB4C2Gn3SCTaAGDLXuDDRGos4aejzpCCpump",
+    "4gBUMKWQgGtDS3HgwYLZCytvzzNxr8JCE5gVRhj8pump",
+    "Gp964s94AJqgME6DYj61FjiP719NWeT9rzBZwuX3pump"
+  ],
+  "overlap_mints_sample": [
+    "Cdya1VdAg3eaWYbAf3rsPn5nJTSxpvnNa6iDgnDBpump",
+    "CwUoifWaMnqxNLMxarz8cVW7VApbMj8mYNafb5mWpump",
+    "4PzF6nWBh4c6tdAToxgm2uLZdJNZFU2g8Kyf8qQFpump",
+    "RdftpFvYUgkic5k2sGonSB6pP2QEBE4SeTPzfXHpump",
+    "G7dbRvtBVoVRNXqR8e8UZKtpjdGtoKhgVBxtTtF3pump",
+    "7ZnNEZuv5w8vXy1oSqvog2CRs3QRZ7FS1RRegcQ9pump",
+    "gJRxAf8WB4C2Gn3SCTaAGDLXuDDRGos4aejzpCCpump",
+    "3QPs4WcDXBCYvj3aX2f8haFLUf8UbiDHYmMfpFHDpump",
+    "DQTWAihk3zYfqqk85FHbCakDUR2GGRDATLZYA5XEpump",
+    "CWCLRtBJBpnenVAvQhwDHG9Js7eqrHyFNQ3mPeq7pump"
+  ]
+}

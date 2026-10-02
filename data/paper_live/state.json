@@ -1,0 +1,15 @@
+{
+  "seen_mints": [],
+  "dry_offset": 20,
+  "cycles": 3073,
+  "last_poll_at": "2026-10-02T15:38:58.413+00:00",
+  "last_followup_at": null,
+  "followup_errors": [
+    "'FollowupTracker' object has no attribute 'poll_pump_mcs'",
+    "'FollowupTracker' object has no attribute 'poll_pump_mcs'",
+    "'FollowupTracker' object has no attribute 'poll_pump_mcs'",
+    "[Errno -3] Temporary failure in name resolution",
+    "[Errno -3] Temporary failure in name resolution",
+    "[Errno -3] Temporary failure in name resolution"
+  ]
+}

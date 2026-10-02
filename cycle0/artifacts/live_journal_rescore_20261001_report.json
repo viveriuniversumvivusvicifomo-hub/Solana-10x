@@ -1,0 +1,151 @@
+{
+  "kind": "live_journal_rescore_check",
+  "generated_at": "2026-10-01T16:45:49+02:00",
+  "restart_cut_parity": "2026-10-01T16:29:00",
+  "restart_cut_mustfix": "2026-10-01T16:43:00",
+  "model": "data/paper_live/models/q5b_last.joblib",
+  "journal": "data/paper_live/paper_journal.sqlite",
+  "parity": {
+    "ok": true,
+    "detail": "PASS recipe==joblib /workspace/solana-10x/data/paper_live/models/q5b_last.joblib",
+    "n_recipe": 51,
+    "n_joblib": 51,
+    "order_match": true,
+    "missing_in_joblib": [],
+    "extra_in_joblib": [],
+    "drop_leaked": []
+  },
+  "inventory": {
+    "histgb_total": 925,
+    "histgb_post_restart": 36,
+    "histgb_pre_restart": 889,
+    "histgb_post_mustfix": 0,
+    "other_post_mustfix": {
+      "skip_capture_not_scoreable": 16
+    },
+    "histgb_features_null": 0,
+    "created_min": "2026-10-01T10:43:16.831+02:00",
+    "created_max": "2026-10-01T16:42:03.279+02:00",
+    "sightings_cols": [
+      "mint",
+      "t0_ts",
+      "mc_usd_t0",
+      "name",
+      "symbol",
+      "source",
+      "features_json",
+      "score",
+      "score_mode",
+      "paper_candidate",
+      "created_at"
+    ],
+    "features_json_n_keys_newest": 69,
+    "features_json_has_creator_prior_source_newest": false
+  },
+  "newest_sample": {
+    "label": "newest_200",
+    "n_rows": 200,
+    "n_rescored": 200,
+    "n_incomplete": 0,
+    "n_post_restart_in_sample": 36,
+    "max_abs_delta": 0.0,
+    "p50_abs_delta": 0.0,
+    "p95_abs_delta": 0.0,
+    "mean_abs_delta": 0.0,
+    "n_abs_delta_gt_1e-6": 0,
+    "n_abs_delta_gt_1e-4": 0,
+    "n_abs_delta_gt_0": 0,
+    "n_exact_zero": 200,
+    "prior_source_dist": {
+      "<ABSENT>": 200
+    },
+    "sol_usd_source_dist": {
+      "jupiter_live_not_asof": 4,
+      "coingecko_asof": 29,
+      "jupiter": 167
+    },
+    "journal_score_min": 0.014799257790128863,
+    "journal_score_max": 0.5638368443886089,
+    "journal_score_p50": 0.10406492595462236,
+    "n_journal_ge_0.99": 0,
+    "n_dune_cohort": 0,
+    "n_dune_cohort_rows": 0
+  },
+  "post_restart_sample": {
+    "label": "post_parity_restart_all",
+    "n_rows": 36,
+    "n_rescored": 36,
+    "n_incomplete": 0,
+    "n_post_restart_in_sample": 36,
+    "max_abs_delta": 0.0,
+    "p50_abs_delta": 0.0,
+    "p95_abs_delta": 0.0,
+    "mean_abs_delta": 0.0,
+    "n_abs_delta_gt_1e-6": 0,
+    "n_abs_delta_gt_1e-4": 0,
+    "n_abs_delta_gt_0": 0,
+    "n_exact_zero": 36,
+    "prior_source_dist": {
+      "<ABSENT>": 36
+    },
+    "sol_usd_source_dist": {
+      "jupiter_live_not_asof": 4,
+      "coingecko_asof": 29,
+      "jupiter": 3
+    },
+    "journal_score_min": 0.022396669086655538,
+    "journal_score_max": 0.5638368443886089,
+    "journal_score_p50": 0.15968906082890993,
+    "n_journal_ge_0.99": 0,
+    "n_dune_cohort": 0,
+    "n_dune_cohort_rows": 0
+  },
+  "post_restart_dune_cohort": null,
+  "worst_abs_delta_rows": [
+    {
+      "mint": "Ew9DQJVDLqFWQzyHGKR8jeUWda5LNSWF89c8fxcmpump",
+      "created_at": "2026-10-01T16:42:03.279+02:00",
+      "journal_score": 0.046492367096518626,
+      "rescore": 0.046492367096518626,
+      "abs_delta": 0.0,
+      "creator_prior_source": "<ABSENT>"
+    },
+    {
+      "mint": "J28QXauu33Gbys98nPgM15GT3Zhr7qyV7zJkFLcjpump",
+      "created_at": "2026-10-01T16:42:03.276+02:00",
+      "journal_score": 0.10282883013993578,
+      "rescore": 0.10282883013993578,
+      "abs_delta": 0.0,
+      "creator_prior_source": "<ABSENT>"
+    },
+    {
+      "mint": "2fttGFzxgct55W3uZXxoYKVEdckfP5TL3uFtkCTR6ywi",
+      "created_at": "2026-10-01T16:42:03.272+02:00",
+      "journal_score": 0.296145459221428,
+      "rescore": 0.296145459221428,
+      "abs_delta": 0.0,
+      "creator_prior_source": "<ABSENT>"
+    },
+    {
+      "mint": "8FieMhKjJVbBs2xXb5CaAqMzUiPDi9wmq23TpZEcpump",
+      "created_at": "2026-10-01T16:42:03.269+02:00",
+      "journal_score": 0.080621091100566,
+      "rescore": 0.080621091100566,
+      "abs_delta": 0.0,
+      "creator_prior_source": "<ABSENT>"
+    },
+    {
+      "mint": "BtRQt3CoJbDGcCKDq4bR5TcRJhQmCZtq31hb5VsHwgrx",
+      "created_at": "2026-10-01T16:42:03.265+02:00",
+      "journal_score": 0.19636208171014402,
+      "rescore": 0.19636208171014402,
+      "abs_delta": 0.0,
+      "creator_prior_source": "<ABSENT>"
+    }
+  ],
+  "method": "Direct joblib predict_proba on features_json via feature_vector_for_set(+q5b); bypasses PaperScorer live gates (t0_refined/pyth/prior) so \u0394 measures recipe/X path only.",
+  "paths": {
+    "csv_newest": "cycle0/artifacts/live_journal_rescore_20261001.csv",
+    "csv_post_restart": "cycle0/artifacts/live_journal_rescore_post_restart_20261001.csv"
+  }
+}

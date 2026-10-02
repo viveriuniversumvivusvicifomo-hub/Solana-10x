@@ -1,0 +1,50 @@
+/workspace/solana-10x/.venv/lib/python3.13/site-packages/sklearn/impute/_base.py:647: UserWarning: Skipping features without any observed values: [50]. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+/workspace/solana-10x/.venv/lib/python3.13/site-packages/sklearn/impute/_base.py:647: UserWarning: Skipping features without any observed values: [50]. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+/workspace/solana-10x/.venv/lib/python3.13/site-packages/sklearn/impute/_base.py:647: UserWarning: Skipping features without any observed values: [50]. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+/workspace/solana-10x/.venv/lib/python3.13/site-packages/sklearn/impute/_base.py:647: UserWarning: Skipping features without any observed values: [50]. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+{"n_before": 500, "n_after_filters": 467, "label_rate": 0.0728051391862955, "min_pre_t0_trades": 1}
+{
+  "status": "ok",
+  "joblib": "/workspace/solana-10x/data/paper_live/models/q5b_pump_mcband_20261002.joblib",
+  "calibration": "/workspace/solana-10x/data/paper_live/models/q5b_pump_mcband_20261002_calibration.json",
+  "metrics": "/workspace/solana-10x/cycle0/artifacts/q5b_pump_mcband_20261002_wf_metrics.json",
+  "oos_auc": 0.9967320261437909,
+  "oos_ap": 0.9761904761904762,
+  "oos_frac_ge_0.9": 0.05263157894736842,
+  "oos_median": 0.0006796513678454724,
+  "oos_max": 0.9928955127840217,
+  "baseline_auc": 0.0718954248366013,
+  "live_rescore": {
+    "available": true,
+    "n": 200,
+    "pilot": {
+      "median": 0.0005605569646502207,
+      "mean": 0.002582815357199152,
+      "max": 0.0447393337901943,
+      "min": 4.675964989281063e-06,
+      "frac_ge_0.9": 0.0,
+      "p90": 0.005814910558306371,
+      "p99": 0.035912986802319184
+    },
+    "q5b_last": {
+      "median": 0.16744656973038374,
+      "mean": 0.17386812227037773,
+      "max": 0.9079596445249635,
+      "min": 0.01384864038628973,
+      "frac_ge_0.9": 0.005,
+      "p90": 0.2647277641824549,
+      "p99": 0.5103561617816591
+    },
+    "lift_max": -0.8632203107347691,
+    "lift_median": -0.16688601276573353,
+    "lift_frac_ge_0.9": -0.005
+  },
+  "q5b_last_untouched": true,
+  "dune_api_calls": 0,
+  "go_nogo_default": "NO-GO",
+  "go_nogo_observed": "NO-GO"
+}

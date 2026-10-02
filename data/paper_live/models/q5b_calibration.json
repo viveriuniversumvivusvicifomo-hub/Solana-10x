@@ -1,0 +1,26 @@
+{
+  "kind": "paper_live_train_quantile_calibration",
+  "set_name": "+q5b",
+  "score_mode": "histgb_q5b",
+  "model_path": "q5b_last.joblib",
+  "fold": 5,
+  "train_n": 72238,
+  "train_t0_max": "2026-09-20 17:48:12+00:00",
+  "generated_at": "2026-10-01T11:43:18+02:00",
+  "rule": "score >= quantile(train_scores, 1 - top_frac); TRAIN only (paper-trade-v1 Entrada A)",
+  "why": "Matches WF ultra-select (P@top\u2248100% for trainQ top1%/top5% and topK\u2264500). Live must NOT use top-K every ~10s batch \u2014 that over-enters vs ~top100/fold (~34/day). Default top_frac=0.01 \u2248 48.7 trades/day in OOS; pair with max_per_hour\u22482.",
+  "thresholds": {
+    "0.01": 0.9998068280570067,
+    "0.05": 0.9997995037737603
+  },
+  "train_score_stats": {
+    "min": 0.008207878154946849,
+    "median": 0.17194119994931717,
+    "p99": 0.9998068280570067,
+    "p95": 0.9997995037737603,
+    "p999": 0.9998296853604127,
+    "max": 0.999898724631005,
+    "n_ge_top1pct": 728,
+    "n_ge_top5pct": 4326
+  }
+}

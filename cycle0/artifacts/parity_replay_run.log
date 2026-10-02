@@ -1,0 +1,49 @@
+scale_off OK
+n_picks=12
+priors source=train_store_v1 n_rows=79378
+[1/12] 69xneXbByUnx7WtE… oos=0.9995
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.9994 before=0.7708935194330041 buy60=25202/24880 trades=2 mode=enhanced+rpc_sig_window
+[2/12] BZofTtkyrBM2EDdR… oos=0.9998
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.7307 before=0.7752892451518998 buy60=10105/28770 trades=1 mode=enhanced+rpc_sig_window
+[3/12] 4M3gYZ2dQ39KuBuJ… oos=0.9998
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.5733 before=0.6301607317415002 buy60=10105/346531 trades=1 mode=enhanced_pre_t0
+[4/12] wbf55KygjChmSMkT… oos=0.9999
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.9998 before=None buy60=365414/358829 trades=2 mode=enhanced+rpc_sig_window
+[5/12] 2ahcm3vhbPTi7WzE… oos=0.9998
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.9998 before=None buy60=425801/417125 trades=2 mode=enhanced+rpc_sig_window
+[6/12] 4X9d1Mc1cXJUFXtA… oos=0.9998
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.9998 before=None buy60=485320/476615 trades=2 mode=enhanced+rpc_sig_window
+[7/12] G4G4cN8BLGaDe7yS… oos=0.9998
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.9998 before=None buy60=485475/477624 trades=2 mode=enhanced+rpc_sig_window
+[8/12] 2DU2GNLBhXg2Gqkg… oos=0.9998
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.9998 before=None buy60=210880/207097 trades=2 mode=enhanced+rpc_sig_window
+[9/12] wXcbD8Sr23SoN1J8… oos=0.9995
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.9994 before=None buy60=24251/23756 trades=2 mode=enhanced+rpc_sig_window
+[10/12] 2hCEWYZcFZNWV59a… oos=0.9954
+  enhanced le_t0=4 age=0 → rpc window
+  live=0.9929 before=None buy60=17909/25229 trades=4 mode=enhanced+rpc_sig_window
+[11/12] 6mCCo1Abfz2riT4U… oos=0.9998
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.9998 before=None buy60=176062/176059 trades=3 mode=enhanced+rpc_sig_window
+[12/12] 56ofoyzfMaGwzgee… oos=0.9998
+  enhanced le_t0=2 age=0 → rpc window
+  live=0.9998 before=None buy60=175624/185761 trades=2 mode=enhanced+rpc_sig_window
+{
+  "n": 12,
+  "pct_ge_0.99": 0.8333333333333334,
+  "pct_ge_0.89": 0.8333333333333334,
+  "median_live": 0.9998258517557969,
+  "mean_live": 0.9412193242608308,
+  "before_median_on_overlap": 0.7708935194330041,
+  "scale_enabled": false,
+  "csv": "/workspace/solana-10x/cycle0/artifacts/helius_parity_replay_ge10_20261001.csv"
+}

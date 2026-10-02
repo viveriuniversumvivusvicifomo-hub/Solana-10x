@@ -1,0 +1,367 @@
+[
+  {
+    "mint": "69xneXbByUnx7WtEC7tqHHo1NJoXJqM9dNFYYu8pump",
+    "band": "high_ge0.99",
+    "t0_ts": "2026-09-22 16:55:10.000 UTC",
+    "oos_score": 0.9994911956626782,
+    "train_store_rescore": 0.9994911956626782,
+    "live_rebuild_score": 0.7708935194330041,
+    "delta_oos_minus_live": 0.22859767622967408,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "complete_q5b": true,
+    "n_txs_mint": 5000,
+    "n_txs_bc": 2,
+    "n_txs_merged": 4821,
+    "n_trades_pre_t0": 1,
+    "buy_vol_live": 9995.69007911707,
+    "buy_n": 1,
+    "why_mint": "max_pages=50",
+    "why_bc": "short_page",
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 24879.92336275765,
+        "live_rebuild": 9995.69007911707,
+        "abs_delta": 14884.23328364058
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.0
+      },
+      "progress_curve_proxy": {
+        "train": 1.000063047729412,
+        "live_rebuild": 1.0000781682,
+        "abs_delta": 1.5120470588048107e-05
+      },
+      "net_sol_curve": {
+        "train": 85.005359057,
+        "live_rebuild": 85.006644297,
+        "abs_delta": 0.0012852399999871977
+      },
+      "buy_count_total": {
+        "train": 3.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 2.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.0
+      },
+      "buy_vol_usd_30s": {
+        "train": 24879.92336275765,
+        "live_rebuild": 9995.69007911707,
+        "abs_delta": 14884.23328364058
+      },
+      "max_buy_usd": {
+        "train": 14771.44204631545,
+        "live_rebuild": 9995.69007911707,
+        "abs_delta": 4775.751967198379
+      },
+      "unique_buyers_first_5s": {
+        "train": 2.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 1.0
+      }
+    },
+    "helius_calls": 53
+  },
+  {
+    "mint": "BZofTtkyrBM2EDdRBN6GCavdWvxd61xbLTVFnoPgpump",
+    "band": "high_ge0.99",
+    "t0_ts": "2026-09-22 15:29:59.000 UTC",
+    "oos_score": 0.9998178426097192,
+    "train_store_rescore": 0.9998178426097192,
+    "live_rebuild_score": 0.7752892451518998,
+    "delta_oos_minus_live": 0.2245285974578194,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "complete_q5b": true,
+    "n_txs_mint": 5000,
+    "n_txs_bc": 2,
+    "n_txs_merged": 4788,
+    "n_trades_pre_t0": 1,
+    "buy_vol_live": 9995.69007911707,
+    "buy_n": 1,
+    "why_mint": "max_pages=50",
+    "why_bc": "short_page",
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 28770.20548812558,
+        "live_rebuild": 9995.69007911707,
+        "abs_delta": 18774.51540900851
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.0
+      },
+      "progress_curve_proxy": {
+        "train": 1.000063047729412,
+        "live_rebuild": 1.0000781682,
+        "abs_delta": 1.5120470588048107e-05
+      },
+      "net_sol_curve": {
+        "train": 85.005359057,
+        "live_rebuild": 85.006644297,
+        "abs_delta": 0.0012852399999871977
+      },
+      "buy_count_total": {
+        "train": 4.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 3.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.0
+      },
+      "buy_vol_usd_30s": {
+        "train": 28770.20548812558,
+        "live_rebuild": 9995.69007911707,
+        "abs_delta": 18774.51540900851
+      },
+      "max_buy_usd": {
+        "train": 18710.4,
+        "live_rebuild": 9995.69007911707,
+        "abs_delta": 8714.709920882931
+      },
+      "unique_buyers_first_5s": {
+        "train": 4.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 3.0
+      }
+    },
+    "helius_calls": 110
+  },
+  {
+    "mint": "4M3gYZ2dQ39KuBuJYVmQi5qrtFfMpMWHpJhhx7Wapump",
+    "band": "high_ge0.99",
+    "t0_ts": "2026-09-22 07:03:04.000 UTC",
+    "oos_score": 0.9998456806403022,
+    "train_store_rescore": 0.9998456806403022,
+    "live_rebuild_score": 0.6301607317415002,
+    "delta_oos_minus_live": 0.369684948898802,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "complete_q5b": true,
+    "n_txs_mint": 5000,
+    "n_txs_bc": 2,
+    "n_txs_merged": 4998,
+    "n_trades_pre_t0": 1,
+    "buy_vol_live": 9995.69007911707,
+    "buy_n": 1,
+    "why_mint": "max_pages=50",
+    "why_bc": "short_page",
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 346531.10443732166,
+        "live_rebuild": 9995.69007911707,
+        "abs_delta": 336535.4143582046
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.0
+      },
+      "progress_curve_proxy": {
+        "train": 1.000063047729412,
+        "live_rebuild": 1.0000781682,
+        "abs_delta": 1.5120470588048107e-05
+      },
+      "net_sol_curve": {
+        "train": 85.005359057,
+        "live_rebuild": 85.006644297,
+        "abs_delta": 0.0012852399999871977
+      },
+      "buy_count_total": {
+        "train": 3.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 2.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.0
+      },
+      "buy_vol_usd_30s": {
+        "train": 346531.10443732166,
+        "live_rebuild": 9995.69007911707,
+        "abs_delta": 336535.4143582046
+      },
+      "max_buy_usd": {
+        "train": 336509.76,
+        "live_rebuild": 9995.69007911707,
+        "abs_delta": 326514.06992088293
+      },
+      "unique_buyers_first_5s": {
+        "train": 2.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 1.0
+      }
+    },
+    "helius_calls": 166
+  },
+  {
+    "mint": "EH2j3pjSnJ1QHTBpnMMjmwECoNZ8Y2GTYfLc2XqXpump",
+    "band": "mid_~0.5",
+    "t0_ts": "2026-09-16 14:53:10.000 UTC",
+    "oos_score": 0.4966681232926057,
+    "train_store_rescore": 0.5528443780646289,
+    "live_rebuild_score": 0.5723328252052535,
+    "delta_oos_minus_live": -0.07566470191264785,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "complete_q5b": true,
+    "n_txs_mint": 5000,
+    "n_txs_bc": 13,
+    "n_txs_merged": 4892,
+    "n_trades_pre_t0": 6,
+    "buy_vol_live": 8538.158951717605,
+    "buy_n": 6,
+    "why_mint": "max_pages=50",
+    "why_bc": "short_page",
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 7026.2433645992405,
+        "live_rebuild": 8538.158951717605,
+        "abs_delta": 1511.9155871183648
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.0
+      },
+      "progress_curve_proxy": {
+        "train": 0.8541195148,
+        "live_rebuild": 0.8542508117647059,
+        "abs_delta": 0.0001312969647058182
+      },
+      "net_sol_curve": {
+        "train": 72.600158758,
+        "live_rebuild": 72.611319,
+        "abs_delta": 0.01116024199998833
+      },
+      "buy_count_total": {
+        "train": 5.0,
+        "live_rebuild": 6.0,
+        "abs_delta": 1.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": 0.9998463016213768,
+        "abs_delta": 0.00015369837862322377
+      },
+      "buy_vol_usd_30s": {
+        "train": 7026.24336459924,
+        "live_rebuild": 8538.158951717605,
+        "abs_delta": 1511.9155871183657
+      },
+      "max_buy_usd": {
+        "train": 2001.35957820894,
+        "live_rebuild": 2431.6407680698408,
+        "abs_delta": 430.28118986090067
+      },
+      "unique_buyers_first_5s": {
+        "train": 5.0,
+        "live_rebuild": 6.0,
+        "abs_delta": 1.0
+      }
+    },
+    "helius_calls": 223
+  },
+  {
+    "mint": "85nwGzjZ8JC4No5DWrcL5VRCK1k25N8yBPtDX66opump",
+    "band": "low_~0.1",
+    "t0_ts": "2026-09-11 19:01:31.000 UTC",
+    "oos_score": 0.0882869342577028,
+    "train_store_rescore": 0.0472208237856172,
+    "live_rebuild_score": 0.06408279070059025,
+    "delta_oos_minus_live": 0.024204143557112548,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "complete_q5b": true,
+    "n_txs_mint": 166,
+    "n_txs_bc": 165,
+    "n_txs_merged": 166,
+    "n_trades_pre_t0": 1,
+    "buy_vol_live": 58.39269805521548,
+    "buy_n": 1,
+    "why_mint": "short_page",
+    "why_bc": "short_page",
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 365.96505221872,
+        "live_rebuild": 58.39269805521548,
+        "abs_delta": 307.57235416350454
+      },
+      "age_s": {
+        "train": 48.0,
+        "live_rebuild": 48.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 0.1892684127789426,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.8107315872210574
+      },
+      "progress_curve_proxy": {
+        "train": 0.0010393235529411,
+        "live_rebuild": 0.005842244211764706,
+        "abs_delta": 0.004802920658823606
+      },
+      "net_sol_curve": {
+        "train": 0.0883425019999999,
+        "live_rebuild": 0.496590758,
+        "abs_delta": 0.40824825600000014
+      },
+      "buy_count_total": {
+        "train": 41.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 40.0
+      },
+      "first5_buy_vol_share": {
+        "train": 0.2072753785721723,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.7927246214278277
+      },
+      "buy_vol_usd_30s": {
+        "train": 236.00001634300003,
+        "live_rebuild": 0.0,
+        "abs_delta": 236.00001634300003
+      },
+      "max_buy_usd": {
+        "train": 50.02417873252,
+        "live_rebuild": 58.39269805521548,
+        "abs_delta": 8.368519322695484
+      },
+      "unique_buyers_first_5s": {
+        "train": 2.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 1.0
+      }
+    },
+    "helius_calls": 227
+  }
+]

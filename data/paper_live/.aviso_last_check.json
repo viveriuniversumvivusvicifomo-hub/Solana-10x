@@ -1,0 +1,104 @@
+{
+  "max_pc_entered_at": "2026-10-01T11:00:21.341+02:00",
+  "max_pc1_created_at": "2026-10-01T11:00:21.337+02:00",
+  "max_pc_lite_entered_at": null,
+  "last_paper_entered_at": "2026-10-01T11:00:21.341+02:00",
+  "note": "Baseline after first routine run; old Bitquery/dry_run paper_candidates ignored; alert only on new paper_candidate=1 after this watermark.",
+  "last_check_at": "2026-10-02T17:29:49.087703+02:00",
+  "last_paper_candidate_count": 158,
+  "last_sighting_created_at": "2026-10-02T17:29:48.431+02:00",
+  "new_alerts_this_run": 0,
+  "process_alive": true,
+  "process_pid": 121466,
+  "process_cmdline": "box       121466  3.1  1.4 1086040 235700 ?      Sl   13:39   7:04 .venv/bin/python -m paper_live --live --cycles 0 --feed pump --enrich-via pump --score-mode histgb_q5b --entry-rule train_quantile --score-threshold 0.9 --max-calls 100000",
+  "latest_log": "data/paper_live/logs/run_operativa_20261002-121325_histgb_pump_restart.log",
+  "log_mtime": "2026-10-02T17:29:33.542477+02:00",
+  "journal_mtime": "2026-10-02T17:29:48.430477+02:00",
+  "state_mtime": "2026-10-02T17:29:33.542477+02:00",
+  "sightings_pc1_total": 158,
+  "sightings_total": 4240,
+  "paper_candidates_table_count": 158,
+  "paper_candidates_lite_count": 0,
+  "new_pc1_since_prev_check": 0,
+  "new_pc_rows": 0,
+  "new_pc_lite": 0,
+  "should_alert_process_dead": false,
+  "should_alert_stalled": false,
+  "should_alert_new_passes": false,
+  "process_note": "OK PID 121466 thr=0.9; last_cycle=608; state cycles=3047; last_poll_at=2026-10-02T15:29:33.547+00:00; last_sighting=2026-10-02T17:29:48.431+02:00; enrich=pump score=histgb_q5b; progress_fresh=True; age_poll_m=0.26 age_log_m=0.26 age_sight_m=0.01",
+  "routine_run_at": "2026-10-02T17:29:49.087703+02:00",
+  "prev_process_alive": true,
+  "prev_process_pid": 121466,
+  "prev_max_pc1_created_at": "2026-10-01T11:00:21.337+02:00",
+  "alerts": [],
+  "new_entries_detail": [],
+  "pc_table_new_detail": [],
+  "pc_lite_new_detail": [],
+  "high_score_since_wm": [
+    {
+      "mint": "EvYikvMM2RV2x4reAgVcbGPAurRJuhjMHJi7FZe3pump",
+      "score": 0.4114194436795894,
+      "paper_candidate": 0,
+      "created_at": "2026-10-02T17:27:01.666+02:00",
+      "mc_usd_t0": 9625.352605840239
+    },
+    {
+      "mint": "C5PzkCw5Po3ufCZ3jXkPXnHmpGhmAyQxLZGF7npJpump",
+      "score": 0.3804012204505665,
+      "paper_candidate": 0,
+      "created_at": "2026-10-02T17:26:41.027+02:00",
+      "mc_usd_t0": 19872.84144162048
+    },
+    {
+      "mint": "BUgpK77r3P2zmqkfB7SUWHmCt3pu4tPztWVPRa3Apump",
+      "score": 0.2810431530525148,
+      "paper_candidate": 0,
+      "created_at": "2026-10-02T17:29:48.427+02:00",
+      "mc_usd_t0": 8024.786204379032
+    },
+    {
+      "mint": "tV78ZRfwvyv8KNEAjBkz3A2BR2rVKe3H7vUNfaopump",
+      "score": 0.2780816575482094,
+      "paper_candidate": 0,
+      "created_at": "2026-10-02T17:26:41.018+02:00",
+      "mc_usd_t0": 15725.669419329315
+    },
+    {
+      "mint": "HVYK341mau6TiYhvQTKwLjpeFJpxP63GeNvBpKYgpump",
+      "score": 0.2773038185065997,
+      "paper_candidate": 0,
+      "created_at": "2026-10-02T17:28:05.838+02:00",
+      "mc_usd_t0": 8325.740729162193
+    },
+    {
+      "mint": "CxjdQW3ssu23fPwtJqMr7biVH1j7xwzUwb3vPTMhpump",
+      "score": 0.2599995893922141,
+      "paper_candidate": 0,
+      "created_at": "2026-10-02T17:28:05.835+02:00",
+      "mc_usd_t0": 8158.241100139138
+    },
+    {
+      "mint": "5UkuWtWrgauqyz5x9aNj1whYCQfDcLQ3PgchbtG8pump",
+      "score": 0.2592987583131447,
+      "paper_candidate": 0,
+      "created_at": "2026-10-02T17:26:18.158+02:00",
+      "mc_usd_t0": 9465.884109594523
+    },
+    {
+      "mint": "6UDa8y1wMpDnDuB84DVmMuLaG7x7R4xSdevnFkx8pump",
+      "score": 0.2470724226455074,
+      "paper_candidate": 0,
+      "created_at": "2026-10-02T17:27:40.041+02:00",
+      "mc_usd_t0": 9508.615301641406
+    }
+  ],
+  "tables_seen": [
+    "sightings",
+    "paper_candidates",
+    "followup",
+    "meta",
+    "paper_candidates_lite",
+    "paper_candidates_legacy_20261001"
+  ],
+  "sight_table": "sightings"
+}

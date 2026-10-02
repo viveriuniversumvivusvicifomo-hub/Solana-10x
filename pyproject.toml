@@ -1,0 +1,25 @@
+[project]
+name = "solana-10x"
+version = "0.0.0"
+description = "Cycle-0 scaffold: detección Pump.fun 8k-20k MC pre-migración"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "httpx>=0.27",
+  "solders>=0.21",
+  # Cycle 1+: pydantic, pandas, pyarrow, solana, ...
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

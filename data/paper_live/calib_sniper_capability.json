@@ -1,0 +1,9 @@
+{
+  "n_sniper_vectors": 50,
+  "max": 0.9998359072677577,
+  "mean": 0.9997843511680082,
+  "n_ge_0_9998": 20,
+  "n_ge_trainQ_top1": 19,
+  "thr_trainQ_top1": 0.9998068280570067,
+  "conclusion": "Exported histgb_q5b reaches \u22650.9998 on true sniper feature vectors; live journal will when such mints are enriched complete."
+}

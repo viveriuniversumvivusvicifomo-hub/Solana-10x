@@ -1,0 +1,32 @@
+{
+  "kind": "paper_live_entry_config",
+  "owner": "SolQA",
+  "updated_at": "2026-10-02T08:15:00+02:00",
+  "policy": "Sinck 2026-10-02: Path A live captura = Pump MC band + age/create. Do NOT gate on Helius t0_refined / n_trades_pre_t0 / no_trade_mc_path. score_threshold remains product choice until Sinck revises.",
+  "score_mode": "histgb_q5b",
+  "score_threshold": 0.99,
+  "threshold_source": "sinck_product_20261001",
+  "train_quantile_top1_reference": 0.9998068280570067,
+  "note_threshold": "trainQ top1% remains documented for Entrada A theory; live uses score_threshold above until Sinck revises.",
+  "allowed_creator_prior_sources": [
+    "dune_cohort_exact",
+    "dune_cohort_recompute",
+    "dune_cohort_empty",
+    "dune_cohort_v1",
+    "dune_cohort_expand_v2",
+    "train_store_v1"
+  ],
+  "forbidden_creator_prior_sources": [
+    "pump_frontend_30d",
+    "none",
+    null
+  ],
+  "require_t0_refined": false,
+  "require_prior_source_train": true,
+  "allowed_creator_prior_prefixes": [
+    "dune_cohort_"
+  ],
+  "require_helius_t0_refined": false,
+  "path_a_capture": "pump_mc_band_sighting_v1",
+  "note_t0": "Pump MC sighting sets t0_refined; Helius Enhanced refine is optional extras only."
+}

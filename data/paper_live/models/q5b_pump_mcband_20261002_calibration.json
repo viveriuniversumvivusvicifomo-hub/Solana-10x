@@ -1,0 +1,71 @@
+{
+  "kind": "paper_live_train_quantile_calibration",
+  "set_name": "+q5b",
+  "score_mode": "histgb_q5b",
+  "model_path": "q5b_pump_mcband_20261002.joblib",
+  "recipe": "pump_mc_band_from_trades_v1",
+  "t0_policy": "pump_mc_band_from_trades_v1",
+  "fold": 5,
+  "train_n": 410,
+  "train_t0_max": "2026-09-21 18:13:31+00:00",
+  "generated_at": "2026-10-02T11:11:06+02:00",
+  "rule": "score >= quantile(train_scores, 1-top_frac); TRAIN only",
+  "why": "Pump MC-band pilot: T0=first Pump trade MC\u2208[8k,20k]; hit_10x relabeled from that T0; Q5a/buy60 \u2264T0; Q5b from expand. NOT a live swap without Sinck GO + non-negative live lift.",
+  "thresholds": {
+    "0.01": 0.9985354823968009,
+    "0.05": 0.9928034093698797
+  },
+  "train_score_stats": {
+    "min": 5.298257129464693e-06,
+    "median": 0.0009412827160205515,
+    "p99": 0.9985354823968009,
+    "p95": 0.9928034093698797,
+    "max": 0.9997532350112946
+  },
+  "oos_held_out": {
+    "n": 57,
+    "auc": 0.9967320261437909,
+    "ap": 0.9761904761904762,
+    "frac_ge_0.9": 0.05263157894736842,
+    "frac_ge_train_top1": 0.0,
+    "median": 0.0006796513678454724,
+    "max": 0.9928955127840217,
+    "base_rate": 0.10526315789473684
+  },
+  "baseline_q5b_last_same_oos": {
+    "available": 1,
+    "path": "/workspace/solana-10x/data/paper_live/models/q5b_last.joblib",
+    "auc": 0.0718954248366013,
+    "ap": 0.06908389434518587,
+    "frac_ge_0.9": 0.0,
+    "median": 0.14412424264739898,
+    "max": 0.5589465075713852
+  },
+  "live_journal_rescore": {
+    "available": 1,
+    "n": 200,
+    "pilot": {
+      "median": 0.0005605569646502207,
+      "mean": 0.002582815357199152,
+      "max": 0.0447393337901943,
+      "min": 4.675964989281063e-06,
+      "frac_ge_0.9": 0.0,
+      "p90": 0.005814910558306371,
+      "p99": 0.035912986802319184
+    },
+    "q5b_last": {
+      "median": 0.16744656973038374,
+      "mean": 0.17386812227037773,
+      "max": 0.9079596445249635,
+      "min": 0.01384864038628973,
+      "frac_ge_0.9": 0.005,
+      "p90": 0.2647277641824549,
+      "p99": 0.5103561617816591
+    },
+    "lift_max": -0.8632203107347691,
+    "lift_median": -0.16688601276573353,
+    "lift_frac_ge_0.9": -0.005
+  },
+  "go_nogo_default": "NO-GO",
+  "go_nogo_observed": "NO-GO"
+}

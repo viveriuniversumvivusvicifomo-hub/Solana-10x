@@ -1,0 +1,31 @@
+{
+  "kind": "live_journal_rescore",
+  "generated_at": "2026-10-01T16:46:25+02:00",
+  "journal": "/workspace/solana-10x/data/paper_live/paper_journal.sqlite",
+  "score_mode": "histgb_q5b",
+  "since": "2026-10-01T16:29:00",
+  "limit": 36,
+  "parity": {
+    "ok": true,
+    "detail": "PASS recipe==joblib /workspace/solana-10x/data/paper_live/models/q5b_last.joblib",
+    "n_recipe": 51,
+    "n_joblib": 51,
+    "order_match": true
+  },
+  "n_rows": 36,
+  "n_rescored": 36,
+  "n_incomplete": 0,
+  "max_abs_delta": 0.0,
+  "p50_abs_delta": 0.0,
+  "p95_abs_delta": 0.0,
+  "n_abs_delta_gt_1e-6": 0,
+  "n_abs_delta_gt_1e-4": 0,
+  "prior_source_dist": {
+    "<ABSENT>": 36
+  },
+  "note": "\u0394\u22480 means journal X + joblib recipe path OK; does not validate enrich/gates",
+  "paths": {
+    "csv": "cycle0/artifacts/live_journal_rescore_cli_check.csv",
+    "report": "cycle0/artifacts/live_journal_rescore_cli_check_report.json"
+  }
+}

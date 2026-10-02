@@ -1,0 +1,690 @@
+[
+  {
+    "mint": "69xneXbByUnx7WtEC7tqHHo1NJoXJqM9dNFYYu8pump",
+    "band": "high_ge0.99",
+    "y": 1,
+    "t0_ts": "2026-09-22 16:55:10.000 UTC",
+    "oos_score": 0.9994911956626782,
+    "train_store_rescore": 0.9994911956626782,
+    "live_rebuild_score": 0.01861432132894641,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.9808768743337318,
+    "complete_q5b": true,
+    "n_txs_fetched": 0,
+    "n_trades_pre_t0": 0,
+    "buy_vol_live": 0.0,
+    "detail": "n_txs=0 n_trades_pre_t0=0 buy60_n=0 sol_usd=117.3249(jupiter) t0_refined=False",
+    "gaps": [
+      "helius_tx_fetch_failed: Helius Enhanced HTTP 429"
+    ],
+    "helius_calls_so_far": 14,
+    "elapsed_s": 8.43,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 24879.92336275765,
+        "live_rebuild": 0.0,
+        "abs_delta": 24879.92336275765
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "progress_curve_proxy": {
+        "train": 1.000063047729412,
+        "live_rebuild": 0.0,
+        "abs_delta": 1.000063047729412
+      },
+      "net_sol_curve": {
+        "train": 85.005359057,
+        "live_rebuild": 0.0,
+        "abs_delta": 85.005359057
+      },
+      "buy_count_total": {
+        "train": 3.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 3.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "buy_vol_usd_30s": {
+        "train": 24879.92336275765,
+        "live_rebuild": 0.0,
+        "abs_delta": 24879.92336275765
+      },
+      "max_buy_usd": {
+        "train": 14771.44204631545,
+        "live_rebuild": null,
+        "abs_delta": null
+      }
+    }
+  },
+  {
+    "mint": "BZofTtkyrBM2EDdRBN6GCavdWvxd61xbLTVFnoPgpump",
+    "band": "high_ge0.99",
+    "y": 1,
+    "t0_ts": "2026-09-22 15:29:59.000 UTC",
+    "oos_score": 0.9998178426097192,
+    "train_store_rescore": 0.9998178426097192,
+    "live_rebuild_score": 0.023843036817685744,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.9759748057920334,
+    "complete_q5b": true,
+    "n_txs_fetched": 0,
+    "n_trades_pre_t0": 0,
+    "buy_vol_live": 0.0,
+    "detail": "n_txs=0 n_trades_pre_t0=0 buy60_n=0 sol_usd=117.3249(jupiter) t0_refined=False",
+    "gaps": [
+      "helius_tx_fetch_failed: Helius Enhanced HTTP 429"
+    ],
+    "helius_calls_so_far": 24,
+    "elapsed_s": 8.69,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 28770.20548812558,
+        "live_rebuild": 0.0,
+        "abs_delta": 28770.20548812558
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "progress_curve_proxy": {
+        "train": 1.000063047729412,
+        "live_rebuild": 0.0,
+        "abs_delta": 1.000063047729412
+      },
+      "net_sol_curve": {
+        "train": 85.005359057,
+        "live_rebuild": 0.0,
+        "abs_delta": 85.005359057
+      },
+      "buy_count_total": {
+        "train": 4.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 4.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "buy_vol_usd_30s": {
+        "train": 28770.20548812558,
+        "live_rebuild": 0.0,
+        "abs_delta": 28770.20548812558
+      },
+      "max_buy_usd": {
+        "train": 18710.4,
+        "live_rebuild": null,
+        "abs_delta": null
+      }
+    }
+  },
+  {
+    "mint": "4M3gYZ2dQ39KuBuJYVmQi5qrtFfMpMWHpJhhx7Wapump",
+    "band": "high_ge0.99",
+    "y": 1,
+    "t0_ts": "2026-09-22 07:03:04.000 UTC",
+    "oos_score": 0.9998456806403022,
+    "train_store_rescore": 0.9998456806403022,
+    "live_rebuild_score": 0.01764008132482649,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.9822055993154757,
+    "complete_q5b": true,
+    "n_txs_fetched": 0,
+    "n_trades_pre_t0": 0,
+    "buy_vol_live": 0.0,
+    "detail": "n_txs=0 n_trades_pre_t0=0 buy60_n=0 sol_usd=117.3249(jupiter) t0_refined=False",
+    "gaps": [
+      "helius_tx_fetch_failed: Helius Enhanced HTTP 429"
+    ],
+    "helius_calls_so_far": 28,
+    "elapsed_s": 2.42,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 346531.10443732166,
+        "live_rebuild": 0.0,
+        "abs_delta": 346531.10443732166
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "progress_curve_proxy": {
+        "train": 1.000063047729412,
+        "live_rebuild": 0.0,
+        "abs_delta": 1.000063047729412
+      },
+      "net_sol_curve": {
+        "train": 85.005359057,
+        "live_rebuild": 0.0,
+        "abs_delta": 85.005359057
+      },
+      "buy_count_total": {
+        "train": 3.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 3.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "buy_vol_usd_30s": {
+        "train": 346531.10443732166,
+        "live_rebuild": 0.0,
+        "abs_delta": 346531.10443732166
+      },
+      "max_buy_usd": {
+        "train": 336509.76,
+        "live_rebuild": null,
+        "abs_delta": null
+      }
+    }
+  },
+  {
+    "mint": "wbf55KygjChmSMkTeVTmQ3j7vuGqVdKQbdRfg6epump",
+    "band": "high_ge0.99",
+    "y": 1,
+    "t0_ts": "2026-09-22 06:42:20.000 UTC",
+    "oos_score": 0.99985275449228,
+    "train_store_rescore": 0.99985275449228,
+    "live_rebuild_score": 0.01764008132482649,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.9822126731674534,
+    "complete_q5b": true,
+    "n_txs_fetched": 0,
+    "n_trades_pre_t0": 0,
+    "buy_vol_live": 0.0,
+    "detail": "n_txs=0 n_trades_pre_t0=0 buy60_n=0 sol_usd=117.3249(jupiter) t0_refined=False",
+    "gaps": [
+      "helius_tx_fetch_failed: Helius Enhanced HTTP 429"
+    ],
+    "helius_calls_so_far": 31,
+    "elapsed_s": 1.92,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 358828.6455627236,
+        "live_rebuild": 0.0,
+        "abs_delta": 358828.6455627236
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "progress_curve_proxy": {
+        "train": 1.000063047729412,
+        "live_rebuild": 0.0,
+        "abs_delta": 1.000063047729412
+      },
+      "net_sol_curve": {
+        "train": 85.005359057,
+        "live_rebuild": 0.0,
+        "abs_delta": 85.005359057
+      },
+      "buy_count_total": {
+        "train": 3.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 3.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "buy_vol_usd_30s": {
+        "train": 358828.6455627236,
+        "live_rebuild": 0.0,
+        "abs_delta": 358828.6455627236
+      },
+      "max_buy_usd": {
+        "train": 348789.24,
+        "live_rebuild": null,
+        "abs_delta": null
+      }
+    }
+  },
+  {
+    "mint": "2ahcm3vhbPTi7WzECWW7Jb7uP4mEyVRCHsRTzvaDpump",
+    "band": "high_ge0.99",
+    "y": 1,
+    "t0_ts": "2026-09-22 06:21:58.000 UTC",
+    "oos_score": 0.9998258517557967,
+    "train_store_rescore": 0.9998258517557967,
+    "live_rebuild_score": 0.016123229319351933,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.9837026224364448,
+    "complete_q5b": true,
+    "n_txs_fetched": 0,
+    "n_trades_pre_t0": 0,
+    "buy_vol_live": 0.0,
+    "detail": "n_txs=0 n_trades_pre_t0=0 buy60_n=0 sol_usd=117.3249(jupiter) t0_refined=False",
+    "gaps": [
+      "helius_tx_fetch_failed: Helius Enhanced HTTP 429"
+    ],
+    "helius_calls_so_far": 36,
+    "elapsed_s": 3.97,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 417124.5240621877,
+        "live_rebuild": 0.0,
+        "abs_delta": 417124.5240621877
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "progress_curve_proxy": {
+        "train": 1.000063047729412,
+        "live_rebuild": 0.0,
+        "abs_delta": 1.000063047729412
+      },
+      "net_sol_curve": {
+        "train": 85.005359057,
+        "live_rebuild": 0.0,
+        "abs_delta": 85.005359057
+      },
+      "buy_count_total": {
+        "train": 3.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 3.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "buy_vol_usd_30s": {
+        "train": 417124.5240621877,
+        "live_rebuild": 0.0,
+        "abs_delta": 417124.5240621877
+      },
+      "max_buy_usd": {
+        "train": 407109.2,
+        "live_rebuild": null,
+        "abs_delta": null
+      }
+    }
+  },
+  {
+    "mint": "4X9d1Mc1cXJUFXtADbAuMkQniK9411dvAP1ovCFopump",
+    "band": "high_ge0.99",
+    "y": 1,
+    "t0_ts": "2026-09-22 06:05:17.000 UTC",
+    "oos_score": 0.9998258517557967,
+    "train_store_rescore": 0.9998258517557967,
+    "live_rebuild_score": 0.016123229319351933,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.9837026224364448,
+    "complete_q5b": true,
+    "n_txs_fetched": 0,
+    "n_trades_pre_t0": 0,
+    "buy_vol_live": 0.0,
+    "detail": "n_txs=0 n_trades_pre_t0=0 buy60_n=0 sol_usd=117.3249(jupiter) t0_refined=False",
+    "gaps": [
+      "helius_tx_fetch_failed: Helius Enhanced HTTP 429"
+    ],
+    "helius_calls_so_far": 40,
+    "elapsed_s": 2.8,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 476614.8771076142,
+        "live_rebuild": 0.0,
+        "abs_delta": 476614.8771076142
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "progress_curve_proxy": {
+        "train": 1.000063047729412,
+        "live_rebuild": 0.0,
+        "abs_delta": 1.000063047729412
+      },
+      "net_sol_curve": {
+        "train": 85.005359057,
+        "live_rebuild": 0.0,
+        "abs_delta": 85.005359057
+      },
+      "buy_count_total": {
+        "train": 3.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 3.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "buy_vol_usd_30s": {
+        "train": 476614.8771076142,
+        "live_rebuild": 0.0,
+        "abs_delta": 476614.8771076142
+      },
+      "max_buy_usd": {
+        "train": 466574.6114913,
+        "live_rebuild": null,
+        "abs_delta": null
+      }
+    }
+  },
+  {
+    "mint": "4BbBD7vLoQ62Tz22tQVHiwciZEVbGbHCiRrwYah1pump",
+    "band": "mid_~0.5",
+    "y": 0,
+    "t0_ts": "2026-09-12 06:38:39.000 UTC",
+    "oos_score": 0.4940356846604702,
+    "train_store_rescore": 0.5157222013004142,
+    "live_rebuild_score": 0.01861432132894641,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.4754213633315238,
+    "complete_q5b": true,
+    "n_txs_fetched": 0,
+    "n_trades_pre_t0": 0,
+    "buy_vol_live": 0.0,
+    "detail": "n_txs=0 n_trades_pre_t0=0 buy60_n=0 sol_usd=117.3249(jupiter) t0_refined=False",
+    "gaps": [
+      "helius_tx_fetch_failed: Helius Enhanced HTTP 429"
+    ],
+    "helius_calls_so_far": 49,
+    "elapsed_s": 8.64,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 8654.39560640765,
+        "live_rebuild": 0.0,
+        "abs_delta": 8654.39560640765
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "progress_curve_proxy": {
+        "train": 1.0000630478235295,
+        "live_rebuild": 0.0,
+        "abs_delta": 1.0000630478235295
+      },
+      "net_sol_curve": {
+        "train": 85.00535906500001,
+        "live_rebuild": 0.0,
+        "abs_delta": 85.00535906500001
+      },
+      "buy_count_total": {
+        "train": 8.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 8.0
+      },
+      "first5_buy_vol_share": {
+        "train": 0.9713680880150284,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "buy_vol_usd_30s": {
+        "train": 8654.39560640765,
+        "live_rebuild": 0.0,
+        "abs_delta": 8654.39560640765
+      },
+      "max_buy_usd": {
+        "train": 2097.55773954385,
+        "live_rebuild": null,
+        "abs_delta": null
+      }
+    }
+  },
+  {
+    "mint": "EH2j3pjSnJ1QHTBpnMMjmwECoNZ8Y2GTYfLc2XqXpump",
+    "band": "mid_~0.5",
+    "y": 1,
+    "t0_ts": "2026-09-16 14:53:10.000 UTC",
+    "oos_score": 0.4966681232926057,
+    "train_store_rescore": 0.5528443780646289,
+    "live_rebuild_score": 0.022890269610839297,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.4737778536817664,
+    "complete_q5b": true,
+    "n_txs_fetched": 0,
+    "n_trades_pre_t0": 0,
+    "buy_vol_live": 0.0,
+    "detail": "n_txs=0 n_trades_pre_t0=0 buy60_n=0 sol_usd=117.4190(jupiter) t0_refined=False",
+    "gaps": [
+      "helius_tx_fetch_failed: Helius Enhanced HTTP 429"
+    ],
+    "helius_calls_so_far": 59,
+    "elapsed_s": 9.01,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 7026.2433645992405,
+        "live_rebuild": 0.0,
+        "abs_delta": 7026.2433645992405
+      },
+      "age_s": {
+        "train": 0.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "progress_curve_proxy": {
+        "train": 0.8541195148,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.8541195148
+      },
+      "net_sol_curve": {
+        "train": 72.600158758,
+        "live_rebuild": 0.0,
+        "abs_delta": 72.600158758
+      },
+      "buy_count_total": {
+        "train": 5.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 5.0
+      },
+      "first5_buy_vol_share": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "buy_vol_usd_30s": {
+        "train": 7026.24336459924,
+        "live_rebuild": 0.0,
+        "abs_delta": 7026.24336459924
+      },
+      "max_buy_usd": {
+        "train": 2001.35957820894,
+        "live_rebuild": null,
+        "abs_delta": null
+      }
+    }
+  },
+  {
+    "mint": "85nwGzjZ8JC4No5DWrcL5VRCK1k25N8yBPtDX66opump",
+    "band": "low_~0.1",
+    "y": 0,
+    "t0_ts": "2026-09-11 19:01:31.000 UTC",
+    "oos_score": 0.0882869342577028,
+    "train_store_rescore": 0.0472208237856172,
+    "live_rebuild_score": 0.06408279070059025,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.024204143557112548,
+    "complete_q5b": true,
+    "n_txs_fetched": 166,
+    "n_trades_pre_t0": 1,
+    "buy_vol_live": 58.30917171248531,
+    "detail": "n_txs=166 n_trades_pre_t0=1 buy60_n=1 sol_usd=117.4190(jupiter) t0_refined=False",
+    "gaps": [],
+    "helius_calls_so_far": 61,
+    "elapsed_s": 1.53,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 365.96505221872,
+        "live_rebuild": 58.30917171248531,
+        "abs_delta": 307.6558805062347
+      },
+      "age_s": {
+        "train": 48.0,
+        "live_rebuild": 48.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 0.1892684127789426,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.8107315872210574
+      },
+      "progress_curve_proxy": {
+        "train": 0.0010393235529411,
+        "live_rebuild": 0.005842244211764706,
+        "abs_delta": 0.004802920658823606
+      },
+      "net_sol_curve": {
+        "train": 0.0883425019999999,
+        "live_rebuild": 0.496590758,
+        "abs_delta": 0.40824825600000014
+      },
+      "buy_count_total": {
+        "train": 41.0,
+        "live_rebuild": 1.0,
+        "abs_delta": 40.0
+      },
+      "first5_buy_vol_share": {
+        "train": 0.2072753785721723,
+        "live_rebuild": 1.0,
+        "abs_delta": 0.7927246214278277
+      },
+      "buy_vol_usd_30s": {
+        "train": 236.00001634300003,
+        "live_rebuild": 0.0,
+        "abs_delta": 236.00001634300003
+      },
+      "max_buy_usd": {
+        "train": 50.02417873252,
+        "live_rebuild": 58.30917171248531,
+        "abs_delta": 8.28499297996531
+      }
+    }
+  },
+  {
+    "mint": "cA1As5nhjzA3K6rcUxfSKp4XLj7Qaq7MF9zHbv9pump",
+    "band": "low_~0.1",
+    "y": 0,
+    "t0_ts": "2026-09-17 17:41:42.000 UTC",
+    "oos_score": 0.082321915488185,
+    "train_store_rescore": 0.1314990150486854,
+    "live_rebuild_score": 0.018750731713068746,
+    "live_skipped": false,
+    "live_mode": "histgb_q5b",
+    "delta_oos_minus_live": 0.06357118377511625,
+    "complete_q5b": true,
+    "n_txs_fetched": 0,
+    "n_trades_pre_t0": 0,
+    "buy_vol_live": 0.0,
+    "detail": "n_txs=0 n_trades_pre_t0=0 buy60_n=0 sol_usd=117.4190(jupiter) t0_refined=False",
+    "gaps": [
+      "helius_tx_fetch_failed: Helius Enhanced HTTP 429"
+    ],
+    "helius_calls_so_far": 64,
+    "elapsed_s": 2.14,
+    "feature_deltas": {
+      "buy_vol_usd_60s": {
+        "train": 2549.9345880446103,
+        "live_rebuild": 0.0,
+        "abs_delta": 2549.9345880446103
+      },
+      "age_s": {
+        "train": 5.0,
+        "live_rebuild": 5.0,
+        "abs_delta": 0.0
+      },
+      "sniper_vol_share_5s": {
+        "train": 1.0,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "progress_curve_proxy": {
+        "train": 0.2481824042352941,
+        "live_rebuild": 0.0,
+        "abs_delta": 0.2481824042352941
+      },
+      "net_sol_curve": {
+        "train": 21.095504360000003,
+        "live_rebuild": 0.0,
+        "abs_delta": 21.095504360000003
+      },
+      "buy_count_total": {
+        "train": 27.0,
+        "live_rebuild": 0.0,
+        "abs_delta": 27.0
+      },
+      "first5_buy_vol_share": {
+        "train": 0.5767146410709625,
+        "live_rebuild": null,
+        "abs_delta": null
+      },
+      "buy_vol_usd_30s": {
+        "train": 2549.9345880446103,
+        "live_rebuild": 0.0,
+        "abs_delta": 2549.9345880446103
+      },
+      "max_buy_usd": {
+        "train": 502.66666657116,
+        "live_rebuild": null,
+        "abs_delta": null
+      }
+    }
+  }
+]

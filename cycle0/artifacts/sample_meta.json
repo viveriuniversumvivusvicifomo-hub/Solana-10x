@@ -1,0 +1,14 @@
+{
+  "sampled_at": "2026-10-01T16:04:24+02:00",
+  "set": "+q5b",
+  "model": "data/paper_live/models/q5b_last.joblib",
+  "fold": 5,
+  "train_t0_max": "2026-09-20 17:48:12+00:00",
+  "n_sample": 60,
+  "bands": {
+    "high_ge0.99": 40,
+    "mid_~0.5": 10,
+    "low_~0.1": 10
+  },
+  "feature_names_n": 51
+}

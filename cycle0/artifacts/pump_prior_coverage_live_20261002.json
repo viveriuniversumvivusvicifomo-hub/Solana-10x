@@ -1,0 +1,86 @@
+{
+  "n_scoreable_recent": 31,
+  "n_exact_mint": 0,
+  "frac_exact_mint": 0.0,
+  "n_creator_in_dune_index": 4,
+  "frac_creator_in_dune_index": 0.12903225806451613,
+  "n_recompute_ok": 4,
+  "examples": [
+    {
+      "mint": "EegD4FxLpPLvLeaN",
+      "creator": "timeworn2X1E",
+      "n_prior_rows": 33,
+      "priors": {
+        "creator_prior_mints_7d": 0.0,
+        "creator_prior_mints_30d": 31.0,
+        "creator_prior_mints_cohort": 33.0,
+        "creator_prior_mints_all_in_window": null
+      },
+      "pump_logged": {
+        "creator_prior_mints_7d": 239.0,
+        "creator_prior_mints_30d": 749.0,
+        "creator_prior_mints_cohort": 750.0,
+        "creator_prior_mints_all_in_window": null
+      }
+    },
+    {
+      "mint": "69aTcVEwQ8KoWZN4",
+      "creator": "7KtbPfNU3XHA",
+      "n_prior_rows": 36,
+      "priors": {
+        "creator_prior_mints_7d": 0.0,
+        "creator_prior_mints_30d": 36.0,
+        "creator_prior_mints_cohort": 36.0,
+        "creator_prior_mints_all_in_window": null
+      },
+      "pump_logged": {
+        "creator_prior_mints_7d": 18.0,
+        "creator_prior_mints_30d": 190.0,
+        "creator_prior_mints_cohort": 190.0,
+        "creator_prior_mints_all_in_window": null
+      }
+    },
+    {
+      "mint": "3xas9JZy5GP16YSV",
+      "creator": "AEp5RxwH8AGp",
+      "n_prior_rows": 2,
+      "priors": {
+        "creator_prior_mints_7d": 0.0,
+        "creator_prior_mints_30d": 2.0,
+        "creator_prior_mints_cohort": 2.0,
+        "creator_prior_mints_all_in_window": null
+      },
+      "pump_logged": {
+        "creator_prior_mints_7d": 0.0,
+        "creator_prior_mints_30d": 2.0,
+        "creator_prior_mints_cohort": 2.0,
+        "creator_prior_mints_all_in_window": null
+      }
+    },
+    {
+      "mint": "2Ez1MbsfKtV7Q4qp",
+      "creator": "2c7pVp3SwFB9",
+      "n_prior_rows": 4,
+      "priors": {
+        "creator_prior_mints_7d": 0.0,
+        "creator_prior_mints_30d": 3.0,
+        "creator_prior_mints_cohort": 4.0,
+        "creator_prior_mints_all_in_window": null
+      },
+      "pump_logged": {
+        "creator_prior_mints_7d": 15.0,
+        "creator_prior_mints_30d": 174.0,
+        "creator_prior_mints_cohort": 199.0,
+        "creator_prior_mints_all_in_window": null
+      }
+    }
+  ],
+  "index": {
+    "n_rows": 79378,
+    "n_creators": 35118,
+    "path": "/workspace/solana-10x/data/samples/features_dune_p0_q5_expand_v2.csv",
+    "source": "train_store_v1"
+  },
+  "note": "Pump enrich uses Pump frontend priors; never stamps creator_prior_source=dune_cohort_* \u2192 skip_prior_not_train",
+  "dune_calls": 0
+}

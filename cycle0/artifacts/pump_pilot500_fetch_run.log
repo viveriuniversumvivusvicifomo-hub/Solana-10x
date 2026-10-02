@@ -1,0 +1,106 @@
+{
+  "sample": {
+    "sample_rule": "frame=expand\u22c8labels with t0_ts>=2026-09-01; stratify hit_10x_30d preserve frame base-rate; random_state=42; n\u2248500",
+    "t0_policy": "expand_t0_ts",
+    "n_requested": 500,
+    "n_sampled": 500,
+    "frame_n": 76356,
+    "frame_t0_min": "2026-09-01",
+    "frame_hit_rate": 0.137985227094138,
+    "sample_hit_rate": 0.138,
+    "n_pos": 69,
+    "n_neg": 431,
+    "seed": 42,
+    "t0_min_sampled": "2026-09-01 00:12:32+00:00",
+    "t0_max_sampled": "2026-09-22 23:04:10+00:00"
+  },
+  "sample_path": "/workspace/solana-10x/data/samples/pump_pilot500_sample_20261002.csv"
+}
+{"fetch_start": "2026-10-02T09:52:17+02:00", "n_mints": 500, "max_pages": 12, "limit": 200, "est_http_upper": 6000, "min_interval_s": 1.0}
+{"progress": 25, "of": 500, "n_attempted": 25, "n_ok": 25, "n_fail": 0, "fail_frac": 0.0, "http_calls": 125, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 124.2, "last_mint_i": 24}
+{"progress": 50, "of": 500, "n_attempted": 50, "n_ok": 49, "n_fail": 1, "fail_frac": 0.02, "http_calls": 290, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 374.2, "last_mint_i": 49}
+{"progress": 75, "of": 500, "n_attempted": 75, "n_ok": 72, "n_fail": 3, "fail_frac": 0.04, "http_calls": 435, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 525.5, "last_mint_i": 74}
+{"progress": 100, "of": 500, "n_attempted": 100, "n_ok": 97, "n_fail": 3, "fail_frac": 0.03, "http_calls": 544, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 634.8, "last_mint_i": 99}
+{"progress": 125, "of": 500, "n_attempted": 125, "n_ok": 122, "n_fail": 3, "fail_frac": 0.024, "http_calls": 667, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 757.8, "last_mint_i": 124}
+{"progress": 150, "of": 500, "n_attempted": 150, "n_ok": 147, "n_fail": 3, "fail_frac": 0.02, "http_calls": 814, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 904.6, "last_mint_i": 149}
+{"progress": 175, "of": 500, "n_attempted": 175, "n_ok": 172, "n_fail": 3, "fail_frac": 0.017142857142857144, "http_calls": 985, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1075.6, "last_mint_i": 174}
+{"progress": 200, "of": 500, "n_attempted": 200, "n_ok": 197, "n_fail": 3, "fail_frac": 0.015, "http_calls": 1099, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1192.5, "last_mint_i": 199}
+{"progress": 225, "of": 500, "n_attempted": 225, "n_ok": 222, "n_fail": 3, "fail_frac": 0.013333333333333334, "http_calls": 1202, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1296.2, "last_mint_i": 224}
+{"progress": 250, "of": 500, "n_attempted": 250, "n_ok": 247, "n_fail": 3, "fail_frac": 0.012, "http_calls": 1321, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1415.3, "last_mint_i": 249}
+{"progress": 275, "of": 500, "n_attempted": 275, "n_ok": 272, "n_fail": 3, "fail_frac": 0.01090909090909091, "http_calls": 1429, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1525.5, "last_mint_i": 274}
+{"progress": 300, "of": 500, "n_attempted": 300, "n_ok": 296, "n_fail": 4, "fail_frac": 0.013333333333333334, "http_calls": 1531, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1628.0, "last_mint_i": 299}
+{"progress": 325, "of": 500, "n_attempted": 325, "n_ok": 320, "n_fail": 5, "fail_frac": 0.015384615384615385, "http_calls": 1650, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1747.5, "last_mint_i": 324}
+{"progress": 350, "of": 500, "n_attempted": 350, "n_ok": 345, "n_fail": 5, "fail_frac": 0.014285714285714285, "http_calls": 1801, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1898.4, "last_mint_i": 349}
+{"progress": 375, "of": 500, "n_attempted": 375, "n_ok": 370, "n_fail": 5, "fail_frac": 0.013333333333333334, "http_calls": 1940, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 2037.5, "last_mint_i": 374}
+{"progress": 400, "of": 500, "n_attempted": 400, "n_ok": 395, "n_fail": 5, "fail_frac": 0.0125, "http_calls": 2098, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 2195.5, "last_mint_i": 399}
+{"progress": 425, "of": 500, "n_attempted": 425, "n_ok": 420, "n_fail": 5, "fail_frac": 0.011764705882352941, "http_calls": 2206, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 2304.7, "last_mint_i": 424}
+{"progress": 450, "of": 500, "n_attempted": 450, "n_ok": 445, "n_fail": 5, "fail_frac": 0.011111111111111112, "http_calls": 2309, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 2407.6, "last_mint_i": 449}
+{"progress": 475, "of": 500, "n_attempted": 475, "n_ok": 470, "n_fail": 5, "fail_frac": 0.010526315789473684, "http_calls": 2444, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 2543.5, "last_mint_i": 474}
+{"progress": 500, "of": 500, "n_attempted": 500, "n_ok": 495, "n_fail": 5, "fail_frac": 0.01, "http_calls": 2582, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 2681.6, "last_mint_i": 499}
+{
+  "fetch_done": {
+    "n_attempted": 500,
+    "n_ok": 495,
+    "n_fail": 5,
+    "fail_frac": 0.01,
+    "http_calls": 2582,
+    "n_retries_429": 0,
+    "consec_hard_fail": 0,
+    "elapsed_s": 2681.6,
+    "last_mint_i": 499
+  },
+  "checkpoint": "/workspace/solana-10x/cycle0/artifacts/pump_pilot500_checkpoint_20261002.json"
+}
+{
+  "kind": "pump_path_a_pilot500_build",
+  "generated_at": "2026-10-02T10:37:01+02:00",
+  "t0_policy": "expand_t0_ts",
+  "sample_rule": "frame=expand\u22c8labels with t0_ts>=2026-09-01; stratify hit_10x_30d preserve frame base-rate; random_state=42; n\u2248500",
+  "sample": {
+    "sample_rule": "frame=expand\u22c8labels with t0_ts>=2026-09-01; stratify hit_10x_30d preserve frame base-rate; random_state=42; n\u2248500",
+    "t0_policy": "expand_t0_ts",
+    "n_requested": 500,
+    "n_sampled": 500,
+    "frame_n": 76356,
+    "frame_t0_min": "2026-09-01",
+    "frame_hit_rate": 0.137985227094138,
+    "sample_hit_rate": 0.138,
+    "n_pos": 69,
+    "n_neg": 431,
+    "seed": 42,
+    "t0_min_sampled": "2026-09-01 00:12:32+00:00",
+    "t0_max_sampled": "2026-09-22 23:04:10+00:00"
+  },
+  "build": {
+    "n_rows": 500,
+    "n_fetch_ok_with_trades": 383,
+    "n_fetch_ok_empty_pre_t0": 112,
+    "n_fetch_fail": 5,
+    "label_rate": 0.138,
+    "t0_policy": "expand_t0_ts",
+    "sample_rule": "frame=expand\u22c8labels with t0_ts>=2026-09-01; stratify hit_10x_30d preserve frame base-rate; random_state=42; n\u2248500"
+  },
+  "matrix_path": "/workspace/solana-10x/data/samples/features_pump_path_a_pilot500_20261002.csv",
+  "matrix_shape": [
+    500,
+    105
+  ],
+  "checkpoint": "/workspace/solana-10x/cycle0/artifacts/pump_pilot500_checkpoint_20261002.json",
+  "fetch_stats": {
+    "n_attempted": 500,
+    "n_ok": 495,
+    "n_fail": 5,
+    "fail_frac": 0.01,
+    "http_calls": 2582,
+    "n_retries_429": 0,
+    "consec_hard_fail": 0,
+    "elapsed_s": 2681.6,
+    "last_mint_i": 499
+  },
+  "stopped": false,
+  "stop_reason": null,
+  "dune_api_calls": 0,
+  "apply_dune_helius_usd_scale": false,
+  "lite": false,
+  "paper_live_untouched": true
+}

@@ -1,0 +1,6 @@
+usage: train_q5b_pump_livelike_wf.py [-h] [--stamp STAMP]
+                                     [--features FEATURES] [--usable-only]
+                                     [--require-livelike]
+                                     [--min-pre-t0-trades MIN_PRE_T0_TRADES]
+                                     [--journal-limit JOURNAL_LIMIT]
+train_q5b_pump_livelike_wf.py: error: unrecognized arguments: --no-require-livelike

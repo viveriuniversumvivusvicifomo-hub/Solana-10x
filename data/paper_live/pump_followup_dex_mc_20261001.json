@@ -1,0 +1,2771 @@
+{
+  "fetched_at": "2026-10-01T15:40+02:00",
+  "n": 553,
+  "results": {
+    "AFuPDJBiRy7MC2U3dTEZB7rReUAosWGv7aj57Lqppump": {
+      "mc_usd_now": 12878.9,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8x43iNp5gXFc9StrMoGpUHLZR2DiTva9zH45mK1spump": {
+      "mc_usd_now": 19.16,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BWUpgvEFcioJxx1kPK1MijYXSPgGdvXo3ivz3DwMdoyp": {
+      "mc_usd_now": 4195.05,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HDfeHGejrwFvTWMReFsBfH2ywcGLXD9gaNwRWodideYk": {
+      "mc_usd_now": 3543.98,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GavaTnkfX8rBxvJSWNsMiivwZYMQSroRvWVUt9ZQpump": {
+      "mc_usd_now": 3943.42,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4jNbM9fu2njtHVZZpT6CT85Qk2vxJGHVRKn6ot63pump": {
+      "mc_usd_now": 248.16,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AMU7o4JpPV9BXpnUxDPFQCixBtED7d1WiSvU8j1ypump": {
+      "mc_usd_now": 17130.97,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8edcNEC4r3m6BcrNLWZYMhQ9DQqdr5cuTKhyCjvPpump": {
+      "mc_usd_now": 12180.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "6bGHd2A3CznXsW4qL3u8YByeCnNTUnXiy9Hg5aCtpump": {
+      "mc_usd_now": 13390.6,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GWqDUxKoxUkZfJ4tHWVQ29UN7TUJP7VmnVfc3ighpump": {
+      "mc_usd_now": 3303.05,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4NKVTgY1VftkPxjgzmm451VGeSvZ4GDX8bo6cuQCpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "DLAv8GaMawu9LrJZ4Ct1aNwSvTynMoiSMtfPWdxnpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "tXS3T8Dq7XVGVNjtE9dJFj6KnYQrgcqXReAkKsCCtok": {
+      "mc_usd_now": 11406.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6pX9txbsqfG73o91BHpJq1JxM1gZyn5XgtbXVfHMpump": {
+      "mc_usd_now": 3992.65,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9hohYubr2XJK4NCp3dBUv1RkWKRZHZxwUXT5PCpVpump": {
+      "mc_usd_now": 3292.7,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4CzoVVvbNZgyJLzMsX4gKoo5xH9juDt4fCGQ4MAoZgTq": {
+      "mc_usd_now": 3974.67,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "55xAdmZKoVn3ufBnZih6yFCPqk4FDLKv5zdfUjYX796y": {
+      "mc_usd_now": 12432.11,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CDgpSoqx7LVf8qTJe86JysqEX7W3VQpXrBwoY7VXpump": {
+      "mc_usd_now": 16039.0,
+      "dex_id": "raydium",
+      "n_pairs": 1
+    },
+    "CwdjgD54hgTQChspxHhirWLQWqy3EsxtndrcpLBqpump": {
+      "mc_usd_now": 15903.0,
+      "dex_id": "meteora",
+      "n_pairs": 2
+    },
+    "8Bn864F5AkghQVLxthwUz9N4HbLgYf7Ei7VSY9Fipump": {
+      "mc_usd_now": 18518.0,
+      "dex_id": "raydium",
+      "n_pairs": 1
+    },
+    "2YxrsVGXsQermuG3iMwAwwGQTM5Ba4aViQPBW8rzpump": {
+      "mc_usd_now": 3343.78,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GYU5hKk3hjmmkz8T7xGjSqc8HxmQKvovCBaQg8U9pump": {
+      "mc_usd_now": 3693.73,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7ftprhEsVxZiyCjA2Lgj3C1QLJ9xNisRNwKE3D47pump": {
+      "mc_usd_now": 3345.07,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "54WoRg8UaK3ab93kUxLSVMy1TBP5jcPYycZkJtUzpump": {
+      "mc_usd_now": 6316.99,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4tCsP5vytezxY2X5rXhcnN1EtE65Njkdr2htnfHepump": {
+      "mc_usd_now": 610.37,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4Bh9GNYLWKsX9HHNoJXd13QHJJB21Mj4Nfe73AP6pump": {
+      "mc_usd_now": 5384.0,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "N7nfn4JiXCtYKLEqY4bSAQXyUSpbpJQgQVsdAxepump": {
+      "mc_usd_now": 3298.11,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "J42Xts741Noni1Fx7nbRWnVY3CEYXvbTNmU8xrWNpump": {
+      "mc_usd_now": 3297.76,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AsyGtT6pataB2NYWkK1tKUQwadpBWbFEcREhLMgJpump": {
+      "mc_usd_now": 14882.52,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GkDxVeeXvcX6CHz7AYrduhaL4tuschcA19JNWRCjpump": {
+      "mc_usd_now": 21281.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "2ZQp9UoyMrgnCbidjYW4b4XGhEbVGQHNK1zuaBhbpump": {
+      "mc_usd_now": 10888.16,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "C2mCMTcgaWEYd8XiEvTGPwB5kW83Yw6z1SRfnE6KPvHA": {
+      "mc_usd_now": 15982.45,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2y2acu4ebA9VBZx9FZMn8s5D1tzCTVKfvgNJEMS9pump": {
+      "mc_usd_now": 20615.96,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9EieiFUrpNirDJXiAo5dN7iatEZeKFnw3baGb49XhYiM": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "7HSoAAdkmARCPRR54LZWp8XU6HScK8MtqjiCSK9QwWNf": {
+      "mc_usd_now": 10749.51,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8ZzDtJkEtJkimVfhCWixcv3vq4xpLEHeyXLJvPqopump": {
+      "mc_usd_now": 3301.64,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8mcjpG56WweKRof2fVxEHvR2gmeLjEooBmB82i5Mpump": {
+      "mc_usd_now": 3321.7,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5xSj9aXo3GabbthmvJ8wHXBXbwfWGF6kRn1dJM6Tpump": {
+      "mc_usd_now": 1061.25,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CXrHj5pPy6vQacDf8svzt5nDvd1ugqFPmn6npMGDpump": {
+      "mc_usd_now": 8376.75,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6JTHbBfggKMR5pWPjpG8Qx8xD95nJdGsuzChnhbKpump": {
+      "mc_usd_now": 482.67,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HZ5BZkVi1v4bHHftW3Y9idxiTfb1HKRTD2Yztx95pump": {
+      "mc_usd_now": 6176.88,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "F8BRdaq3yutz2YAaB1k47eeGFLbKzGFQsWDWY4Qkpump": {
+      "mc_usd_now": 9068.05,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EcrF9Uga1qmnHDBJJx7iD4kpR1LLigrL6TZzpUnZpump": {
+      "mc_usd_now": 3297.26,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4BBhqe8KuN6dZdkd86vtrnt1BnC19NhWG7YZyzsGqj6y": {
+      "mc_usd_now": 12537.51,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CyS4wN9rbD7GrequMH11PnHYFfKZK2QyWVLsr7izkinu": {
+      "mc_usd_now": 5356.66,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "G2JqSMNf2sHBnqdMccNCUahj2zPyxVd1e44n9issATsB": {
+      "mc_usd_now": 3430.94,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CRRAAtieBZHuQ9bJUzKgFqVsHwxb5ckonQudPp7mpump": {
+      "mc_usd_now": 266.31,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BnPWv46SMho46jkYLC5GsibpXggwNxDM5QnKhpQ9pump": {
+      "mc_usd_now": 12386.29,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "926dVZLD6VovD7R8zUVrEgCFciRmwN9pvbFT6gFjpump": {
+      "mc_usd_now": 3321.95,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9gz4oihAqi9MKHNAGRu4FiyieKNQTUo9Vy2AqM3Dpump": {
+      "mc_usd_now": 3298.57,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EMYkwmmB9atPN6aWuMueJhSYVktxiNSRkcRH57Jjpump": {
+      "mc_usd_now": 1562.08,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2w3GBLEeEmRAyeCC7dee3BwiPesMdvZBdckSXpV3pump": {
+      "mc_usd_now": 13636.02,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "26T61oiBtuhFGdWPFu1f2WKD4XEAdWzduva9KA1gpump": {
+      "mc_usd_now": 34586.13,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6gZtTwjL47j28vmdEG3sAyB8K1eDMdKp3R9ks8v6pump": {
+      "mc_usd_now": 4245.17,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DYjM6f2R34Qp4jPE73HsdEVZwwcQFCsokpNYCqBUpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "EDygYXVnJ71ZaDE15Maju9sFU5PYDXuwEVNpJDs1pump": {
+      "mc_usd_now": 3393.52,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HZnbY7m5tTXobZvEsQwdRnZ6N43eC6WkAjKjVJ8MTuNM": {
+      "mc_usd_now": 5960.01,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Dw8i5w3XCQqoUaYEphEaU5dzRw2mHyKpDqWmMPoJpump": {
+      "mc_usd_now": 13177.49,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8AB1ApHPrQwXteWNtXZgDmLNkyiJM2AUtRcbQaxYpump": {
+      "mc_usd_now": 3332.58,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Em4DWQfE9NQZLKX2HWEHyCdwjvxVQnNNmhM5AAM3pump": {
+      "mc_usd_now": 1.15,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3hG5FyDmGwjbj844UFYmxNChEHGtS1tXfyEopgmTpump": {
+      "mc_usd_now": 9928.45,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HLG191j1xJvW1Q1eu544fBzAFpBir198vEzcMxzQpump": {
+      "mc_usd_now": 10784.31,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9Agftyo9gBLF2d7Uw4VnfaqQhwr1mMnxAoMCJK9jpump": {
+      "mc_usd_now": 21705.42,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EqZwBqyN483N1yJocyfNEVSWTDvp93UnywAEjNgJUKCx": {
+      "mc_usd_now": 4076.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "5188hYRf2saZt9PhLD6exKL4MCQquRmw9SGaBak6pump": {
+      "mc_usd_now": 26817.0,
+      "dex_id": "meteora",
+      "n_pairs": 2
+    },
+    "BFb1VvEyciCgUrDL1oxDCBQUELNirbrjEyF5hNXgpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "GxvT6XTLhiX69GaAmPJBHW7oyt2u8Us5d5q7hfP2pump": {
+      "mc_usd_now": 85.86,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GcyB8t78W5zraQrgHTr7akT7tHR6CcDFbMxv7eg2Adcc": {
+      "mc_usd_now": 3781.34,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "B2UUdVqppteMFLV6SKHvuhYifiPhixJA4PeAJDWxpump": {
+      "mc_usd_now": 7818.7,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "pumpvQHCc1kxMZ2iHZwYKYkdHHemnZQjKbnQemQUmcB": {
+      "mc_usd_now": 12487.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "6Bfefp33PFKNRNx6UW8SN8AJ5TTPeMy1BHP5WPhnpump": {
+      "mc_usd_now": 20292.14,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Dw7fM68GxMXpv55nDwSYAgMCVKEgzen2qng7ym7g2rUs": {
+      "mc_usd_now": 3344.07,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3RpFVJRZDP5CUduJkVwSnjzbpHsspp7HXm33nYtrpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "Qd7c6vsB6aRSjk8HzL14hGaCXAB2LmGQReAJSRVpump": {
+      "mc_usd_now": 3644.86,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Bp1XxZvjqaAa4yr1advcs22ajhShKWBLK5JAD3hkpump": {
+      "mc_usd_now": 4000.0,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FdFJri2ZBmb8pUKrBwjzBRrBDNK5oSkMyw6ovU7r83uz": {
+      "mc_usd_now": 3297.35,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4ssyYT66RMddb3ksBGbAc3Z3opZoNDz147QEJmvdrXxB": {
+      "mc_usd_now": 6053.86,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "33chgoGtbJmV3kByxXb8yzMBh4WKx5uYPmTKQrDApump": {
+      "mc_usd_now": 16346.31,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5XypmSZniBku1rve4rq5ux8NeRTrVMLeQkvXASUApump": {
+      "mc_usd_now": 11856.04,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "B3iFJDwZcq4vS6d9HJVWYzzi7M1nnNewpuNJNBKEpump": {
+      "mc_usd_now": 15192.93,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CpMbevSxvCozrkjvARcMTtjr6nBL24bdT9QHxSVHpump": {
+      "mc_usd_now": 18961.3,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "VPX6Jju2J2v5mCsYKZ5nnAb3hKMLxpFVFcKpgXMpump": {
+      "mc_usd_now": 10355.84,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GxdZqQtSDChqoVDeJ2YNV1uBc6iF4PXhyk21p34Qatip": {
+      "mc_usd_now": 14520.29,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6KwzEiKh9Fxw1SL6zFq8rk9fk22F6p3y6JmQdbPApump": {
+      "mc_usd_now": 19364.04,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "77UCa4fFNCWGrvDmeFMeAtASwiv84QoJoJ52CRSFpump": {
+      "mc_usd_now": 18918.24,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "78hRHLB1kTrEt87Q5gh8BEqduJWM2rekAhCaftkHpump": {
+      "mc_usd_now": 2.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "33HxU9TscjAMTwUhwteNDpdj67rw5qhPez8nPRHwpump": {
+      "mc_usd_now": 9465.25,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BXHEXqziBmMgYhQk7miSknYFpNLQJMYb9VHiZ9kEMATe": {
+      "mc_usd_now": 4050.86,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3z64x3XD1geQGCFobsEtQ5dXUcmXX6UcGWfQw6V5pump": {
+      "mc_usd_now": 12036.08,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GecX92CMRnaua5EArgCbSrHYBGjNzHvsxzWo5k9Hpump": {
+      "mc_usd_now": 10784.97,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3hMvhPmEnid683SC3rKS8HdW3e4onuEPSckeKUqx38vN": {
+      "mc_usd_now": 4831.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "E7Kvp1f5k4vcCx5ZnocG3AaZcrDSqcmQ1QTmcPx8pump": {
+      "mc_usd_now": 34322.58,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "92PwrunkZEB9fGpaF2mZQjL3p1C7msrxhCPszxuqpump": {
+      "mc_usd_now": 25.14,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6pBaLEFcVFRyrbKsnG2zXMrko2BMvMxxB4Pm39X8pump": {
+      "mc_usd_now": 3293.67,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BvLXRw6aX92R7xcnD41B1weLNksx2KSfQZD7sYn9NoTC": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "2RyCDDzxMR8dcWzQdgacVuzmXtHGKzNrBXckPEC4pump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "CWpTaaWbGgDT7z46icrtCTWVXKSZK3i16QCPcDuMpump": {
+      "mc_usd_now": 6085.52,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4Bxt1RVxHkejYdK3FBRZQ6D87Re7efzEQhMW5tNwpump": {
+      "mc_usd_now": 4873.21,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "H4QNquP79QrTQQToTd1bz2hphFGUYnB4AnLNkAxupump": {
+      "mc_usd_now": 625.52,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9bKpnEnj7fdid63b1geYpWVQp3jQPfo8Xyyg2N1qpump": {
+      "mc_usd_now": 3300.71,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8AKuRVYsjonbJmBSSZTkq5D2XEj2QFg1derQ3qQvQ3dG": {
+      "mc_usd_now": 4135.83,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "rdmCruuaDyNsCgCksmpay2DYKDpkRdRpQttwVjtpump": {
+      "mc_usd_now": 11554.1,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ZkdTzo2eAbUBYz4xBoFoaLeWiHMj8569fkCsTtzpump": {
+      "mc_usd_now": 3319.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "397bu1BoHSrhuTd36PkFEoMxFEZhHhUEtvtryaSWpump": {
+      "mc_usd_now": 3401.32,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AFseq9QV9LBJKrj5MxzDpPk4JPanpRiqmkTzq3opump": {
+      "mc_usd_now": 3269.48,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4btAAqGwpnwGgyDiH2kj7R5Uz52dHsGhAQjKofnepump": {
+      "mc_usd_now": 3291.06,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FcBb7avR9LgmgwFxRcVJDiroZxZfgvtnUJrRKQ7kpump": {
+      "mc_usd_now": 14680.36,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "13ANr3PJkeatGEbeLhvgutAqYjEz1bgbjXeSeRkakw67": {
+      "mc_usd_now": 3291.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HWtQokyjx65kFFmhUscPGzVJe2MpTWLcP9pxTJkPpump": {
+      "mc_usd_now": 8463.55,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8paCPwJ3Q8bybZocHyw6T74KqC3tLpY9ksdqj4qM1FSt": {
+      "mc_usd_now": 3373.42,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "hn8vpzQG1gZYXpYF8vYf8HLd1sFJkHJFv9mYKX2pump": {
+      "mc_usd_now": 23614.92,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8bN9UYNZmps7bTn3iM5RGA9KVaWLotGbYz29vA1spump": {
+      "mc_usd_now": 2970.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "4asL3gy8ChNvKPAmhTLkM82WMNGWZLT3rL2gkEGqpump": {
+      "mc_usd_now": 8162.58,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "F64dPQ35gBJwV83S59FFnWy8JgtEE1xqCxNLyqDwpump": {
+      "mc_usd_now": 2134.74,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "W43rZy7E6oJAKtAp1ic1uURux42dvtNxSkHfgwapump": {
+      "mc_usd_now": 8765.03,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3Z78ZUxPJDRcraA2LR8LUVRTMKzFD96sQhnEARLvpump": {
+      "mc_usd_now": 531.12,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "44V7cso8VHJnsf35uxWnPEzay6MJrt1Ar52Rkzfrpump": {
+      "mc_usd_now": 3291.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AnRKWyGm8CSLLZSURGjYaGxvPW9cJuDEKrCdfGaLpump": {
+      "mc_usd_now": 1.51,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "D7VKwiofvbiiAtHE5VsQoNvhXnG95aFXBfi9by2S176D": {
+      "mc_usd_now": 3304.89,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AfgTN2tC4tuH8vpQ8LbAQLN4mFxEjY5ry8ebjiZTpump": {
+      "mc_usd_now": 2356.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "HjT8c11drSHZWDoEEZk2WTEqtH5yssvX5b3aUB23pump": {
+      "mc_usd_now": 263.16,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5hkFU9BXgHtaijcz2DZadUz9wTaJdf6Tz1bQBbuypump": {
+      "mc_usd_now": 3303.45,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HESkMQBrc9ij2AZjZtPCRt5MeJCaSBWDkKcqPLmWpump": {
+      "mc_usd_now": 14021.13,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CimRVEvJycHUSVxntyZToumSf8t5pQjQakCJ85FYpump": {
+      "mc_usd_now": 16483.04,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7a2gmxdoXSbzFWCDK7qk95vG33TZXkavJTQ4FYhybFQy": {
+      "mc_usd_now": 4059.56,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7ASXh76ckvk8KPFe9JR4asvYXdyNhkDFA1VT2KX8pump": {
+      "mc_usd_now": 16627.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9juLQ4Bnd52Arm6QrcUQFa4o3TXQSeNfquYzdbKdLHBD": {
+      "mc_usd_now": 3530.52,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2bTpHJ8GXMwxriLkS9ageRNK2avvDdiLtKrvc5MKpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "e2zKbAMytuujGCLP2rbmPD87dt7UfGefaYncPR1pump": {
+      "mc_usd_now": 961.27,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "858dYzfQM5VR8oehHTksRo2dFvnutAPkNnAhPacDpump": {
+      "mc_usd_now": 8629.05,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BzAtM6svpCCHxjH7ZzNqBiPSm2D2v7K257damascpump": {
+      "mc_usd_now": 9947.41,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HbfqNK3rYJHNFeF4h8wuRmYqFrW7r7Pi3rv4RgAwqpfq": {
+      "mc_usd_now": 3294.49,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "26T6kkZAfkdWBFidWN2ESnaZCfykmUHMQhynybsTpump": {
+      "mc_usd_now": 14760.78,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "13o9ELS5AhsoQsXCo47c8zdeLFL83TwZiLMXhrKLpump": {
+      "mc_usd_now": 3290.73,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FCPv4KYMWCYA1HRHngJHP1qiG7yD4LqUa13KXAiypump": {
+      "mc_usd_now": 44152.92,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3poPZpexAJ8AfUqGAy2A6R9HF6oevCk2C4FDzFXWnQtL": {
+      "mc_usd_now": 3291.18,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CXYa3VABRooxkB4YxWdm5qHDZ1U3UtSr5YJpa6xzTcWZ": {
+      "mc_usd_now": 19585.0,
+      "dex_id": "meteora",
+      "n_pairs": 2
+    },
+    "86Eev7RJLnxzjGqhzbomTyVdoav8GdocewueNR1bpump": {
+      "mc_usd_now": 15726.5,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DSZCXxSPr44azwwtFLvS1BTVMNT7cj5zD29hpnsqohiS": {
+      "mc_usd_now": 9788.15,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DLCwZDq3ESgoFtQJZR11yKAquVtTwJxg1AsYhG5Gpump": {
+      "mc_usd_now": 3553.85,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ByrYWc7g5w4HFeLqBRcE9LePPzzFr6cJh5YxkNei37Qg": {
+      "mc_usd_now": 3336.62,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BqQFxjszd1MkfuJGT6tqcC6fuhvAC88cLGeGmk8opump": {
+      "mc_usd_now": 10481.11,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6QAXtfD4aYQu6boBsFYeAfabsDydPeKbomQadYPeVbuY": {
+      "mc_usd_now": 3291.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CswGa7EQ3gU6ceu5FQu2hWqkzvUywbjXiCuQ167apump": {
+      "mc_usd_now": 9756.44,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7BdUwHjhCPufoPPJGUw4Uj9XTWpZxRBLh8vTtB6a65et": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "EPax8nGm6G3cMtHTkdn7oAu3Aesofoq3Fe397MrfEas9": {
+      "mc_usd_now": 3294.56,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "26T7YVa8Amgbxf4ANzCEfN973UcuLpKf4n7NDEtapump": {
+      "mc_usd_now": 280.44,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7AbBrqw177Df4ntyqv4cqEJBTLoRBcqXjVD4CfBzpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "2K7ZLQDmwcLDxXcGfmu2ShDBqpQozphBUvMe7M5Zpump": {
+      "mc_usd_now": 4500.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "2acA6BgBQ8ZzVzxfoCrwGTGp1xSAqmajndT2tqAjsmvj": {
+      "mc_usd_now": 3296.09,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BRFRGHagkCnd2i42yfaeA71cy6DjsJRk7kLsGC6pump": {
+      "mc_usd_now": 10397.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 7
+    },
+    "2AWf41WVJZXjQ6cB3KSbQ6vb7GE2bad6CCHXmc57pump": {
+      "mc_usd_now": 10493.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AByb7kAaRCk6zfTs3jZUTqx7xusBmdMRWNRHPrSrpump": {
+      "mc_usd_now": 5942.77,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FxaFeAG9C8wnHKJsQQZZuqHox9F9UoxZ1rdAx7Znpump": {
+      "mc_usd_now": 3303.13,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2tPmAfe8chsEc9z3JhDpeEfQbTLG9a3H1gjuEMta9h9P": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "FfoxztuVdFjE49RhRcZR39P1Fv5ZrsTLuXGuKJhupump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "7jH8KXb7XkRwQfNh1y8RT3i6Dk999nTZH9J9VaMNpump": {
+      "mc_usd_now": 651.27,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AXDRfoU7QNgcHLrJbRiy5ksGqbrRwx4Ri23AM8fLpump": {
+      "mc_usd_now": 10937.25,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CCKuFEz8Jyfbade6xzcqVxbGjaPDBSZXFrc5BB61pump": {
+      "mc_usd_now": 8977.64,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BL5B21TTiPvEsS1PdhcYBuEcTnGM9o4RYTiQJYCfXY5f": {
+      "mc_usd_now": 9667.02,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9JF1SoydmKvUwphEeJwKxmnopQuPWz1DZBpNsCbFpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "CGNBQuQsKNGz6m6rWDWLdeYTSyCJeiXVXZmP4P8Tpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "jgvQXXDNBSoJ9EBR2NLmxdVb9e3LgjZCShAtMzhpump": {
+      "mc_usd_now": 19093.99,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "32FFjtT2ozo6AWDUYSRCSEgVDnptNvhMJH9BumnPtH8n": {
+      "mc_usd_now": 7230.91,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GrSH9HzjfWq3MV7QTMzh5W8hqHz5AFmDPCvNG5hZpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "7CZvwKXVhL5aFMa3teMwtrG5464P8P4UZdVYaZATpump": {
+      "mc_usd_now": 17291.65,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8nKVt9zkj8SyD7WDQHJZHt5bqzDQqTB5KcFYhnpEpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "HeUetYJLdBHCRUQaModuS9DDzWxbJXHMLFUJsoA65sBi": {
+      "mc_usd_now": 3329.83,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2UXucT9XqvNEKdt17YmYippaSKQ7uqqV1PkvEUFupump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "C6y68vS7gGsGtQsdtk25K6aBy9V1ru8Sdx3rHAQ92bSu": {
+      "mc_usd_now": 3567.55,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9zZ1KGa1dSMmw7QQxT4WZKGVMpJHo6Cf9dBvZUNcpump": {
+      "mc_usd_now": 9330.57,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DQNNSqfoLCpm5k7PwhL8QofkNJMqswGgK3g4Jt5jpump": {
+      "mc_usd_now": 11325.47,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8PRqNk4a1qscxW82vwUi2zkfHJUcx79HwWfEBKuKpump": {
+      "mc_usd_now": 686.2,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GvZ6rFs9FHasMQ6p9EQDyy1i3Ecf4VSuqGXxdsNcFC9C": {
+      "mc_usd_now": 7537.05,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FBa6196pKGGdVrKafeDndRWSPveUGgpmuJuBfkPdhV1A": {
+      "mc_usd_now": 3289.41,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4n4yd2be8YTy4UKJ2hYmBQKaT5jmo1NsTWosLNkSxxxx": {
+      "mc_usd_now": 3275.83,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "E5UqwtQsWMk2zdDdkehGrChAWMdq9Cbd5RUBwtTgJ4gA": {
+      "mc_usd_now": 11612.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "5FK2bfAmNDtEG57GgmbodU99XPX47HrmuvT5x3LDpump": {
+      "mc_usd_now": 15168.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "4dYpZESEYsKZDk3gKbw9mpd2aMfmHgie7wbKpkQdpump": {
+      "mc_usd_now": 14093.5,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ADi3KvWow2eP4Hvsnr2EWnW1rAAZiNC51txJvSw3pump": {
+      "mc_usd_now": 2512.14,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BP1WBJTZEBnFnSDxZtpcQWWDL8vBjpVVsKqLqTjvpump": {
+      "mc_usd_now": 2.05,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4RQTS2Q6B32PZNLGmpwLUm3W6pYF2DgkyYAQzdYdpump": {
+      "mc_usd_now": 7133.15,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7Cd53yTntsMbHQ4Fshquovb2t35WUh46wvCFxKASpump": {
+      "mc_usd_now": 9478.9,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8M1QCxtQQFWzFomwsqPZPvtskjtVD4dqVb3QpsGzpump": {
+      "mc_usd_now": 10305.41,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Hko7cXcMwm82QX4eGATjE2rKzq8PfoD4xFrYXfJfRtUF": {
+      "mc_usd_now": 4078.28,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "aLKetDNbtd1DBn9Q5pJR86ooQ1UksmkQEhz6CMqpump": {
+      "mc_usd_now": 3400.47,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "77fX79oATtTdVSqjMRonA1pLtqDDZuuk8XivifCDpump": {
+      "mc_usd_now": 12432.78,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6ALx8vSoNyqdhE8gmVn1mk9LwfZfqkh68ps27zuk9tTz": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "6pfCfMuS9ztaq3Jbr67SpBNoxGvj3bhAheuUL21yq3tc": {
+      "mc_usd_now": 6979.22,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7zrZfVCMT2z6ffSrDC9794shbPzn9ebkZWGbnbCrpump": {
+      "mc_usd_now": 3280.95,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EU9JNrdGBWwcC2ie9cHsmQeVv2G78btxBmQaTBh2N2CZ": {
+      "mc_usd_now": 3282.79,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4tWYUxjVJA1oJ4aS6aFyaUbrufAT8gnYSBbGKzTgpump": {
+      "mc_usd_now": 9765.32,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HKmPfcrfcmHNuq9SoT97jvjqmkDQYUH4xnsgj2Kwpump": {
+      "mc_usd_now": 34940.4,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8U8Asg8JknaVAqB2aFzyREF7JYir4zntkk9qywYtpump": {
+      "mc_usd_now": 8830.51,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BVF8qXM6wu1pGrsLd4SH3DLU62EadaKWPjVsCGRypump": {
+      "mc_usd_now": 256715.28,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5dwnAF1JzHRtyC6rAGehjcALb4MJjuqxmkTPVh88pump": {
+      "mc_usd_now": 9057.49,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4fY7uWibuVwCE7BE8XdA5o6dq8fxA5XopCHA7jTJpump": {
+      "mc_usd_now": 25821.59,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8kwUZuU2NuUhswPsHyzMfZmbHata1SYgrVhS4DgRpump": {
+      "mc_usd_now": 6414.34,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "pTmTK4ACC4FqMXsgbJcpTcWgSssY4WkHDtVnqSxpump": {
+      "mc_usd_now": 587.73,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5bzpALdbCXy5zmwMBhJ1EAGJnS7tEzV1cpqxmHKbpump": {
+      "mc_usd_now": 8614.21,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EmiHNiEGhjHZvXEKmpcwYwFxAFFJjtvDDqmVJKVRs3Wm": {
+      "mc_usd_now": 3296.09,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CiwcB2ngcWwsHa2N5dBrsk3k5TqVb518q3uDMrdNpump": {
+      "mc_usd_now": 5789.52,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "RVs4RwBHeRCFbH5gYwu424sp835wJSqjVfbpCrTpump": {
+      "mc_usd_now": 3298.7,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5fsfw899Wj738c4zjs1anXMjprCa7kYPMYiYC9ABpump": {
+      "mc_usd_now": 591.21,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7JvL9drkvwUVdtpbgrnwd6pA2HCmNsLioZeYR3wPpump": {
+      "mc_usd_now": 14509.56,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GPAa6sd3qp7drpwrixKkS2PYB3YGFE5R656pS8CCpump": {
+      "mc_usd_now": 11636.14,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7MGGD78W12kHKRNM2SU877BzMVStQyW5KA6HDexXzepu": {
+      "mc_usd_now": 3310.22,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CJymYTPiecsVwui8hXB79aQZaqwm4DJhi4vTraN2pump": {
+      "mc_usd_now": 14727.21,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3HtsoRQe2Wg8inT3AtvpSzLe9cY7NCwdrD3weBRspump": {
+      "mc_usd_now": 12900.97,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3oLm4CA41XVbEc5VPbfGnVzj27ABAb8ThKZPXJnhpump": {
+      "mc_usd_now": 8851.98,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Eaj1gqRNbBaM1Z5ThuEjkM3rSVw1bB21oSppanuUpump": {
+      "mc_usd_now": 7496.55,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9ACVtzSP2zCyxfz7a9AjpcmLLp5v5pGWSVHEKzjmW56w": {
+      "mc_usd_now": 14472.97,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "As4KjrF2QirEcL5pBrVnjDacFp1F3YxHGRxhb7QQ1C5d": {
+      "mc_usd_now": 3341.4,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AeXczjUQr2QKh9ojyBsGZLeXETdozrQDGiAU2EXoC21D": {
+      "mc_usd_now": 1421.74,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6FL1e3o7N51qh7FyYQKeDkRwuuAaSAYx6M8obyyrpump": {
+      "mc_usd_now": 18152.3,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Dfi5sLUWopZv5FHdMbsSp6N7rDF8jt9Cgg2VuFLGhXG4": {
+      "mc_usd_now": 3338.84,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8r4hZY1sPm6fAmXeMiRKpBuW3UGvhReqyLd2wbY6w2jY": {
+      "mc_usd_now": 3300.55,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FSRqeGt3y8SNZ411y818V6ruY5vP6uaLy2KifCSypump": {
+      "mc_usd_now": 17656.55,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "53U4ZTY5NJxTg2B1b6Ke3o6pPvtU9GMSi37Cxrjipump": {
+      "mc_usd_now": 10401.64,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "32JX6UU4A3FquAxERRB8RxXoi7je1jRcPkWayJYTpump": {
+      "mc_usd_now": 3301.87,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "82wr8yv9QK44JrjbS2kU8V7TdmdvwkBHLDDtfKdupump": {
+      "mc_usd_now": 9545.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 2
+    },
+    "77Vb6BYBBJvTJzfDRvvTvyi8Y5BaobtSivtDZ5i7pump": {
+      "mc_usd_now": 8331.53,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Fyriso8bTqomijixHrvG66MqusYLaL1YPHkZPSzDndR5": {
+      "mc_usd_now": 3296.09,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Aib5Wptk27QNynh5qAoaCE697SN6HFTFrtdFid2cpzXW": {
+      "mc_usd_now": 3273.15,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ApjV8UKNgNkFidPCh5Ww8hAjNiNugyiQLwy3h6DApump": {
+      "mc_usd_now": 3390.12,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EFnbTjSTfqRvr5ybwqh2TxdQQqnYVwppLUyrmLng2BBR": {
+      "mc_usd_now": 3273.38,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BNF9ALiHJSbpfQowLMza3DSQRvc2UaQwe91dDzGwpump": {
+      "mc_usd_now": 5821.26,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5n2ReAHeMjeV6jeHMVSnB1b7eX999hM9KxRkbKeUpump": {
+      "mc_usd_now": 3307.46,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Gui3XrXZfBnwpXaYcAQVgaYT5MCXVxjwuYB1CotNpump": {
+      "mc_usd_now": 8617.06,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7smQ2rhwG73tPtaiKyoWoeywQBXYG2MUNEofvApRpump": {
+      "mc_usd_now": 2292.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "EVi7Wb244nnBCwYmj8U8piWMg5QYGZD3pwNjgfUYfYwX": {
+      "mc_usd_now": 3298.61,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "39B2Z6jsQEw2W5a4AGvgCA8AQZZhHq3yGeL4THG2pump": {
+      "mc_usd_now": 6934.73,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EZuKwLxHwTsc7gnHn6QEnk6ZUfHgTNTP7QDki87fk8vC": {
+      "mc_usd_now": 12.3,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2CkwirnrJCLx5wf487AdgGioULrQChhULXc5SnoNpump": {
+      "mc_usd_now": 3295.54,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CYYxD1nM1z9wPvXSKMJnWfd5QpqBErvTYN8VNo5Jpump": {
+      "mc_usd_now": 11636.26,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "mKZGwb4mHEQdhP2Yi5ajS88qKims4L4TaQXenuDpump": {
+      "mc_usd_now": 2439.2,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4zxtdgTZakmYPdmtYxrKHqbDYf4bxJppMbPTEcKbpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "219HYmvn5wQMEAzgLtQKDxFd8Ls1hwq6UVjdWDSHpump": {
+      "mc_usd_now": 8654.44,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DynZW3fm5QZ8TxySKw9dVwPZAQ6ihFwfeRDg7ztXpump": {
+      "mc_usd_now": 7119.45,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3NdmNgRb6Y2CoxnB5EfNYZfnMXY8h9PMP13cNxzWpump": {
+      "mc_usd_now": 10305.95,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "B3nU3QZNY1fPL4qUWdEGfzxG25eeqNWxCWaBe528pump": {
+      "mc_usd_now": 14451.24,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8JtoFubtuLWAjSptZYLH1mUoi3TTbzYBbQzbn6bwv7Q4": {
+      "mc_usd_now": 12999.14,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5mpsFEyh4J7mmvtSEKxsim9MRV7ue3AAXj3K5W6pump": {
+      "mc_usd_now": 3303.85,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AxX1wMF6fs2xjtP2TbPaM5F4attvTKQfQAkuC8z9hSo9": {
+      "mc_usd_now": 15236.5,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HnEheA9sgQCaNpxWWGLMvcy6sjkQ6LaJWH7Pn1kSpump": {
+      "mc_usd_now": 5428.62,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7wuEcaU2vzQs4egEXr2kv8M2saY9gtxg91Hbasg4L98o": {
+      "mc_usd_now": 3450.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6PS5TzY27BCuh8HYAYpfsiXHy1Y4CPvtCRSEnPz6pump": {
+      "mc_usd_now": 2239.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "HAydrdgx2paYjHVVpZknGVSL5147cRskuQm6hGS8pump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "AYGsM8Nvxwicb8R4A2tqNPkHRnxGEDdqPRPSxJgppump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "ExDfXwFvFxYWtqnCjEzyuZD7XbhtHLFejf6JpWw8pump": {
+      "mc_usd_now": 50689.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Eozz58VrtSNkfeztyeKyFFpqHgc8GbcUttsc3eqapump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "H9XTPGDuBmxXTPbdyS9jdrDnzVqHjyGuK5VUNNM4pump": {
+      "mc_usd_now": 15187.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HdKspZFn94xXWn36YZSfW6sV9rkBoboWJ7dUzpeUpump": {
+      "mc_usd_now": 46452.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "FzFqgC3GXNvZ5QafiT1YoGacMXbwPwrpWPfePrVrpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "8GPzPsLp4ZFveMKjVrPA7giEBEcAY5Yo2X3QysvJQgTE": {
+      "mc_usd_now": 13176.1,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DJPeMKEEmZrV3NFvYKqrs2drzpMY5Qh36Lpfs8fpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "2dmtuYdmBLUVF75geyUCv7R9o6BwAvkW38xVJunHpump": {
+      "mc_usd_now": 3291.12,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GThH9eNMtFwF3gV1BJZYzYnX8X4eyUPAbYAscNtrpump": {
+      "mc_usd_now": 8700.94,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5FgngsUaRQyZXDsQ7zxpMuZhGaZfNjzCooCxbe1Wpump": {
+      "mc_usd_now": 3280.91,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5715y3yPRm26pv8KTDbtsmiTudzgXzqhYrjFac6xpump": {
+      "mc_usd_now": 3279.49,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
+      "mc_usd_now": 88704.0,
+      "dex_id": "meteora",
+      "n_pairs": 9
+    },
+    "4QwwbaYuR3sSmUrhvMfcPEkG1GQaxVfWLv7GjAJtpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "BsezMuirggtqgEfD9je2r5LvB5cWbCgCUTvygHNka4yS": {
+      "mc_usd_now": 3303.32,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "G5sES1o7BR1qj3RHhPKUkwDQidPdbbZc1aC1ufHE645h": {
+      "mc_usd_now": 9793.93,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "B2cymZzTCaHAo5aHdML54PRmsdeTkURfpmSsa9n4sf8a": {
+      "mc_usd_now": 3296.09,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5UEP3oDNH1MmEsjNch5tDKDUUj6Rma2dN45ZxjNYpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "BX4h9MeAQN4xBcGKknk39GQKpy9HzPXdFEzdjpSTc9m6": {
+      "mc_usd_now": 3289.11,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5mt8o9Yh5DqNvd3cSYumgZyQLbUbzerdDfDg6zWWpump": {
+      "mc_usd_now": 3295.11,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "G7Uf1azixBDahJo9jTGMXJ6jS7dNCW8ikrA7ebfEpump": {
+      "mc_usd_now": 3360.88,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5wskFSvKQkPD2PPhFJV485TxqFioYB5GxfSmnLzVpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "GEDgVFRTHabLzaJJ2p3h7KgZo8RNxXPxw7tXCk1Zpump": {
+      "mc_usd_now": 9586.14,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FyidX2e5a4zDSa5HDqs23EqHJpsGEBogEK9MUimCkPnh": {
+      "mc_usd_now": 4437.73,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3YtD21aKumEXm1CX4XtL4vyeJCdasgDztjUCmKD43Kbo": {
+      "mc_usd_now": 5693.04,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6EW13s7HwTYWrZ9GNURUEp2SHoRuewmoFSWA24kApump": {
+      "mc_usd_now": 3291.59,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FFQeUr6UoPe9C68gvtJZrDWiDngS6satQj6k2Yprpump": {
+      "mc_usd_now": 15290.53,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FA6gqRbtVXorJtfH4K1b2HprnKi9jvk2LZtXFUorpump": {
+      "mc_usd_now": 8099.92,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7q4Ajmby7JWBVPcLFzGCyRHJMhtUS5bVqpWCus9xpump": {
+      "mc_usd_now": 3304.4,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "72bKKqKk1LaW8Q75kmJ6JvejWKpge8cyWcUpnz56NGJY": {
+      "mc_usd_now": 3289.1,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6vXVRTHam8okAUW5TTJ795cRN9g2veb9XWiKgbNfpump": {
+      "mc_usd_now": 3289.1,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "G3FrCdbpTfcRsZT1nuetYjCNBLWX9X4kkALXJ45Ppump": {
+      "mc_usd_now": 4348.37,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HWagQerEDV7L4877mPc3PxeS3aJ7aAx51s5t2txGpump": {
+      "mc_usd_now": 9070.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FdKxn7AAkcspLnHvAChrCLfSsu9WHqjckvdo3ei7pump": {
+      "mc_usd_now": 3268.97,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5R627VnAWDBbYunK1Ut8N7Qvc2C5EsYfVdKi6UVLUPQ7": {
+      "mc_usd_now": 3289.93,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ELto8fKFEktKmNLGnK1XRcjJHpgVrUDCBSmhFfkApump": {
+      "mc_usd_now": 3291.86,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EXFa2RgB9uHnF7aXd7qgb3wG495o7eHg8dn36C4dpump": {
+      "mc_usd_now": 3291.54,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9tUG7JaEiZZ6R9rBDKB8uk7hcGBA3EFTYespbtFhpump": {
+      "mc_usd_now": 11939.3,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "33x57kkzBnzpY5UuQWFtWNwuP43aQynBpy4tUBPrpump": {
+      "mc_usd_now": 3300.15,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "G1utsMKREWLxfitx5KTDqRDfqmRwezjuzDj6W59spump": {
+      "mc_usd_now": 3291.42,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8CkJQJibYXa3ZSYE7kg6SWYDRbYRid7Bge2AyNHbpump": {
+      "mc_usd_now": 7798.03,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9ucxeNUhX5Qu5ZHTBWHTTXrjC1SYnCv25evYBpAGpump": {
+      "mc_usd_now": 3291.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Ag7u8qQCiutQ9iVJ412RC3Ux55n3o5YaLVh26wgG7ikG": {
+      "mc_usd_now": 3277.07,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6easvH4NtgjPA1Tq7TGfBRzf5bBrnFuyyHx3iXqFpump": {
+      "mc_usd_now": 3291.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AMK448fFKgxtY7jTFq78PVx3uvQer3ooy1CyUuT6pump": {
+      "mc_usd_now": 3291.65,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DJycZQ3jUer33pAsaVB35ozyAe4F1ShSVShdnMJppump": {
+      "mc_usd_now": 3292.02,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3G9zPHJbskmM1j27FJtrUgoCMQYv3KPSS3eEtnPCRScx": {
+      "mc_usd_now": 4079.12,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5FvP3UxuXkkbU13tygAfU75f3RoLvgf9n9mnJJZWRuo": {
+      "mc_usd_now": 3294.38,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7FNgp2HA1t5XmNBqFyrJYeWoZH7exwFRuAm37etqpump": {
+      "mc_usd_now": 3290.26,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Gu92b6p3fYvmyiixNtgSYJLrXDJRJNP3ZYvVtu81pump": {
+      "mc_usd_now": 3294.99,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9irw6fyb6parq3f4ch65tC5a91ikqTusCrSR45VQ4XrA": {
+      "mc_usd_now": 7884.43,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5M9a7uQ4urDdwdFNitssdfjMBLeAqdCVUc2Wd9Bpump": {
+      "mc_usd_now": 2427.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "CovANZe836qvUTwM2rM9nAqx7QNwnbit7aBjwgXHpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "FXW6PzYPcvRTD9Smzd5KUvx5VfajmwDTLA4yzcPFvKRH": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "EvGNHdoN8UaENTwRGQkuedP7s195rsTxUqxuPZrwMexM": {
+      "mc_usd_now": 5950.23,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AcdyqaoT3zLRQd3Be5xepDP3o2XC7TyuwPD6WNYuFTX9": {
+      "mc_usd_now": 3293.61,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EjCLh6NjoRTiizh3gtvWGX8qXDerFaaCNXyNGqyipump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "4xSFJkouBNqd83ykjVP9c8N6M11WhGo6D5ByRFaptNCd": {
+      "mc_usd_now": 3277.55,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FUh7EdKrHNinaZMJKabcELZznvGq6XdwFttHETgYpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "6tdakNZRvYskxXorh2wmyKhxRe2G9dQ2m9m8xtQNpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "DetvVLKoUeZ3YyhuXJ7cjJwMEgBJyUxYZdUwZvg7pump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "7Qo76KmhBcEQ2GBKuBFsJ8BxcpCt5E7NzGT7XkrAwSZi": {
+      "mc_usd_now": 3282.39,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "e1HcWCc9BZVtEWuA2rqjAA62MNjD7TbxPcL7SpKpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "BiZhBoSLkHJh9Z3HGk2Zt5oGqXipAuNA4hRuRm5apump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "GwjTkovJQ3Ugc1Mo5gFM3Xa6J6i2TYEqYh2iqKRV6TVx": {
+      "mc_usd_now": 3293.01,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "pmMijVzZ7bu6ZdT8dPvMnYmyjGcsV3jsUvrerxJYZKR": {
+      "mc_usd_now": 4748.65,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "72ghv9CEhahxx2eZU2wQnquQPJETquSiEG6S4fwZpump": {
+      "mc_usd_now": 20930.0,
+      "dex_id": "raydium",
+      "n_pairs": 18
+    },
+    "CFuGL9NEZ8UgnEo3QcN9deYvCVAAiCBVDNvJGJvD489w": {
+      "mc_usd_now": 3310.84,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9iGZnbmugkGby36fUK7KGKH1GYn4y7rsNtBK213Ypump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "HftW37TiUGbaXSSwDKXgifE7TKXiGsQrGi66APHJMQR6": {
+      "mc_usd_now": 8317.23,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CPvYmMpwUPpoVDYSFQqwDqakwLzuDo9qcfEW61Lxt7iz": {
+      "mc_usd_now": 3282.39,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Hroi5z1Ph672AWrqwX1gvdt7d2xhePBy1cZYJtDfpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "FRQHU3wjDH32qLZsqk34GpWoxCtXx2NvZ6Aojru5WFg8": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "AmMw4qiAT2pdxeFud6ne8uMCUCYcx2WyqU9beZWWpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "74KhVwk1TgmNsLcNznbrStNiFd4pZcYePu98j9jpfGcj": {
+      "mc_usd_now": 3284.58,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3MRKf171NY7ahAZ5TbEh3jXTucJa3aZZcxeGZiUwpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "AE9b5Wb1CJWBRi5w5GHFDMLiYjkwRUPLtHM45Xh8pump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "AEePq714dz4h9ovALSsi2nR8guRwHiUA6KWPTv9Ypump": {
+      "mc_usd_now": 3934.23,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6SkcFB6TbSjyGQ7A3P43EWmoB5LmNdFuoTYCAR52pump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "3A9fcJNLz8QPA6FmRNw8KZ9M12q4BnC3FPVPdgjgQNBm": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "CYiByTwAFVDokbjwd3vFNAd6vBEXdhrYn55QiVkZpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "CYXXoSsjBS8MeSbGs3Am8KTen9H9KpqfCoRKdp4bpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "75DjurpbbaF1fcRmo6zdipE8drirJxU8mvDzw7nckKiY": {
+      "mc_usd_now": 20268.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "FPcQyELQcktzJxrKE16TnRJhJMCyoSUu1at81jNvpump": {
+      "mc_usd_now": 3291.6,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AwS7E2ZW2oKskoj4WRjmTso4LiTd2K1fkbJkwDjjpump": {
+      "mc_usd_now": 18190.35,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3rDBWUcMmr63ih3LFqrqE4APFxKqBKA4eBvPAPhJpump": {
+      "mc_usd_now": 10395.85,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "98G4fdiu7xVtbg8F1y5vGRFS2gtAExjxqkZzv253pump": {
+      "mc_usd_now": 3265.94,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DP7D8nk9xT8gW3ZkAsuYEipzyrn9eoWuqLKmRSMNBmr6": {
+      "mc_usd_now": 16076.39,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7WeXU3YP9PXi3KJgWADpDXeYLXqsGMJ42MpzERHpump": {
+      "mc_usd_now": 10669.89,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "q37MtsHAYv7zrU4Fo25DgqxYvZ7H9E8hHYUrxrDpump": {
+      "mc_usd_now": 3290.53,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "G6ixHCV7J39eJjJGZ7F4MZdzAsZfYxnEsX82v4C6pump": {
+      "mc_usd_now": 8486.54,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "31PYRKoyY7j3diEN2c2AM5VbLpR1ikWHkDyRwbVUpump": {
+      "mc_usd_now": 3293.01,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8mjAaQmXeW4NXUsdqRhtQnTSUg6FQKdNFKVWVCeKpump": {
+      "mc_usd_now": 10154.46,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5YuQnZx6aN9xjUuLB6u9PqZv8kP5tj6yV2Wrzexehisw": {
+      "mc_usd_now": 3286.97,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "46PxAhx8sDKsR3m3fb3aZ4sTfZ2jHvfgTBqPkc1wLHgX": {
+      "mc_usd_now": 3300.13,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6SCtWE22bUYj5hNd2rFPg7MLbGAJEam31htgYWrnpump": {
+      "mc_usd_now": 8488.74,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "i7FFrSzN47aW6RpPyv8rmuzhJjMcZrDbf7bAKX3pump": {
+      "mc_usd_now": 3275.29,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ATradWo263JyWfMBp9ea9DaHNy8vEb4N6vjz4efVpump": {
+      "mc_usd_now": 10791.97,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3gUhqcUgBqAyr99X6gMm5v59AZ8smBiCbGiVbKBWENo7": {
+      "mc_usd_now": 9392.16,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Hows6BNuq7RGt74L39CHxXqFRKxY56KrpoqcvQKPpump": {
+      "mc_usd_now": 4.7,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FNY3iqWqFcWH3n1Lebvti9caafmeApuAU6wUJYwpump": {
+      "mc_usd_now": 3369.46,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4Tpfixdx97HNWPnXXEte8Yr6sFoHf3c2Lkm9ngmwFPDc": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 1
+    },
+    "2UtQQRVCHDAo9hJZvmEEDrXsmWLJLFbdQuz3grP5pump": {
+      "mc_usd_now": 10754.62,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "D1xPzfDvvmmSa968T1tKhmLnpdwQuXMYriwVYEoKpump": {
+      "mc_usd_now": 9268.84,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "rfRN95yrq3vi4y5YiC9ecSqGAWdBVHKCvhwCR74pump": {
+      "mc_usd_now": 3307.04,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8LFXXM3cUJAVD1V2zx4pDD3WSrSDVmfTTdqgKHKb9fwa": {
+      "mc_usd_now": 3283.83,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2ELqVpoRBZiXaFfqdmzTUBc2pBn2qe8CLCjws15bpump": {
+      "mc_usd_now": 2281.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "6hCbDEggivFtvfVXa2mmkQzeNgK9nEyYmxMTjue7pump": {
+      "mc_usd_now": 5464.17,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7qUGKkDyUXFzFU3zPDJmnvTc4TJXFhfnqPQ3UoZSpump": {
+      "mc_usd_now": 8992.05,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3fJ1DCUP7XDmSmgojoK12cewx4jR7zLX5RtY7HT1VdBj": {
+      "mc_usd_now": 3310.68,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2njCMGpdxHw8usHySMFsxY4Doc5NbjDGbA4KxdyF97wG": {
+      "mc_usd_now": 4358.82,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5n2LT2x4poEKidsdGzXUhCCdDQwwGxGixcwtaneSpump": {
+      "mc_usd_now": 3999.94,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7CM7brCYontCYdbTpxSbxadWk8LmxbcrQDX2zBJ5pump": {
+      "mc_usd_now": 2139.05,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8ro5iWqyUe6HwZUqppx6T9DsDVh7ay9PDpzwVzGKpump": {
+      "mc_usd_now": 10021.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FovbmorCWsm1PXxwvje7iSohTVRuM6WeqytknZpGpump": {
+      "mc_usd_now": 18306.92,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9i1V2QdtFkpFC7gMHxiuaybFFTWtnRuRFVqRZt3xnUFn": {
+      "mc_usd_now": 3292.91,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BG7GzKVNmLbu6eshKbRedmD4BBoCoLpgx2VTej4cstnk": {
+      "mc_usd_now": 8878.89,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "973xLUVm43XKVAvndipiimpAWK7RDvz4iJj83aPXpump": {
+      "mc_usd_now": 7662.87,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9ru5jjc6PoEpA54GHNeJF1AqUx3s3msHE812gZrTpump": {
+      "mc_usd_now": 11710.81,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HXmRYyJFSy3kHDJnYhGGmAWQfXRHimJBwX9EtKdvpump": {
+      "mc_usd_now": 11809.1,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5EhQtiGkugHFMwpQp7H7Mr9TfbomZ2KPfhfGJux7pump": {
+      "mc_usd_now": 9548.08,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "B4Ey6KVDwudrstVhkWqT83h3jWh5JWBajSAMhkLvbpPU": {
+      "mc_usd_now": 3391.01,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4ZztcVSGrHP9yjptPL3JsCtPLGwT1xxWCgyno9Hopump": {
+      "mc_usd_now": 242.21,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HyVDEc81P8DGfNfZbBZwyntJPvjrSi7JEK1vgqbJmUq9": {
+      "mc_usd_now": 15031.0,
+      "dex_id": "raydium",
+      "n_pairs": 1
+    },
+    "24dAbrUoqraDw66awbHC4SNhYQGKGeuGEisT2ZrsRnK2": {
+      "mc_usd_now": 3275.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9jkddmyLGPQ4GvJtDmognVTyHV8hGHkkiQZ11jeUpump": {
+      "mc_usd_now": 18300.29,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4SXYdwPS7kfuy1akFUhazFhgvBsFJBmeMpHh5mG7pump": {
+      "mc_usd_now": 12117.81,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2U89ByssLr98kgnigdhukvCukqnyxeKE8ajDMPh1pump": {
+      "mc_usd_now": 7700.34,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "31c4KhoLoYEfB9bUGysSYQcZ8EwgE8rZXeEDrLG7pump": {
+      "mc_usd_now": 8138.02,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7Enmz8P2u6fHP1G98QXNwnoAm6h6PkoFZmgH71o2pump": {
+      "mc_usd_now": 481.94,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GtqVbr8aCgTB1ybQtGtjfC65seG7KsM46zMNXCzJpump": {
+      "mc_usd_now": 3273.92,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EGwQRaCKzHRnAULRMT36ZLSeMfnmxQomAsj3ew7Lpump": {
+      "mc_usd_now": 3285.9,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "36JQyEijfPSaxEX4kkf3u4MktcJNxpLJZodosc9cpump": {
+      "mc_usd_now": 8163.4,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4DBkAPudwMsrwEWamiKyCvp2aF6URbZQetjQkR2mpump": {
+      "mc_usd_now": 3273.06,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "wuKhcZjwfV918aNUe76rzWVboyRptxiTkjAzfD2pump": {
+      "mc_usd_now": 2206.69,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8sCWRujvqDQnsJzAoXXe6DbMvWrzUEbiKBNHxNWVpump": {
+      "mc_usd_now": 8106.65,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4T9d7Y2uSmMh2S2M9J4Kj5EsHnxKPp7TStCybpxqpump": {
+      "mc_usd_now": 36.15,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "26TAyB8MzRXmstdxYPSQF8zAwcjZq1WjcegeDGLZpump": {
+      "mc_usd_now": 3450.26,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "99voTBoqs9dpdSy3yKJ4FayEZdaN2fvkocN3ZafVpVEr": {
+      "mc_usd_now": 3277.07,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4shWg7V2HBQf7WRNfVfUUFo7iGStLnScnh7uQEA3pump": {
+      "mc_usd_now": 11117.39,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "tokG3Pz4abDMxzMevFfvH2h4LcYrzZ7zxDrMF47pump": {
+      "mc_usd_now": 8385.37,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FrMJQxDbU81tXwwieyikJJeZRyMdSXbT4d42bqhUpump": {
+      "mc_usd_now": 103.52,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "G6cqMKGEowm2m38Ebu6bUwj77mS6mQU7XJ3kEtKmL5ok": {
+      "mc_usd_now": 3282.52,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FtKvSvMYrBPxshEG988DJX7SM2yR1hHDTQU45jvCpump": {
+      "mc_usd_now": 3467.65,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3qVpCnqdaJtARzE2dYuCy5pm8X2NgF5hx9q9GosPpump": {
+      "mc_usd_now": 14494.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "E3N5JTkrq4PTm4cKZAgjVMyitcncUEFS9Ng7VTJ6pump": {
+      "mc_usd_now": 3290.8,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4JLk86mayMaBZ9Dt9rFzcgUnZibdEiF2jJYvqn4hoKLq": {
+      "mc_usd_now": 9463.6,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5SCxuL1XP1PnyAiyW39p216sUCHqxKh7XsyGPCECCBUN": {
+      "mc_usd_now": 3282.91,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HFkCrABsnWrYdNvZhuhZXtVHnR2UqDMpXqdWqF8Jpump": {
+      "mc_usd_now": 9514.35,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8hgQVx73TFgdHNLdB6F1qhHGJMFo4NDgXxkjRfPRpump": {
+      "mc_usd_now": 3292.76,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FHe2PEW99XdAi2zqdWX19y3z7pjcMUFFs8tdAQ91pump": {
+      "mc_usd_now": 3282.92,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7U7BgMN8AxxPQrrCsEs4TPYA4tvsQfKMUsHEZQ2Cpump": {
+      "mc_usd_now": 3617.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "956vVpN3e2ybtUvqctnxYPAJgkwueuibRSdLcsNdpump": {
+      "mc_usd_now": 37467.67,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EqcvjPDc38HWgq4Km3GibZi8TZub5WdxBHmYCLZCpump": {
+      "mc_usd_now": 106.0,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GZFPdVhVTzpFbCDStngnsfQdhj8VBnB9FdhnHMoQpump": {
+      "mc_usd_now": 4962.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "5yAzcFhSeqVU6B8EVCJWjWgTLS7jtLHAj1crrgKBUrFv": {
+      "mc_usd_now": 3291.82,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8msB5A423EQDjptMXcyfUUaMcvzYTDyokZqgBD9Vpump": {
+      "mc_usd_now": 3282.6,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AW41jcHRqBDN2entVVXAL4CfPY5G12CbDgouikNYpump": {
+      "mc_usd_now": 3444.69,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CrGVkKMekjKF14q4hewDkZuJ6byWpnQ247RGjjoEpump": {
+      "mc_usd_now": 3315.41,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6KuhrsBidykju5vfbZrKrUsTboHsRJiNro1kqfh6pump": {
+      "mc_usd_now": 1.06,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3mziWr78JkP794A281NjFPxrgYGr3mEsYSBF6qjHpump": {
+      "mc_usd_now": 1284.44,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "B2Z3AQJhhnwige9noeijT37ZWh9VpN5HWT5cHvrHpump": {
+      "mc_usd_now": 57.75,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "MGremu8G3ev1YVNbnnSu8GYyrXY18Hv4bYWc2S4UHfb": {
+      "mc_usd_now": 3914.43,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9mk51VpbQq2e9GKdsCNdqMpDAFHVwLJ5QQLHMV2mS2qZ": {
+      "mc_usd_now": 823.79,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GFHdEM7feULmnZdHh7oBxRrMsLdKq1L3bCTuocBHpump": {
+      "mc_usd_now": 465.41,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "E6Lga7qBp2x5g3AJe6s6BmA1iRjsNDjAkaakgDiBpump": {
+      "mc_usd_now": 10689.19,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Gas2pN34NZVa6n49sELWoEqbieaM9anEyPRiB7Zapump": {
+      "mc_usd_now": 15698.4,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4YtWf5bSBdPwu36hworaePWMUCim1rXRoR7Mc6vq3bsi": {
+      "mc_usd_now": 3293.44,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "62FeF4s6HwFpndWvRTC3oUkuKENhecydSUsy6o5Bpump": {
+      "mc_usd_now": 6639.84,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HNDeS1YYeEpJuz1RbqQrfm8E4JMr4yGELEkAF2B5PTKQ": {
+      "mc_usd_now": 4054.25,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8LWAvAKBRMJYPAothgFASGxsRNKfPNj5id55aYkHpump": {
+      "mc_usd_now": 3280.45,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FEWuxmJD2Dv586YhW5qmxZC3crdqmWVqUxH81rSApump": {
+      "mc_usd_now": 9839.92,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3LP56Y26WPhdJdvf9hs55xBpBqM5s8mwMJQK5zQWnXD2": {
+      "mc_usd_now": 10478.19,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AYRTq6bfnNzWMY5ACWTRUtMCwV8PAhux3wm84q5mpump": {
+      "mc_usd_now": 17960.99,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "aUdskMmHJGwbhn9b4j8FqSj9NSEtJr7KQs7DMCspump": {
+      "mc_usd_now": 3279.59,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "46j44RJeAZVF6RJdoHnFU6jbPvum8ecG5v1Pq97bpump": {
+      "mc_usd_now": 20205.32,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "54HMXG5XvQMs7neqRaZdvzLKBwLN335koeegyHELpump": {
+      "mc_usd_now": 3306.08,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "JAMUHVkZ2td4kPmihRQ4SY3t6snbygg8evwfpMRRpump": {
+      "mc_usd_now": 8786.47,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ESL6XskVkUkjd2esa3KpyrdVmwiSeqx4rR4pjmANWCVc": {
+      "mc_usd_now": 3751.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Efzi5sfzyGqfLRdLq5FEH7wAHV5kXW67FjBGNMGRh5V8": {
+      "mc_usd_now": 3595.73,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8Qja1KfQ4UhjuTn4ALUd9g58x2TLQ8VyhX8ZGL9LAAxG": {
+      "mc_usd_now": 36.86,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CNwT9GExUEo44sbSUtDJsTE71xwEYHgiWsqVDFDHpump": {
+      "mc_usd_now": 3277.07,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8zRWuhGV5M8T8GvYCw5RHk65wwaY7EHwhvjpXty2pump": {
+      "mc_usd_now": 3277.14,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8CYVLTLBGoZCUTQzEKkBd4U5C2APAqvN1Jjd9Dcipump": {
+      "mc_usd_now": 1.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7xZfrFvj1KFgug7EHnLSrtxPVHaWqtg74Vh7JKX8pump": {
+      "mc_usd_now": 57280.2,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6dophAebuLKoE7LVuFYs78wHHwJuJ9pjnxFHZ3kTpump": {
+      "mc_usd_now": 3278.04,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GaP8F7TfgE6fM8a5ENaX2NGPujxmT5JH251CopKmpump": {
+      "mc_usd_now": 225.03,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5FC18x6NPbvjDMvMx1mXJfDQcg1aF3sgQpG1CpGLpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "6tauaLjwcz8f3qw9wjx4XkqQgHdQw1bTFZ8cqykppump": {
+      "mc_usd_now": 3277.07,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GWmJEbpbxpub3NFMzFF3Eu2vbgVBBHMshRVAGDh2pump": {
+      "mc_usd_now": 6128.23,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FdxoJu5FxdkumA5jwDh1kWEZ4Nx5R2GaDhJZGLkZpump": {
+      "mc_usd_now": 3356.15,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9XG1YDcg4pksTxk6jiTwXhiRkjCpMRMMERjMHo1xpump": {
+      "mc_usd_now": 3645.3,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GSyqeqQ61QwkPUB1gy5TKB2e2jfhuZnPFgjQESpJiiub": {
+      "mc_usd_now": 3277.4,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4YeF28Z6qpt1EG97USew7EupiL5UDLkdbMe8BCNXpump": {
+      "mc_usd_now": 9681.55,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4BpHyzUQRbvJLUsxFoPgrDyHRvxn9RLU1khtuKty1L5W": {
+      "mc_usd_now": 4266.58,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FoapcJpkbSMQ6RacH8p6RxCGrBt7oQv9fCdckXEpump": {
+      "mc_usd_now": 2258.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "FrdAwxwii4SLHGbDxm65oeAyHE5TxCP9WYSmuobT2Xg1": {
+      "mc_usd_now": 3268.97,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8Fix9aFAu3c3FmN8bw4Y8YuQVxQwoc3ZX1FfSUVbpump": {
+      "mc_usd_now": 251.17,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7XSxSYZWAndFhtCXexHBhmTm1Y1qsoPbwA9XtPBDpump": {
+      "mc_usd_now": 3277.22,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AQzXX96tWaXJD6eamyxv3F8raTfjPhr6aF6hA646pump": {
+      "mc_usd_now": 3390.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "DJzdvwTk9vPoZ4sfGHdB64XpRjMCoXz4usk87GTmpump": {
+      "mc_usd_now": 8710.44,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6VyyQ73u9i8QvdPKXQfgCrX9YuAZB95Gud89haFUpump": {
+      "mc_usd_now": 6823.0,
+      "dex_id": "meteora",
+      "n_pairs": 2
+    },
+    "D23tkEbKmdFPMNnfgNdCdPxsxGfCrS3nbXEVx2qKxCvQ": {
+      "mc_usd_now": 3292.8,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "hWjqgC3yuQrGHaE4QEvDJHazHFAHDsim2asVbqzyMeK": {
+      "mc_usd_now": 4499.67,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9qBHiLXpY4ZSn6Kg4uEgHSs6P2ag8BKeeQTzeGo6pump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "EwzsBXcxxWvKekaKdShMqLXwxsLC3s6tuMz15FJwpump": {
+      "mc_usd_now": 3269.0,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3K5E58jiYAe6Eqvj1v9U3zk2FRZwNunEt924rNxnpump": {
+      "mc_usd_now": 3269.06,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4vBrpPVM2pRnSMuz3yBBqUoCmGe28UextyyDWzyHJAWN": {
+      "mc_usd_now": 3919.53,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ET5WtxQW8ZUoAjtkSGc5KadCJQKPv1WtfjnjtB4Ypump": {
+      "mc_usd_now": 1556.47,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FJ17VqJXrhe7nr329h5P35bAoFmGdn8WD6WLTWeupump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "BE5ciZmcADAX78u2a1GrFiPMPC3rNXtdPGUrhzWB4k5d": {
+      "mc_usd_now": 5440.62,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "6tqoRTT1HMtEPapthWPihU68PywqsWZmFChyyGTNyRKT": {
+      "mc_usd_now": 3932.34,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CcaTXzYMbLJJhxWEUR1MHJ6PYsgjmjzsLqXSVtruHYeG": {
+      "mc_usd_now": 5760.46,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FB8WUxBy492D23J2JuYMeFLXpKju3F5qbArZyDdapBG4": {
+      "mc_usd_now": 3269.5,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "23ndnhpY2guJxNgtPMZt5ztVNJaufrRwdecbhja6pump": {
+      "mc_usd_now": 12623.45,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2bKMsf9qmdr969KsxFJn8FUwCoK3onBUZ1HgPxisnjcF": {
+      "mc_usd_now": 46172.11,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ThSzaci1gXCrGf7zqP1uFpFbfdBRrptRrdFCDLPDuED": {
+      "mc_usd_now": 3268.97,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HDAbLJoTGXHxXrXUHw2CmHxDxA28FdzD6tCbeTAupump": {
+      "mc_usd_now": 9174.04,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8odXgCDjXf4cWLVufsfdAR38sAMebiSbjRissc4ypump": {
+      "mc_usd_now": 3277.45,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8aDKatdzUJHKMgTLi78vEoijMbpYPNqWUzT5vSwSpump": {
+      "mc_usd_now": 11145.44,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3MzpDV9pEVnqUpHDvytA3AGiDbrynNPRjyKyz2jyBZe3": {
+      "mc_usd_now": 6192.0,
+      "dex_id": "meteora",
+      "n_pairs": 2
+    },
+    "FfGSQY26D11rfWaGaz3NaFbmW7kr1FwKiBpVC35WuGRW": {
+      "mc_usd_now": 29857.75,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "shUWdk1c3oCd76a68Ek1LtzNt37tZzfxG2dYuq3brzQ": {
+      "mc_usd_now": 3276.25,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8JknxKhSbjndEnqyZNZghi9jitTbZfKXHzsjQRvRpump": {
+      "mc_usd_now": 8154.69,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Cs67CvNdyBUdkFnYfCeDR6yaTtmPVHcb2NcWBCLxpump": {
+      "mc_usd_now": 9221.34,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FF3VTBX14WNPEBYnr8Nfcuq8RuGr3ZuQhLcke9hqpump": {
+      "mc_usd_now": 6455.36,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GkgcCZ5zw61noBYRZdTHv2HwHuepi8jqwQsJj9DBEMMA": {
+      "mc_usd_now": 7324.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "5XiKDFQv7vzsHG1Hx8VTPz3PMRqjRRsyLB634NNkpump": {
+      "mc_usd_now": 4193.77,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BDRnR47EFHPPThAoEeWq5sXT8RK2cohHsLJFHJ5Xpump": {
+      "mc_usd_now": null,
+      "dex_id": null,
+      "n_pairs": 0
+    },
+    "Efbf2KQq6siJEgqwqaXckLZS5wqhV85Pfzk1PXzipump": {
+      "mc_usd_now": 3275.88,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AGgf17FMP3qmuaee3LtF8KkZHTPkAYhbikLiLsGjpump": {
+      "mc_usd_now": 10132.5,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr": {
+      "mc_usd_now": 469502.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 3
+    },
+    "ASbDh9SmGTs7Q8omv2PfQNoEWPNc8AKdtzfQ1cS5pump": {
+      "mc_usd_now": 440.64,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8qDsgGbvW6WqTXYHEj6xXUXKo4HnxCrzsB9UXHjapump": {
+      "mc_usd_now": 119485.51,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "qCJDE58kt6UK5gEGVy9TBKUrv3iM84Q2okv13Wopump": {
+      "mc_usd_now": 3277.45,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5rAke7MMtTyWnZspNX6mm9TRoSyoVRYBDpZ7pEqSpump": {
+      "mc_usd_now": 3278.83,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7R6a3LTAFEVYYYVKVssuQG1bsYkrDp17YqMbq5gApump": {
+      "mc_usd_now": 3300.59,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8Zq1eX245SdckD8e5W6Eu33pJDppfrH2WgNxr7M7pump": {
+      "mc_usd_now": 22044.2,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3pF8GTTNkN12CYzLqMJKXLgoN9a2iADtUacYmdespump": {
+      "mc_usd_now": 8324.3,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GNjqMev8vYBieL9GXqW18ze6oGGjqKf1T8pjRtXZpump": {
+      "mc_usd_now": 10715.39,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "A4VEVJchzfEvYzzCEuSGJLSwe1wcBjwNxHADhVGtxz6T": {
+      "mc_usd_now": 3282.94,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HDb7bu85KXwVnZcYyUSH3An8CtuNm2iFcD3yQhseaPo6": {
+      "mc_usd_now": 3853.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "3tjdX4mBbtZhcMfeoAxzzGWf4pSsCQNHSBCgvbWyK6qM": {
+      "mc_usd_now": 243.92,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4dKAfQbJFkgAjqcLsJ59o481HJFGxmuQnCbr3LWSpump": {
+      "mc_usd_now": 21727.73,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2M8tzJ1XRUPkH6JEdYmMZXbRFvj2aL6YPbiR78aepump": {
+      "mc_usd_now": 175.66,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2QRScckzpkmXWiBGmVMGAsVqRZp4o2Tiux8BNd8vpump": {
+      "mc_usd_now": 15772.83,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CQdhyfZsnf5cmaAsG1ku27e26YJxiU66uayHYCTerubB": {
+      "mc_usd_now": 3286.72,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DxGSWzKuaVfVLDVsVQPEsMJ4YDYqcQZRqnkxSmEfpump": {
+      "mc_usd_now": 3462.17,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5ARbuZz3WeGYwN2eMHxPyVtQX6NHn8yz9hD9eLYKpump": {
+      "mc_usd_now": 3282.21,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "FEVYjz1uqrGxF5gUfbAb7hHUTGFv7hycLWywsanJtLhm": {
+      "mc_usd_now": 64999.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "CFQ8PbgMLjiJcAn2csN2Y6iNZ9m9Bj1eekV1m91jpump": {
+      "mc_usd_now": 3274.84,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AMaDaFUTjGzYC7RCCDCVrnw9VuWqzunKcvWitt7Uxgae": {
+      "mc_usd_now": 3325.31,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "A9bJGYCoqcZKfFrNFPWAotde4NTRTwWVSm2v1fW4pump": {
+      "mc_usd_now": 16946.41,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GWgpivt6XAEBZX1DwHp6LVcuh9yTRS6BvUU8iKV3pump": {
+      "mc_usd_now": 3274.84,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "A6K4w4mhr89JNcusE5CH4JPm6r9RTQz9dBafZsnbpump": {
+      "mc_usd_now": 3274.84,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "fjVWpyBN46mnSieidn9YZE3amJCaT4WNMn8HPXPgvaz": {
+      "mc_usd_now": 5045.0,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HUmhmsYecH6yigRmHaWiW5pgMVKPqCiA8CDmvNo7pump": {
+      "mc_usd_now": 3270.65,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8r4CidjcbUiBnZTnCwkMKQf6bWm8tPaTEAss9YyJpump": {
+      "mc_usd_now": 16.78,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8jtn6enDg9CsDmbET2EtcG5vn3jjuCSaAM4Q9GXPpump": {
+      "mc_usd_now": 17217.27,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "TFkFbmgAS1KSxo2HvBNcdwUES8mkVwdfybNSFZ5nJFi": {
+      "mc_usd_now": 3271.17,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9BGdPx5tGonwk2eZ7QmbGesSe3VgswpeS5Qw5jvHn82y": {
+      "mc_usd_now": 10066.41,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EwtmCHqQjcrsGrQ5Kh3e2TpGDYeAhWvAeSM86uWfpump": {
+      "mc_usd_now": 3275.8,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AjfDpPAZwoeqiZ4UMkq9oHNVzxVRCg1JWTPwspoApump": {
+      "mc_usd_now": 3797.75,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9QZuDkTXzezQRd4o6C1LvTcNKEyY7aFw2yx19rq5pump": {
+      "mc_usd_now": 18466.1,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5x3agEE3e7RAz4q6VuFWKnbPMPpKRTzcDvkAtBi9pump": {
+      "mc_usd_now": 12394.17,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7mRXUrW3G4iMAy1xo4TJ9vxeapSnGjH5KZyfjqpAURLK": {
+      "mc_usd_now": 12052.45,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3Khsi3sG2LvXekSfpft327tRp6MgDHTiUJAziFMWp8V4": {
+      "mc_usd_now": 3271.17,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4bhSHvye9L78akvfKLkn4wwPtQyQntCGzCsFJkChpump": {
+      "mc_usd_now": 1582.58,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AnVHNrUcY488gcoDFbjrU9B2uQ5vdzhugCFtpvgpump": {
+      "mc_usd_now": 3353.32,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3ZRkrhccdveXHFWmsY9FtRM31rb8fZ7FtGBUKdRrpump": {
+      "mc_usd_now": 18345.08,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "BiZf2V1fCMB9PiFYumati1wE5Y4ozhQ3EaoRGQ1mpump": {
+      "mc_usd_now": 9099.83,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Aw2psWgH56k7J7zApum2fqmShnkv6eU5Ab5tN149pump": {
+      "mc_usd_now": 8569.85,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GiMjG2FiDSuKX54MNhcyEt1WfTAV95e45CWxWttQpump": {
+      "mc_usd_now": 7273.0,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9MwVJ7z1SYDutK4hNwhc7kY4ExN3pHMab29Sw6rxpump": {
+      "mc_usd_now": 14824.08,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "EgKsAJh5PHhFKFQUPtmrkARFbZFuxDYWk3JJXQwwpump": {
+      "mc_usd_now": 3483.67,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "AWK5SeEsmcpQzjGy6Aw4ZFumW2MGqcsPQjm3XX1Ppump": {
+      "mc_usd_now": 6460.02,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2VCDoeSZ9znyhpdm5w1Pgcn2MJHLzr7QR1cXS7r4pump": {
+      "mc_usd_now": 10530.66,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "HJ88bA3HJKgKfDUWEoTqTvvhMng5E6RSAMjwTetCvibe": {
+      "mc_usd_now": 12515.0,
+      "dex_id": "pumpswap",
+      "n_pairs": 1
+    },
+    "J776UvvRX1czcKkz6osVUwFGoFCkM34pBu8a3j2upump": {
+      "mc_usd_now": 12911.16,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9EbfLo27HKGE1ug7diywe9rzoBXPVg1BhE3Cb6G4j4n1": {
+      "mc_usd_now": 3949.33,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "3ACU3rQpggGAhCpJUtVsXsR2hZt1Y51hk3L8ouJQPcxB": {
+      "mc_usd_now": 3278.77,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "E8BPY9tup66xWNJZsywoBBYZaUFUWTqJVfnu2266pump": {
+      "mc_usd_now": 17344.69,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5VJBb3KmFTmJR14cirABh65AJdE493UUjpoGMxZzpump": {
+      "mc_usd_now": 3274.82,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "M6ZKEEQ7TUfqQsfpuRj1a7jTMGKEUBJsbu6KH2rpump": {
+      "mc_usd_now": 15989.46,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "ukWSz1Bx9ZPeQCU5UcFmP1nuVuDw1YRXNkxEphRmHj4": {
+      "mc_usd_now": 8577.34,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "84pFS7hTq2sSPw3br1FG8qyZK2wHcTZSKgLh8cmpump": {
+      "mc_usd_now": 8957.02,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "8kxP2yR1xfSPSzGZXUBD1X6caK4FRmk86qzePiJ4pump": {
+      "mc_usd_now": 11770.88,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "69FGNLpzZSbisaAKJyHuH6MeowL5uJw4Ff8foMRSpump": {
+      "mc_usd_now": 13356.93,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4WXR7ks97XP8wLkv1t8osxdkPpbK3vUSnx7TR8g4p43W": {
+      "mc_usd_now": 7334.47,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "C812tXWmzQc6LsYJqJQTRWY3A2r924ZCXbWkSshnpump": {
+      "mc_usd_now": 8015.41,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5zeJAnx9bgm7X4vGZ3W2mPQy7KGq7s5M6YfGhBtspump": {
+      "mc_usd_now": 14837.59,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "Xz9C4gFpg1KbKt3XyBQeitF6izDVDns68mynEM9pump": {
+      "mc_usd_now": 7223.3,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2RBeNCvQm3oMadC5RTtAnSVvkQJef9JBir4ZzZ9CeHrr": {
+      "mc_usd_now": 3905.13,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "7ek8TowPip3uMGPrmoBgZGqEJd1PhqMvLnGxQRNHahHA": {
+      "mc_usd_now": 13800.37,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "CShQJqVQ4D2QMyKCnLprd345AaUk1bVpioEoQ67wpump": {
+      "mc_usd_now": 3296.16,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "44KN3YX5YterGP4eDNqhqgTYDh5B7Lp95j5o9Cobpump": {
+      "mc_usd_now": 6499.84,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "DzaAHNBCLhPEeQHXrL2pQh9NDCdDiD4egveA3i1xbVrZ": {
+      "mc_usd_now": 4048.87,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "A5dBAVxrZdZh2R8gH8wkhhq52K6UKHF2bfB22uEF6Za9": {
+      "mc_usd_now": 9686.51,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "2yK8sAGi7PkkSKgcp75M6sy4svF27Es5tud8BHycpump": {
+      "mc_usd_now": 8490.24,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5VsQFS1nhZsLVBkwqYtRxvNAsF4Y9pTjZ2uFsf4Upump": {
+      "mc_usd_now": 6944.59,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "4dSa4vQXYgTverV3EQa7vMpfvGri5fcuKxzJ4pECpump": {
+      "mc_usd_now": 16979.63,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "9yLsqwtAG36FZztJASpyZUNNfJnJgmfTZZEZRXzipump": {
+      "mc_usd_now": 10299.44,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "GULoSAoTe6VMN89iQy7seGsRwUehtLz9uVVW569tpump": {
+      "mc_usd_now": 8929.77,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "5Heq1xjFjuNBuAEAEhbUChgM2Q6AaTTNmVEDVqEpump": {
+      "mc_usd_now": 14822.81,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    },
+    "C5GD3wApUNSDRG1e6douRLM2DB9qQ4VAYxtBLsLDpump": {
+      "mc_usd_now": 8884.74,
+      "dex_id": "pumpfun",
+      "n_pairs": 1
+    }
+  }
+}

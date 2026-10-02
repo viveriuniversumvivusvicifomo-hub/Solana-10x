@@ -1,0 +1,142 @@
+{
+  "sample_n": 60,
+  "bands": {
+    "high_ge0.99": 40,
+    "mid_~0.5": 10,
+    "low_~0.1": 10
+  },
+  "train_rescore_abs_delta_median_all": 0.00014122307125656467,
+  "train_rescore_abs_delta_median_last_fold_oos": 6.938893903907227e-17,
+  "train_rescore_abs_delta_median_earlier_folds": 0.00851193953784,
+  "helius_robust_high": [
+    {
+      "oos_score": 0.9994911956626782,
+      "live_rebuild_score": 0.7708935194330041,
+      "delta_oos_minus_live": 0.228597676229674,
+      "buy_vol_live": 9995.69007911707,
+      "n_trades_pre_t0": 1
+    },
+    {
+      "oos_score": 0.9998178426097192,
+      "live_rebuild_score": 0.7752892451518998,
+      "delta_oos_minus_live": 0.2245285974578194,
+      "buy_vol_live": 9995.69007911707,
+      "n_trades_pre_t0": 1
+    },
+    {
+      "oos_score": 0.9998456806403022,
+      "live_rebuild_score": 0.6301607317415002,
+      "delta_oos_minus_live": 0.369684948898802,
+      "buy_vol_live": 9995.69007911707,
+      "n_trades_pre_t0": 1
+    }
+  ],
+  "helius_pct_high_ge": {
+    "0.99": 0.0,
+    "0.89": 0.0,
+    "0.5": 1.0
+  },
+  "live_journal": {
+    "live_n_complete_histgb": 804,
+    "live_score_max": 0.9259144462606774,
+    "live_score_median": 0.10633066542304674,
+    "live_pct_ge_0.99": 0.0,
+    "live_pct_ge_0.89": 0.0012437810945273632,
+    "train_hi_n": 4959,
+    "train_hi_buy60_median": 59145.52088962301,
+    "live_buy60_median": 183.0382894662437,
+    "train_hi_age_s_median": 0.0,
+    "live_age_s_median": 44.7268205,
+    "train_hi_sniper5_median": 1.0,
+    "live_sniper5_median": 0.5055155423907803
+  },
+  "perturbation": [
+    {
+      "scenario": "base_train_store",
+      "n": 40,
+      "median": 0.9998052145221236,
+      "mean": 0.9984469754096728,
+      "max": 0.99985275449228,
+      "pct_ge_0.99": 0.925,
+      "pct_ge_0.89": 1.0,
+      "pct_ge_0.5": 1.0,
+      "median_delta_from_base": 0.0
+    },
+    {
+      "scenario": "late_sight_age",
+      "n": 40,
+      "median": 0.9997113307967922,
+      "mean": 0.9982566434168098,
+      "max": 0.9997817793296936,
+      "pct_ge_0.99": 0.925,
+      "pct_ge_0.89": 1.0,
+      "pct_ge_0.5": 1.0,
+      "median_delta_from_base": -9.388372533136736e-05
+    },
+    {
+      "scenario": "no_sniper_share",
+      "n": 40,
+      "median": 0.999676740730644,
+      "mean": 0.9983042210896104,
+      "max": 0.999750249477848,
+      "pct_ge_0.99": 0.925,
+      "pct_ge_0.89": 1.0,
+      "pct_ge_0.5": 1.0,
+      "median_delta_from_base": -0.0001234309385794
+    },
+    {
+      "scenario": "buy60_to_live_median",
+      "n": 40,
+      "median": 0.952667286086623,
+      "mean": 0.9050794104229996,
+      "max": 0.9623672102812348,
+      "pct_ge_0.99": 0.0,
+      "pct_ge_0.89": 0.85,
+      "pct_ge_0.5": 0.975,
+      "median_delta_from_base": -0.0471468082884213
+    },
+    {
+      "scenario": "curve_to_live_median",
+      "n": 40,
+      "median": 0.9995964354143878,
+      "mean": 0.9965554897319064,
+      "max": 0.999646173287948,
+      "pct_ge_0.99": 0.875,
+      "pct_ge_0.89": 1.0,
+      "pct_ge_0.5": 1.0,
+      "median_delta_from_base": -0.0002218488805637
+    },
+    {
+      "scenario": "live_typical_combo",
+      "n": 40,
+      "median": 0.3475185471558942,
+      "mean": 0.313450250363546,
+      "max": 0.4426500178493667,
+      "pct_ge_0.99": 0.0,
+      "pct_ge_0.89": 0.0,
+      "pct_ge_0.5": 0.0,
+      "median_delta_from_base": -0.6522908872255342
+    },
+    {
+      "scenario": "q5a_all_nan",
+      "n": 40,
+      "median": 0.9975936086044812,
+      "mean": 0.9957966571758258,
+      "max": 0.9978069276535214,
+      "pct_ge_0.99": 0.925,
+      "pct_ge_0.89": 1.0,
+      "pct_ge_0.5": 1.0,
+      "median_delta_from_base": -0.0022116059176423
+    }
+  ],
+  "scale_isolation_means": {
+    "oos": 0.9997182396375667,
+    "train_store": 0.9997182396375667,
+    "live_rebuild_full": 0.7254478321088014,
+    "only_buy60_to_live": 0.9726934505693148,
+    "scale_all_usd_by_buy60_ratio": 0.8634083278357171,
+    "overlay_key_live_deltas": 0.9554517123817915
+  },
+  "verdict_live_features_collapse_scores": true,
+  "verdict_detail": "YES \u2014 for OOS histgb_q5b top scores, Helius\u2264T0 rebuild drops ~0.999\u2192~0.63\u20130.78 (0% stay \u22650.99 / \u22650.89). Causes: (1) incomplete Enhanced trade recovery historically (often 1 pre-T0 trade vs Dune 5\u20137); (2) Dune USD volumes inflated ~6\u20137\u00d7 vs SOL*oracle; (3) live journal population is non-sniper (buy60 med ~183 vs train-hi ~59k). Joblib+train-store parity OK on last fold (delta\u22480)."
+}

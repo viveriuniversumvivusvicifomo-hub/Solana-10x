@@ -1,0 +1,220 @@
+{
+  "live_target": {
+    "source": "q5a_trades",
+    "n_used": 212,
+    "medians": {
+      "unique_sellers_total": 15.5,
+      "net_sol_curve": 14.098079712500002,
+      "sell_vol_usd_30s": 907.069814385298,
+      "sell_vol_usd_total": 1875.740007979329,
+      "buy_vol_usd_60s": 2342.44587396152,
+      "n_trades_pre_t0": 95.0
+    }
+  }
+}
+{
+  "universe": {
+    "n_scale": 2800,
+    "n_extra_pos": 2500,
+    "n_extra_neg": 800,
+    "n_universe": 6100,
+    "n_pos_expand": 4100,
+    "n_neg_expand": 2000,
+    "seed": 42,
+    "n_extra_pos_requested": 2500,
+    "n_extra_neg_requested": 800
+  }
+}
+{"recon_progress": 200, "n_cache_hit": 200}
+{"recon_progress": 400, "n_cache_hit": 400}
+{"recon_progress": 600, "n_cache_hit": 600}
+{"recon_progress": 800, "n_cache_hit": 799}
+{"recon_progress": 1000, "n_cache_hit": 999}
+{"recon_progress": 1200, "n_cache_hit": 1131}
+{"recon_progress": 1400, "n_cache_hit": 1131}
+{"recon_progress": 1600, "n_cache_hit": 1131}
+{"recon_progress": 1800, "n_cache_hit": 1131}
+{"recon_progress": 2000, "n_cache_hit": 1131}
+{"recon_progress": 2200, "n_cache_hit": 1131}
+{"recon_progress": 2400, "n_cache_hit": 1131}
+{"recon_progress": 2600, "n_cache_hit": 1131}
+{"recon_progress": 2800, "n_cache_hit": 1131}
+{"recon_progress": 3000, "n_cache_hit": 1131}
+{"recon_progress": 3200, "n_cache_hit": 1131}
+{"recon_progress": 3400, "n_cache_hit": 1131}
+{"recon_progress": 3600, "n_cache_hit": 1131}
+{"recon_progress": 3800, "n_cache_hit": 1131}
+{"recon_progress": 4000, "n_cache_hit": 1131}
+{"recon_progress": 4200, "n_cache_hit": 1131}
+{"recon_progress": 4400, "n_cache_hit": 1131}
+{"recon_progress": 4600, "n_cache_hit": 1131}
+{"recon_progress": 4800, "n_cache_hit": 1131}
+{"recon_progress": 5000, "n_cache_hit": 1131}
+{"recon_progress": 5200, "n_cache_hit": 1131}
+{"recon_progress": 5400, "n_cache_hit": 1131}
+{"recon_progress": 5600, "n_cache_hit": 1131}
+{"recon_progress": 5800, "n_cache_hit": 1131}
+{"recon_progress": 6000, "n_cache_hit": 1131}
+{
+  "kind": "pump_path_a_livelike_build",
+  "generated_at": "2026-10-02T13:47:56+02:00",
+  "t0_policy": "pump_mc_band_from_trades_v1",
+  "t0_definition": "pump_mc_band_sighting_v1",
+  "expand_create_proxy": false,
+  "dune_api_calls": 0,
+  "lite": false,
+  "usd_scale": false,
+  "live_target_path": "/workspace/solana-10x/cycle0/npz/pump_livelike_live_target_20261002.json",
+  "live_target_source": "q5a_trades",
+  "live_target_n": 212,
+  "universe": {
+    "n_scale": 2800,
+    "n_extra_pos": 2500,
+    "n_extra_neg": 800,
+    "n_universe": 6100,
+    "n_pos_expand": 4100,
+    "n_neg_expand": 2000,
+    "seed": 42,
+    "n_extra_pos_requested": 2500,
+    "n_extra_neg_requested": 800
+  },
+  "fetch": {
+    "skipped": true
+  },
+  "n_cache_hit": 1131,
+  "n_matrix": 6100,
+  "n_reconstructable": 748,
+  "n_livelike_hard_ok": 451,
+  "n_livelike_soft_ok": 333,
+  "n_livelike_ok": 333,
+  "n_usable_wf": 444,
+  "n_pos_usable": 55,
+  "n_neg_usable": 389,
+  "label_rate_usable": 0.12387387387387387,
+  "fallback_hard_only": true,
+  "soft_dist_max": 2.5,
+  "min_usable": 400,
+  "target_usable": 800,
+  "geometry_pos_neg_vs_live": {
+    "unique_sellers_total": {
+      "live_med": 15.5,
+      "pos_med": 4.0,
+      "neg_med": 3.0,
+      "pos_n": 55
+    },
+    "net_sol_curve": {
+      "live_med": 14.098079712500002,
+      "pos_med": 0.419888819,
+      "neg_med": 1.8296808230000001,
+      "pos_n": 55
+    },
+    "sell_vol_usd_30s": {
+      "live_med": 907.069814385298,
+      "pos_med": 77.96647865513631,
+      "neg_med": 68.60987748928275,
+      "pos_n": 55
+    },
+    "sell_vol_usd_total": {
+      "live_med": 1875.740007979329,
+      "pos_med": 154.03925394559272,
+      "neg_med": 111.07398650749913,
+      "pos_n": 55
+    },
+    "buy_vol_usd_60s": {
+      "live_med": 2342.44587396152,
+      "pos_med": 135.03567581261842,
+      "neg_med": 481.95312666408006,
+      "pos_n": 55
+    },
+    "n_trades_pre_t0": {
+      "live_med": 95.0,
+      "pos_med": 40.0,
+      "neg_med": 31.0,
+      "pos_n": 55
+    },
+    "progress_curve_proxy": {
+      "live_med": 0.16585976132352945,
+      "pos_med": 0.0049398684588235296,
+      "neg_med": 0.02152565674117647,
+      "pos_n": 55
+    },
+    "age_proxy_s": {
+      "live_med": 33.326269,
+      "pos_med": 21.0,
+      "neg_med": 17.0,
+      "pos_n": 55
+    }
+  },
+  "hard_reject": {
+    "unique_sellers_total": [
+      null,
+      100.0
+    ],
+    "net_sol_curve": [
+      -20.0,
+      null
+    ],
+    "sell_vol_usd_30s": [
+      null,
+      15000.0
+    ],
+    "sell_vol_usd_total": [
+      null,
+      25000.0
+    ],
+    "n_trades_pre_t0": [
+      5.0,
+      450.0
+    ],
+    "age_proxy_s": [
+      null,
+      3600.0
+    ]
+  },
+  "soft_bands": {
+    "unique_sellers_total": [
+      1.0,
+      90.0
+    ],
+    "net_sol_curve": [
+      -5.0,
+      45.0
+    ],
+    "sell_vol_usd_30s": [
+      0.0,
+      12000.0
+    ],
+    "sell_vol_usd_total": [
+      0.0,
+      15000.0
+    ],
+    "buy_vol_usd_60s": [
+      20.0,
+      20000.0
+    ],
+    "age_proxy_s": [
+      0.0,
+      2000.0
+    ],
+    "progress_curve_proxy": [
+      0.0,
+      0.6
+    ],
+    "n_trades_pre_t0": [
+      10.0,
+      350.0
+    ],
+    "unique_buyers_total": [
+      2.0,
+      180.0
+    ]
+  },
+  "paths": {
+    "matrix": "/workspace/solana-10x/data/samples/features_pump_path_a_livelike_20261002.csv",
+    "usable": "/workspace/solana-10x/data/samples/pump_livelike_usable_20261002.csv",
+    "universe": "/workspace/solana-10x/data/samples/pump_livelike_universe_20261002.csv",
+    "live_target": "/workspace/solana-10x/cycle0/npz/pump_livelike_live_target_20261002.json"
+  },
+  "coverage_note": "usable=444 (target\u2265800, min\u2265400); HTTP-capped; not full 82k expand",
+  "abort_toward_82k": true
+}

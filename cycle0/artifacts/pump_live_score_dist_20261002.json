@@ -1,0 +1,42 @@
+{
+  "skip_taxonomy": {
+    "window_start_utc": "2026-10-02T06:30:00+00:00",
+    "window_label": "CEST = UTC+2; live restart ~08:30 CEST",
+    "n_sightings": 35,
+    "modes": {
+      "skip_prior_not_train": 31,
+      "skip_capture_not_scoreable": 4
+    },
+    "n_scoreable": 31,
+    "buy_vol_gt0": 26,
+    "buy_vol_null": 0,
+    "usd_scale_enabled": false,
+    "dominant_blocker": "skip_prior_not_train (creator_prior_source missing / not dune_cohort_*)"
+  },
+  "scores": {
+    "as_logged_pump_priors": {
+      "n": 31,
+      "min": 0.021382719180032088,
+      "p50": 0.15999859393013866,
+      "p90": 0.3342068130145322,
+      "p95": 0.40554058138408505,
+      "max": 0.5320212721596632,
+      "n_ge_0.9": 0,
+      "n_ge_0.99": 0
+    },
+    "with_dune_recompute_or_zero": {
+      "n": 31,
+      "min": 0.03089700855520033,
+      "p50": 0.16498326234061586,
+      "p90": 0.3342068130145322,
+      "p95": 0.40554058138408505,
+      "max": 0.5320212721596632,
+      "n_ge_0.9": 0,
+      "n_ge_0.99": 0
+    },
+    "mean_abs_delta_prior_swap": 0.009304680370709235,
+    "thr_live_cli": 0.9,
+    "thr_config_file": 0.99,
+    "verdict": "NO live score reaches 0.9 even if prior gate opened; thr cut alone insufficient"
+  }
+}

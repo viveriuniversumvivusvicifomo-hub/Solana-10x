@@ -1,0 +1,4 @@
+parity n=12 fail_targets=['4M3gYZ2dQ39KuBuJYVmQi5qrtFfMpMWHpJhhx7Wapump', 'BZofTtkyrBM2EDdRBN6GCavdWvxd61xbLTVFnoPgpump']
+[1/12] 69xneXbByUnx… fail=False prior_n=2
+  → trades=1 txs_le=2 dump=2 le_false=0 improved=None mode=enhanced_pre_t0
+[2/12] BZofTtkyrBM2… fail=True prior_n=1

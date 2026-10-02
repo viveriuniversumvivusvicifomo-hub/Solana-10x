@@ -1,0 +1,328 @@
+{
+  "done": {
+    "yxrnNHSC1QFHG9c9Q79wXkesQPQD7ZR3re6cRr1pump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/yxrnNHSC1QFHG9c9Q79wXkesQPQD7ZR3re6cRr1pump.json"
+    },
+    "9ApS1vkNYMrdSibKoCud7gYX99soSBe9KHjoBWhDpump": {
+      "ok": true,
+      "found_band": false,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/9ApS1vkNYMrdSibKoCud7gYX99soSBe9KHjoBWhDpump.json"
+    },
+    "FLViWWJxGFcmA2XBeuE7ZHAtcg832GZH69yT5p1Bpump": {
+      "ok": true,
+      "found_band": false,
+      "n_raw": 0,
+      "n_pages": 1,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/FLViWWJxGFcmA2XBeuE7ZHAtcg832GZH69yT5p1Bpump.json"
+    },
+    "m3CJWGm6Vkpdf1aEEtmyLbvBAbvYU1Qj97xfxXdpump": {
+      "ok": true,
+      "found_band": false,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/m3CJWGm6Vkpdf1aEEtmyLbvBAbvYU1Qj97xfxXdpump.json"
+    },
+    "D9dyVQzMUG1VEJ423FBZJjE8s7y7t5GLwzTY26pPpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/D9dyVQzMUG1VEJ423FBZJjE8s7y7t5GLwzTY26pPpump.json"
+    },
+    "N8R71WeXN5iLyVRNJTTRgTCvsLnkbRVNVHBZsbcpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 1800,
+      "n_pages": 18,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/N8R71WeXN5iLyVRNJTTRgTCvsLnkbRVNVHBZsbcpump.json"
+    },
+    "cdi9a3qxxL6oh4hT41VRVmkg3sL3v8jHSAXs78upump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/cdi9a3qxxL6oh4hT41VRVmkg3sL3v8jHSAXs78upump.json"
+    },
+    "CDcm7bqj6rvienyKL3wrK8eDyjVSaKpGtQ5c9ZVpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/CDcm7bqj6rvienyKL3wrK8eDyjVSaKpGtQ5c9ZVpump.json"
+    },
+    "CSDiAUUUuUbqizvSrMzbaEhsw9FKJNX3coxoA4Aupump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 300,
+      "n_pages": 3,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/CSDiAUUUuUbqizvSrMzbaEhsw9FKJNX3coxoA4Aupump.json"
+    },
+    "E6GPEDbtSvnxCVma1BoYM7QSbe1oZWzFrG1ciSoVpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 2,
+      "n_pages": 1,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/E6GPEDbtSvnxCVma1BoYM7QSbe1oZWzFrG1ciSoVpump.json"
+    },
+    "HGrQWPtumcS3wLrZm36VZ2r66gf46ndCwqAJntLCpump": {
+      "ok": true,
+      "found_band": false,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/HGrQWPtumcS3wLrZm36VZ2r66gf46ndCwqAJntLCpump.json"
+    },
+    "ZEUdfXDoAbYBqfssKvXBLinPN46EWQvdRJKbXw7pump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 3600,
+      "n_pages": 36,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/ZEUdfXDoAbYBqfssKvXBLinPN46EWQvdRJKbXw7pump.json"
+    },
+    "otsy54Ji8vPqkBEQudeEeTApm69juBvgVctNjBXpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 2900,
+      "n_pages": 29,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/otsy54Ji8vPqkBEQudeEeTApm69juBvgVctNjBXpump.json"
+    },
+    "CKVeBWhdc1AFeUyxECaWhtnm1wb69sns573P1gADpump": {
+      "ok": true,
+      "found_band": false,
+      "n_raw": 0,
+      "n_pages": 1,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/CKVeBWhdc1AFeUyxECaWhtnm1wb69sns573P1gADpump.json"
+    },
+    "6qHAAXJwd4DhMg4fFARfyBacEEhnWgxYZk3o1RBpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/6qHAAXJwd4DhMg4fFARfyBacEEhnWgxYZk3o1RBpump.json"
+    },
+    "E9FASb6hdHBedGCiJ3KzzBmCirK1G8VfAHHBq2AKpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 2817,
+      "n_pages": 29,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/E9FASb6hdHBedGCiJ3KzzBmCirK1G8VfAHHBq2AKpump.json"
+    },
+    "W6xc3FqcYg6WkSxGdfivuefqB8wRNWSjxkbGTUypump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 1600,
+      "n_pages": 16,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/W6xc3FqcYg6WkSxGdfivuefqB8wRNWSjxkbGTUypump.json"
+    },
+    "AgbvmC9qR6KRZFq85MnKjyXunA1xhWCKy74xwZ9hpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/AgbvmC9qR6KRZFq85MnKjyXunA1xhWCKy74xwZ9hpump.json"
+    },
+    "HWEuJksipJLkD4BAqTAPzqReJx7cbdQ2zK6CP6apump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/HWEuJksipJLkD4BAqTAPzqReJx7cbdQ2zK6CP6apump.json"
+    },
+    "ovoXgMXD4bAQ1CAAGo8q7uJ15CLjRpiBG42b5NHpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 1700,
+      "n_pages": 17,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/ovoXgMXD4bAQ1CAAGo8q7uJ15CLjRpiBG42b5NHpump.json"
+    },
+    "AfLxiH5t1AN1hpzx3oM1a6sUkjkGx4iRsDR89oVwpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/AfLxiH5t1AN1hpzx3oM1a6sUkjkGx4iRsDR89oVwpump.json"
+    },
+    "4uoQWRzcxVyn6Gmh4Lrv1DgabvSRhJCjtGZdEcHjpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/4uoQWRzcxVyn6Gmh4Lrv1DgabvSRhJCjtGZdEcHjpump.json"
+    },
+    "1433zgjkzqhtsCCkFsyH3im2oJYbC6GAqQ7vJQrPpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/1433zgjkzqhtsCCkFsyH3im2oJYbC6GAqQ7vJQrPpump.json"
+    },
+    "AJZ2JEENMeg3RJs2dZgiHhdyBuyHjA7TRD61S3Zpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/AJZ2JEENMeg3RJs2dZgiHhdyBuyHjA7TRD61S3Zpump.json"
+    },
+    "zcxuKMg3c5etRuSBib1cNfZgBKnQCrcUkq9mNZCpump": {
+      "ok": true,
+      "found_band": false,
+      "n_raw": 453,
+      "n_pages": 5,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/zcxuKMg3c5etRuSBib1cNfZgBKnQCrcUkq9mNZCpump.json"
+    },
+    "F397phLLZfSkGpBeYiBJRqeY7RSYJQwDUb7tRhLxpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/F397phLLZfSkGpBeYiBJRqeY7RSYJQwDUb7tRhLxpump.json"
+    },
+    "7fYHntQP8hCTBp8kyNMFE26vsiuPtpSNcVy124dXpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/7fYHntQP8hCTBp8kyNMFE26vsiuPtpSNcVy124dXpump.json"
+    },
+    "FbgqZVKddZUSPZH1zZy1xfeRXeiDCG4W9L3Krngupump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 600,
+      "n_pages": 6,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/FbgqZVKddZUSPZH1zZy1xfeRXeiDCG4W9L3Krngupump.json"
+    },
+    "A7unMMWMB8ZBaT6u7F418XWw3k9LPxPnbCgNeAAjpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 1779,
+      "n_pages": 18,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/A7unMMWMB8ZBaT6u7F418XWw3k9LPxPnbCgNeAAjpump.json"
+    },
+    "6P7oMkBmEnq5jsMLZr366BegQQdeFbzxX6P3Njmpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 2100,
+      "n_pages": 21,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/6P7oMkBmEnq5jsMLZr366BegQQdeFbzxX6P3Njmpump.json"
+    },
+    "FsGyG4Q8Z4cvY4PyRvYpG6ZLYHz7Gwev2trhkXv2pump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/FsGyG4Q8Z4cvY4PyRvYpG6ZLYHz7Gwev2trhkXv2pump.json"
+    },
+    "GcfPnpkYBU2rXvkEHSnMMhjLukxXTWWUJZ2h6qDqpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/GcfPnpkYBU2rXvkEHSnMMhjLukxXTWWUJZ2h6qDqpump.json"
+    },
+    "NyPfXv8fGaKw77vd3W6r1QG1KJ2JmapLDSxsUzypump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/NyPfXv8fGaKw77vd3W6r1QG1KJ2JmapLDSxsUzypump.json"
+    },
+    "nqJGGuLrqJhqyVr4HiktekEiK1KGMsNSu6ZXUP8pump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 1500,
+      "n_pages": 15,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/nqJGGuLrqJhqyVr4HiktekEiK1KGMsNSu6ZXUP8pump.json"
+    },
+    "FfdudmNyMfYNLGpxHS3AtHmPrsfyVdm8ytMtud2dpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 3300,
+      "n_pages": 33,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/FfdudmNyMfYNLGpxHS3AtHmPrsfyVdm8ytMtud2dpump.json"
+    },
+    "4xYD5onK2iaXWbXk4hud15xYPTGJmbLwGhm3PKQpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/4xYD5onK2iaXWbXk4hud15xYPTGJmbLwGhm3PKQpump.json"
+    },
+    "CS57Cs4Ffe2TxXUdRrALbbZxBfJmLD7VR7QzoR8Wpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 2010,
+      "n_pages": 21,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/CS57Cs4Ffe2TxXUdRrALbbZxBfJmLD7VR7QzoR8Wpump.json"
+    },
+    "78YkcXHRsqAwgMG1cnCS4HvpyHQmsoZNmAVACk6Epump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/78YkcXHRsqAwgMG1cnCS4HvpyHQmsoZNmAVACk6Epump.json"
+    },
+    "E5rwBEjXXyJAwEpmdBrQ6JZWokKyB3RHtkZkAvTzpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/E5rwBEjXXyJAwEpmdBrQ6JZWokKyB3RHtkZkAvTzpump.json"
+    },
+    "3EcpesP1ZtHYTukqLEbZyPVJk61X5ihZMDUKdJTDpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 1659,
+      "n_pages": 17,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/3EcpesP1ZtHYTukqLEbZyPVJk61X5ihZMDUKdJTDpump.json"
+    },
+    "C358SDXLS3SjssmasGaTzNBCvh48bd5Nnf478Zzpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 3800,
+      "n_pages": 38,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/C358SDXLS3SjssmasGaTzNBCvh48bd5Nnf478Zzpump.json"
+    },
+    "4Z51Daahs9T9XJdw49j3d2APoKr7V89b9m8uVuDTpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 2031,
+      "n_pages": 21,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/4Z51Daahs9T9XJdw49j3d2APoKr7V89b9m8uVuDTpump.json"
+    },
+    "E5QDWVWLeYExPZ5VeFhTQsxFgTqx4KnXjiHLWz9Bpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/E5QDWVWLeYExPZ5VeFhTQsxFgTqx4KnXjiHLWz9Bpump.json"
+    },
+    "Wj9CFTmrEcgzUaxX9asNQYcLTTP1yiUuiHyqRTXpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/Wj9CFTmrEcgzUaxX9asNQYcLTTP1yiUuiHyqRTXpump.json"
+    },
+    "CMysTRmeGT9EfkKcciNPyysyHEeD14hMsdTz3ZYPpump": {
+      "ok": true,
+      "found_band": true,
+      "n_raw": 4000,
+      "n_pages": 40,
+      "path": "data/samples/pump_mcband_trades_extra_20261002/CMysTRmeGT9EfkKcciNPyysyHEeD14hMsdTz3ZYPpump.json"
+    }
+  },
+  "stats": {
+    "attempted": 16,
+    "ok": 45,
+    "found_band": 39,
+    "http_calls": 526,
+    "skipped": 29
+  },
+  "updated_at": "2026-10-02T11:10:43+02:00",
+  "finished_at": "2026-10-02T11:10:43+02:00"
+}

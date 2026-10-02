@@ -1,0 +1,32 @@
+{
+  "kind": "lite_calibration_stub",
+  "score_mode": "lite_logistic_v0",
+  "generated_at": "2026-10-02T00:00:00+02:00",
+  "note": "STUB weights from WF ranking heuristics (buy60>>Q5a>>Q5b). NOT OOS-fit. Recalibrate from local expand CSV only — no Dune. NOT Path A / histgb parity.",
+  "threshold_default": 0.55,
+  "temperature": 1.0,
+  "bias": -1.2,
+  "weights": {
+    "buy_vol_usd_60s": 2.4,
+    "sniper_vol_share_5s": 0.8,
+    "top1_buyer_vol_share": 0.5,
+    "top5_buyer_vol_share": 0.35,
+    "age_s": -0.25,
+    "progress_curve_proxy": 0.2,
+    "net_sol_curve": 0.3,
+    "creator_prior_mints_7d": -0.4,
+    "creator_prior_mints_30d": -0.25
+  },
+  "features": [
+    "buy_vol_usd_60s",
+    "sniper_vol_share_5s",
+    "top1_buyer_vol_share",
+    "top5_buyer_vol_share",
+    "age_s",
+    "progress_curve_proxy",
+    "net_sol_curve",
+    "creator_prior_mints_7d",
+    "creator_prior_mints_30d"
+  ],
+  "ref": "cycle0/score-mode-lite-cycle0-20261002.md"
+}

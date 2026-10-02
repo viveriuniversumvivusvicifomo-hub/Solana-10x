@@ -1,0 +1,336 @@
+enrich start n=200 done=0 scale_off deadline_s=14400.0
+[1/200] 69xneXbByUnx7WtE… oos=0.9995
+  trades=3 buys=3 buy60=24903.295161180882 sol=pyth_asof scoreable=True le_false=0 calls=68
+[2/200] BZofTtkyrBM2EDdR… oos=0.9998
+  trades=4 buys=4 buy60=28688.928268364987 sol=pyth_asof scoreable=True le_false=0 calls=109
+[3/200] 4M3gYZ2dQ39KuBuJ… oos=0.9998
+  trades=1 buys=1 buy60=9902.059059783496 sol=pyth_asof scoreable=True le_false=0 calls=127
+[4/200] wbf55KygjChmSMkT… oos=0.9999
+  trades=0 buys=0 buy60=None sol=None scoreable=False le_false=0 calls=127
+[5/200] 2ahcm3vhbPTi7WzE… oos=0.9998
+  trades=3 buys=3 buy60=413156.77899690083 sol=pyth_asof scoreable=True le_false=0 calls=179
+[6/200] 4X9d1Mc1cXJUFXtA… oos=0.9998
+enrich start n=200 done=4 scale_off deadline_s=14400.0
+[4/200] wbf55KygjChmSMkT… oos=0.9999
+  trades=3 buys=3 buy60=355242.80473982287 sol=pyth_asof scoreable=True le_false=0 calls=92
+[6/200] 4X9d1Mc1cXJUFXtA… oos=0.9998
+  trades=3 buys=3 buy60=471748.42910112074 sol=pyth_asof scoreable=True le_false=0 calls=167
+[7/200] G4G4cN8BLGaDe7yS… oos=0.9998
+  trades=3 buys=3 buy60=472791.7239935927 sol=pyth_asof scoreable=True le_false=0 calls=241
+[8/200] 2DU2GNLBhXg2Gqkg… oos=0.9998
+  trades=3 buys=3 buy60=204990.75617557717 sol=pyth_asof scoreable=True le_false=0 calls=339
+[9/200] wXcbD8Sr23SoN1J8… oos=0.9995
+enrich start n=200 done=8 scale_off deadline_s=14400.0
+[9/200] wXcbD8Sr23SoN1J8… oos=0.9995
+  trades=3 buys=3 buy60=23730.510485761286 sol=pyth_asof scoreable=True le_false=0 calls=108
+[10/200] 2hCEWYZcFZNWV59a… oos=0.9954
+enrich start n=200 done=9 scale_off deadline_s=14400.0
+[10/200] 2hCEWYZcFZNWV59a… oos=0.9954
+  trades=5 buys=5 buy60=10009.919899544497 sol=pyth_asof scoreable=True le_false=0 calls=16
+{
+  "created_at_utc": "2026-10-01T15:54:28Z",
+  "n_sample": 200,
+  "n_done": 10,
+  "n_enriched_ok": 10,
+  "n_scoreable": 10,
+  "n_pyth_asof": 10,
+  "n_le_t0_false": 0,
+  "partial": true,
+  "sol_usd_sources": {
+    "pyth_asof": 10
+  },
+  "skip_reasons": {},
+  "elapsed_s": 11.8,
+  "scale_6_6x": false,
+  "path_a": "require_pyth",
+  "recovery": "fetch_create_to_t0_txs (WSOL multi-leg + slot\u00b11)",
+  "sample_csv": "data/samples/parity_oos99_n200_sample_20261001.csv",
+  "enrich_csv": "data/samples/helius_parity_enrich_oos99_n200_20261001.csv",
+  "tx_dump_csv": "data/samples/helius_parity_tx_dump_oos99_n200_20261001.csv",
+  "features_csv": "data/samples/helius_parity_features_oos99_n200_20261001.csv",
+  "n_tx_rows": 126,
+  "n_tx_mints": 10,
+  "n_tx_le_t0_false": 0,
+  "n_feat_rows": 10,
+  "checkpoint_dir": "data/samples/parity_oos99_n200_ckpt_20261001"
+}
+[11/200] 6mCCo1Abfz2riT4U… oos=0.9998
+enrich start n=200 done=10 scale_off deadline_s=14400.0
+[11/200] 6mCCo1Abfz2riT4U… oos=0.9998
+  trades=4 buys=4 buy60=174669.48355483537 sol=pyth_asof scoreable=True le_false=0 calls=109
+[12/200] 56ofoyzfMaGwzgee… oos=0.9998
+  trades=3 buys=3 buy60=184616.36633482904 sol=pyth_asof scoreable=True le_false=0 calls=225
+[13/200] auqsuXNh1aqRVonE… oos=0.9995
+  trades=8 buys=8 buy60=110723.22370057186 sol=pyth_asof scoreable=True le_false=0 calls=383
+[14/200] dnZp7ooAtGb6VKGq… oos=0.9996
+  trades=3 buys=3 buy60=30511.340543917293 sol=pyth_asof scoreable=True le_false=0 calls=490
+[15/200] xgRCHMvkBVy4JhZ9… oos=0.9998
+  trades=3 buys=3 buy60=46933.09302364469 sol=pyth_asof scoreable=True le_false=0 calls=602
+[16/200] DfCb8aTnKh3KXwDa… oos=0.9996
+  trades=13 buys=13 buy60=88528.27039917572 sol=pyth_asof scoreable=True le_false=0 calls=688
+[17/200] J52CTiCT6iCLvbHe… oos=0.9996
+  trades=3 buys=3 buy60=151668.1177978565 sol=pyth_asof scoreable=True le_false=0 calls=763
+[18/200] R5sLWyBWURw4rLLg… oos=0.9996
+  trades=14 buys=14 buy60=68759.50404570188 sol=pyth_asof scoreable=True le_false=0 calls=840
+[19/200] jMyRAjwMTRynU1Kr… oos=0.9995
+  trades=6 buys=6 buy60=97544.41072754121 sol=pyth_asof scoreable=True le_false=0 calls=926
+[20/200] Bh6rDJTsyKGknuZM… oos=0.9992
+  trades=5 buys=5 buy60=10003.272941727422 sol=pyth_asof scoreable=True le_false=0 calls=937
+{
+  "created_at_utc": "2026-10-01T16:14:11Z",
+  "n_sample": 200,
+  "n_done": 20,
+  "n_enriched_ok": 20,
+  "n_scoreable": 20,
+  "n_pyth_asof": 20,
+  "n_le_t0_false": 0,
+  "partial": true,
+  "sol_usd_sources": {
+    "pyth_asof": 20
+  },
+  "skip_reasons": {},
+  "elapsed_s": 1111.6,
+  "scale_6_6x": false,
+  "path_a": "require_pyth",
+  "recovery": "fetch_create_to_t0_txs (WSOL multi-leg + slot\u00b11)",
+  "sample_csv": "data/samples/parity_oos99_n200_sample_20261001.csv",
+  "enrich_csv": "data/samples/helius_parity_enrich_oos99_n200_20261001.csv",
+  "tx_dump_csv": "data/samples/helius_parity_tx_dump_oos99_n200_20261001.csv",
+  "features_csv": "data/samples/helius_parity_features_oos99_n200_20261001.csv",
+  "n_tx_rows": 340,
+  "n_tx_mints": 20,
+  "n_tx_le_t0_false": 0,
+  "n_feat_rows": 20,
+  "checkpoint_dir": "data/samples/parity_oos99_n200_ckpt_20261001"
+}
+[21/200] f5ZWsDRAYCUBdzYi… oos=0.9995
+  trades=7 buys=7 buy60=104167.25209544481 sol=pyth_asof scoreable=True le_false=0 calls=1027
+[22/200] GZg5PdojdWEByykY… oos=0.9996
+  trades=4 buys=4 buy60=57471.52696007232 sol=pyth_asof scoreable=True le_false=0 calls=1114
+[23/200] mmKqhkgDRDUNBLaZ… oos=0.9995
+  trades=6 buys=6 buy60=109700.21368924159 sol=pyth_asof scoreable=True le_false=0 calls=1191
+[24/200] p9S3HKmEPATTjBjg… oos=0.9998
+  trades=3 buys=3 buy60=306333.460933557 sol=pyth_asof scoreable=True le_false=0 calls=1267
+[25/200] po8Qbe4bsWoYuDbA… oos=0.9997
+  trades=3 buys=3 buy60=263206.022910473 sol=pyth_asof scoreable=True le_false=0 calls=1346
+[26/200] 64x8SNqAnXZcWsfU… oos=0.9997
+  trades=7 buys=7 buy60=117666.68443691707 sol=pyth_asof scoreable=True le_false=0 calls=1430
+[27/200] Nzg5DhN2g1XmcixD… oos=0.9997
+  trades=3 buys=3 buy60=28883.115135695603 sol=pyth_asof scoreable=True le_false=0 calls=1512
+[28/200] Rcopty53MejswAzB… oos=0.9997
+  trades=4 buys=4 buy60=89376.68781293083 sol=pyth_asof scoreable=True le_false=0 calls=1585
+[29/200] GngMB2PmzY6u8A9T… oos=0.9994
+  trades=4 buys=4 buy60=81292.36956120541 sol=pyth_asof scoreable=True le_false=0 calls=1672
+[30/200] Ea8XhwACAWJZWGai… oos=0.9997
+  trades=3 buys=3 buy60=31903.903766123338 sol=pyth_asof scoreable=True le_false=0 calls=1749
+{
+  "created_at_utc": "2026-10-01T16:27:17Z",
+  "n_sample": 200,
+  "n_done": 30,
+  "n_enriched_ok": 30,
+  "n_scoreable": 30,
+  "n_pyth_asof": 30,
+  "n_le_t0_false": 0,
+  "partial": true,
+  "sol_usd_sources": {
+    "pyth_asof": 30
+  },
+  "skip_reasons": {},
+  "elapsed_s": 1896.9,
+  "scale_6_6x": false,
+  "path_a": "require_pyth",
+  "recovery": "fetch_create_to_t0_txs (WSOL multi-leg + slot\u00b11)",
+  "sample_csv": "data/samples/parity_oos99_n200_sample_20261001.csv",
+  "enrich_csv": "data/samples/helius_parity_enrich_oos99_n200_20261001.csv",
+  "tx_dump_csv": "data/samples/helius_parity_tx_dump_oos99_n200_20261001.csv",
+  "features_csv": "data/samples/helius_parity_features_oos99_n200_20261001.csv",
+  "n_tx_rows": 514,
+  "n_tx_mints": 30,
+  "n_tx_le_t0_false": 0,
+  "n_feat_rows": 30,
+  "checkpoint_dir": "data/samples/parity_oos99_n200_ckpt_20261001"
+}
+[31/200] DCtkV9cNZc3JRNSA… oos=0.9997
+  trades=3 buys=3 buy60=98662.02081568462 sol=pyth_asof scoreable=True le_false=0 calls=1831
+[32/200] tzhZAXejBiEnMwPf… oos=0.9995
+  trades=6 buys=6 buy60=96135.0496584453 sol=pyth_asof scoreable=True le_false=0 calls=1909
+[33/200] j2wFQAakhPNoAf6e… oos=0.9995
+  trades=6 buys=6 buy60=189183.07248493476 sol=pyth_asof scoreable=True le_false=0 calls=1979
+[34/200] Cuusc9T9xA87fzit… oos=0.9940
+  trades=5 buys=5 buy60=8291.645817326422 sol=pyth_asof scoreable=True le_false=0 calls=1990
+[35/200] CJyeGxfDUdqiuyWF… oos=0.9998
+  trades=3 buys=3 buy60=29206.650104522418 sol=pyth_asof scoreable=True le_false=0 calls=2086
+[36/200] DP6k6fQ5sy2d73KL… oos=0.9997
+  trades=3 buys=3 buy60=149189.5946160686 sol=pyth_asof scoreable=True le_false=0 calls=2172
+[37/200] 7xjW4XDXLX3eP6W2… oos=0.9996
+  trades=3 buys=3 buy60=159378.78582421123 sol=pyth_asof scoreable=True le_false=0 calls=2253
+[38/200] fG34eRH6fbfCQzwi… oos=0.9997
+  trades=3 buys=3 buy60=524363.470758463 sol=pyth_asof scoreable=True le_false=0 calls=2328
+[39/200] FpxXEQLWqpAiB2ye… oos=0.9996
+  trades=7 buys=7 buy60=44010.87815040133 sol=pyth_asof scoreable=True le_false=0 calls=2410
+[40/200] czV4F3taVokgApSi… oos=0.9998
+  trades=4 buys=4 buy60=28501.93809252641 sol=pyth_asof scoreable=True le_false=0 calls=2501
+{
+  "created_at_utc": "2026-10-01T16:40:47Z",
+  "n_sample": 200,
+  "n_done": 40,
+  "n_enriched_ok": 40,
+  "n_scoreable": 40,
+  "n_pyth_asof": 40,
+  "n_le_t0_false": 0,
+  "partial": true,
+  "sol_usd_sources": {
+    "pyth_asof": 40
+  },
+  "skip_reasons": {},
+  "elapsed_s": 2707.3,
+  "scale_6_6x": false,
+  "path_a": "require_pyth",
+  "recovery": "fetch_create_to_t0_txs (WSOL multi-leg + slot\u00b11)",
+  "sample_csv": "data/samples/parity_oos99_n200_sample_20261001.csv",
+  "enrich_csv": "data/samples/helius_parity_enrich_oos99_n200_20261001.csv",
+  "tx_dump_csv": "data/samples/helius_parity_tx_dump_oos99_n200_20261001.csv",
+  "features_csv": "data/samples/helius_parity_features_oos99_n200_20261001.csv",
+  "n_tx_rows": 671,
+  "n_tx_mints": 40,
+  "n_tx_le_t0_false": 0,
+  "n_feat_rows": 40,
+  "checkpoint_dir": "data/samples/parity_oos99_n200_ckpt_20261001"
+}
+[41/200] o3WSk2WkX2f4Fn5v… oos=0.9998
+  trades=4 buys=4 buy60=166475.311423517 sol=pyth_asof scoreable=True le_false=0 calls=2579
+[42/200] 9MknH7kKP6oWKKZH… oos=0.9998
+  trades=3 buys=3 buy60=32940.047788748976 sol=pyth_asof scoreable=True le_false=0 calls=2648
+[43/200] 4pNrLH5u8nZ47AH4… oos=0.9998
+  trades=3 buys=3 buy60=36868.31133012537 sol=pyth_asof scoreable=True le_false=0 calls=2779
+[44/200] yNBFDHa3xa7UsUhD… oos=0.9995
+  trades=7 buys=7 buy60=98915.89555453618 sol=pyth_asof scoreable=True le_false=0 calls=2876
+[45/200] 4r3GYPB7PgewrJtb… oos=0.9998
+  trades=4 buys=4 buy60=417148.09349250834 sol=pyth_asof scoreable=True le_false=0 calls=3060
+[46/200] vCD96TpY2T6hp2aW… oos=0.9996
+  trades=9 buys=9 buy60=69143.60470427728 sol=pyth_asof scoreable=True le_false=0 calls=3164
+[47/200] xLBA9wKkt5hq3TFU… oos=0.9995
+  trades=8 buys=8 buy60=137479.2467659036 sol=pyth_asof scoreable=True le_false=0 calls=3237
+[48/200] v2bRLmtUWvtPERzR… oos=0.9995
+  trades=6 buys=6 buy60=49483.53807895873 sol=pyth_asof scoreable=True le_false=0 calls=3315
+[49/200] wvkae6mDYFZtfXvD… oos=0.9995
+  trades=3 buys=3 buy60=116248.85223258003 sol=pyth_asof scoreable=True le_false=0 calls=3397
+[50/200] KfLsFXzLp9Mmm44z… oos=0.9994
+  trades=3 buys=3 buy60=24906.78384924069 sol=pyth_asof scoreable=True le_false=0 calls=3488
+{
+  "created_at_utc": "2026-10-01T17:12:32Z",
+  "n_sample": 200,
+  "n_done": 50,
+  "n_enriched_ok": 50,
+  "n_scoreable": 50,
+  "n_pyth_asof": 50,
+  "n_le_t0_false": 0,
+  "partial": true,
+  "sol_usd_sources": {
+    "pyth_asof": 50
+  },
+  "skip_reasons": {},
+  "elapsed_s": 4612.1,
+  "scale_6_6x": false,
+  "path_a": "require_pyth",
+  "recovery": "fetch_create_to_t0_txs (WSOL multi-leg + slot\u00b11)",
+  "sample_csv": "data/samples/parity_oos99_n200_sample_20261001.csv",
+  "enrich_csv": "data/samples/helius_parity_enrich_oos99_n200_20261001.csv",
+  "tx_dump_csv": "data/samples/helius_parity_tx_dump_oos99_n200_20261001.csv",
+  "features_csv": "data/samples/helius_parity_features_oos99_n200_20261001.csv",
+  "n_tx_rows": 874,
+  "n_tx_mints": 50,
+  "n_tx_le_t0_false": 0,
+  "n_feat_rows": 50,
+  "checkpoint_dir": "data/samples/parity_oos99_n200_ckpt_20261001"
+}
+[51/200] mAH2Kt9xZ5GdTf3z… oos=0.9995
+  trades=8 buys=8 buy60=102156.42789555495 sol=pyth_asof scoreable=True le_false=0 calls=3617
+[52/200] Ekdk4tWyz2dG4Ssr… oos=0.9923
+  trades=6 buys=6 buy60=13573.781157785981 sol=pyth_asof scoreable=True le_false=0 calls=3726
+[53/200] LUYRG79N3uAmKC55… oos=0.9998
+  trades=3 buys=3 buy60=30624.810537301175 sol=pyth_asof scoreable=True le_false=0 calls=3843
+[54/200] HR7hJRmHtkN7HA9m… oos=0.9997
+  trades=3 buys=3 buy60=28965.33448838292 sol=pyth_asof scoreable=True le_false=0 calls=3940
+[55/200] DhFkcn7LfHVbmaJ4… oos=0.9998
+  trades=10 buys=10 buy60=28095.703546985336 sol=pyth_asof scoreable=True le_false=0 calls=4041
+[56/200] NY3UL2Tjw24NLPuK… oos=0.9994
+  trades=6 buys=6 buy60=83733.4722484245 sol=pyth_asof scoreable=True le_false=0 calls=4145
+[57/200] g4PhoxME4ys1uoNJ… oos=0.9998
+  trades=10 buys=10 buy60=27691.561447750075 sol=pyth_asof scoreable=True le_false=0 calls=4253
+[58/200] Bw8HMobiArN7NMsa… oos=0.9996
+  trades=4 buys=4 buy60=97729.90274494901 sol=pyth_asof scoreable=True le_false=0 calls=4346
+[59/200] EXKnZz9mK5UBjnRH… oos=0.9994
+  trades=3 buys=3 buy60=58483.56430961596 sol=pyth_asof scoreable=True le_false=0 calls=4456
+[60/200] 56phnddtzpqMrjuU… oos=0.9997
+  trades=0 buys=0 buy60=0.0 sol=pyth_asof scoreable=False le_false=0 calls=4493
+{
+  "created_at_utc": "2026-10-01T17:54:34Z",
+  "n_sample": 200,
+  "n_done": 60,
+  "n_enriched_ok": 59,
+  "n_scoreable": 59,
+  "n_pyth_asof": 60,
+  "n_le_t0_false": 0,
+  "partial": true,
+  "sol_usd_sources": {
+    "pyth_asof": 60
+  },
+  "skip_reasons": {
+    "no_trades_le_t0": 1
+  },
+  "elapsed_s": 7134.2,
+  "scale_6_6x": false,
+  "path_a": "require_pyth",
+  "recovery": "fetch_create_to_t0_txs (WSOL multi-leg + slot\u00b11)",
+  "sample_csv": "data/samples/parity_oos99_n200_sample_20261001.csv",
+  "enrich_csv": "data/samples/helius_parity_enrich_oos99_n200_20261001.csv",
+  "tx_dump_csv": "data/samples/helius_parity_tx_dump_oos99_n200_20261001.csv",
+  "features_csv": "data/samples/helius_parity_features_oos99_n200_20261001.csv",
+  "n_tx_rows": 1076,
+  "n_tx_mints": 59,
+  "n_tx_le_t0_false": 0,
+  "n_feat_rows": 60,
+  "checkpoint_dir": "data/samples/parity_oos99_n200_ckpt_20261001"
+}
+[61/200] Gcg2cykuoxw6Zv9P… oos=0.9998
+  trades=0 buys=0 buy60=0.0 sol=pyth_asof scoreable=False le_false=0 calls=4541
+[62/200] xLBz72Nf4wDrdmRT… oos=0.9996
+  trades=0 buys=0 buy60=0.0 sol=pyth_asof scoreable=False le_false=0 calls=4589
+[63/200] 4C1AafeZt4Frasn3… oos=0.9998
+  trades=0 buys=0 buy60=0.0 sol=pyth_asof scoreable=False le_false=0 calls=4637
+[64/200] NKuaDGa9ipuUmpTL… oos=0.9995
+  trades=0 buys=0 buy60=0.0 sol=pyth_asof scoreable=False le_false=0 calls=4685
+[65/200] ou3Vq6mEx7FQJ8io… oos=0.9996
+  trades=0 buys=0 buy60=0.0 sol=pyth_asof scoreable=False le_false=0 calls=4733
+timebox stop at 66/200 elapsed=15887s
+{
+  "created_at_utc": "2026-10-01T20:20:27Z",
+  "n_sample": 200,
+  "n_done": 65,
+  "n_enriched_ok": 59,
+  "n_scoreable": 59,
+  "n_pyth_asof": 65,
+  "n_le_t0_false": 0,
+  "partial": true,
+  "sol_usd_sources": {
+    "pyth_asof": 65
+  },
+  "skip_reasons": {
+    "no_trades_le_t0": 6
+  },
+  "elapsed_s": 15887.2,
+  "scale_6_6x": false,
+  "path_a": "require_pyth",
+  "recovery": "fetch_create_to_t0_txs (WSOL multi-leg + slot\u00b11)",
+  "sample_csv": "data/samples/parity_oos99_n200_sample_20261001.csv",
+  "enrich_csv": "data/samples/helius_parity_enrich_oos99_n200_20261001.csv",
+  "tx_dump_csv": "data/samples/helius_parity_tx_dump_oos99_n200_20261001.csv",
+  "features_csv": "data/samples/helius_parity_features_oos99_n200_20261001.csv",
+  "n_tx_rows": 1076,
+  "n_tx_mints": 59,
+  "n_tx_le_t0_false": 0,
+  "n_feat_rows": 65,
+  "checkpoint_dir": "data/samples/parity_oos99_n200_ckpt_20261001"
+}
+done n_ckpt=65 partial=True

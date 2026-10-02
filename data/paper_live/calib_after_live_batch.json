@@ -1,0 +1,39 @@
+{
+  "live_batch_scores": [
+    0.16534677919641175,
+    0.10568570910685401,
+    0.1861944053769317
+  ],
+  "live_batch_max": 0.1861944053769317,
+  "live_batch_n_ge_trainQ": 0,
+  "oracle_examples": [
+    {
+      "mint": "8AB1ApHPrQwX",
+      "sol_usd": 117.94480080897355,
+      "source": "jupiter",
+      "cq": "MED",
+      "refined": false,
+      "prior7": 3.0,
+      "prior30": 20.0
+    },
+    {
+      "mint": "EDygYXVnJ71Z",
+      "sol_usd": 117.94480080897355,
+      "source": "jupiter",
+      "cq": "MED",
+      "refined": false,
+      "prior7": 0.0,
+      "prior30": 0.0
+    },
+    {
+      "mint": "AMU7o4JpPV9B",
+      "sol_usd": 117.94480080897355,
+      "source": "jupiter",
+      "cq": "LOW",
+      "refined": false,
+      "prior7": 0.0,
+      "prior30": 0.0
+    }
+  ],
+  "thr": 0.9998068280570067
+}

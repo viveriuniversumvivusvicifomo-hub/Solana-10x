@@ -1,0 +1,20 @@
+{
+  "dry_run_data_dir": "/tmp/paper_live_dual_dry3",
+  "sample": "/tmp/pump_sample_q5_aligned.json",
+  "enrich_via": "bitquery + q5_live_fixture",
+  "n_sightings": 12,
+  "histgb_accepts_at_0.9": 0,
+  "histgb_skip_reason": "skip_prior_not_train (creator_prior_source=None in dry fixture)",
+  "lite_thr": 0.55,
+  "lite_accepts": 6,
+  "lite_accept_scores": [
+    0.7351,
+    0.7024,
+    0.687,
+    0.6752,
+    0.6582,
+    0.601
+  ],
+  "note_calib_thr_0.85": "same fixture: 0 lite accepts @0.85 (max score 0.735)",
+  "live_daemon": "UNCHANGED thr histgb 0.9"
+}

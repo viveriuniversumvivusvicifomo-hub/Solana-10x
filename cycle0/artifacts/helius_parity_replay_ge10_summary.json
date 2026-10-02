@@ -1,0 +1,10 @@
+{
+  "n": 12,
+  "pct_ge_0.99": 0.8333333333333334,
+  "pct_ge_0.89": 0.8333333333333334,
+  "median_live": 0.9998258517557969,
+  "mean_live": 0.9412193242608308,
+  "before_median_on_overlap": 0.7708935194330041,
+  "scale_enabled": false,
+  "csv": "/workspace/solana-10x/cycle0/artifacts/helius_parity_replay_ge10_20261001.csv"
+}

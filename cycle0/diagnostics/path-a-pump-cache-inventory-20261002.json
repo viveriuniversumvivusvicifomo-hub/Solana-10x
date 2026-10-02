@@ -1,0 +1,94 @@
+{
+  "inventory": {
+    "stamp": "20261002",
+    "caches": {
+      "pilot500": {
+        "path": "data/samples/pump_pilot500_trades_20261002",
+        "exists": true,
+        "n_trade_files": 495,
+        "orphan": false,
+        "quarantined": false
+      },
+      "mcband_extra": {
+        "path": "data/samples/pump_mcband_trades_extra_20261002",
+        "exists": true,
+        "n_trade_files": 45,
+        "orphan": false,
+        "quarantined": false
+      },
+      "scale": {
+        "path": "archive/quarantine/mcband_scale_20261002/pump_mcband_scale_trades_20261002",
+        "exists": true,
+        "n_trade_files": 837,
+        "orphan": true,
+        "quarantined": true
+      },
+      "scale_deep": {
+        "path": "archive/quarantine/mcband_scale_20261002/pump_mcband_scale_trades_deep_20261002",
+        "exists": true,
+        "n_trade_files": 0,
+        "orphan": true,
+        "quarantined": true
+      },
+      "livelike": {
+        "path": "data/samples/pump_livelike_trades_20261002",
+        "exists": true,
+        "n_trade_files": 221,
+        "orphan": false,
+        "quarantined": false
+      }
+    },
+    "matrices": {
+      "pilot500": true,
+      "mcband": true,
+      "livelike": true,
+      "mcband_scale": false
+    },
+    "usable": {
+      "livelike": true,
+      "mcband_scale": false
+    },
+    "default_cache_excludes_scale": true,
+    "quarantine_mcband_scale": {
+      "dir": "archive/quarantine/mcband_scale_20261002",
+      "exists": true,
+      "readme": true
+    },
+    "orphan_mcband_scale": {
+      "status": "ORPHAN_INCOMPLETE",
+      "reason": "incomplete fetch (~1.3k/2.8k); no features_pump_path_a_mcband_scale_* nor usable matrix; superseded by livelike; quarantined NO-GO",
+      "keep_cache": false,
+      "quarantined": true,
+      "quarantine_dir": "archive/quarantine/mcband_scale_20261002",
+      "do_not_train_on": true,
+      "has_sample": true,
+      "sample_path": "archive/quarantine/mcband_scale_20261002/pump_mcband_scale_sample_20261002.csv",
+      "has_matrix": false,
+      "has_usable": false,
+      "n_trades": 837,
+      "n_deep": 0
+    }
+  },
+  "invariants": {
+    "usd_live": "sol_amt * pyth_asof",
+    "usd_pump_frontend": "valueUsd",
+    "usd_scale_6_6_off_forever": true,
+    "apply_dune_helius_usd_scale_default": false,
+    "dune_api_allowed": false,
+    "canonical_train_entry": "scripts/build_pump_path_a_livelike.py",
+    "canonical_cli": "scripts/build_pump_path_a.py",
+    "live_entry": "python -m paper_live --feed pump --enrich-via pump",
+    "orphan_scripts": {
+      "build_pump_mcband_scale.py": {
+        "status": "ORPHAN_INCOMPLETE",
+        "reason": "incomplete fetch (~1.3k/2.8k); no features_pump_path_a_mcband_scale_* nor usable matrix; superseded by livelike; quarantined NO-GO",
+        "keep_cache": false,
+        "quarantined": true,
+        "quarantine_dir": "archive/quarantine/mcband_scale_20261002",
+        "do_not_train_on": true
+      }
+    }
+  },
+  "refreshed_at": "2026-10-02T14:22:45+02:00",
+  "note": "D-07 quarantine \u2014 scale excluded from default ordered_cache_dirs"
+}

@@ -1,0 +1,65 @@
+{
+  "n_scored_pump": 553,
+  "n_with_post_mc": 502,
+  "n_missing_mc": 51,
+  "n_max_mc_lb_ge_200k": 2,
+  "n_max_mc_lb_ge_1M": 0,
+  "n_current_ge_200k": 2,
+  "n_current_ge_1M": 0,
+  "score_all": {
+    "n": 553,
+    "min": 0.011078039472461486,
+    "median": 0.10835102097120035,
+    "mean": 0.1266246473560027,
+    "max": 0.8348527042509934,
+    "n_ge_0_5": 2,
+    "n_ge_0_8": 1,
+    "n_ge_thr": 0
+  },
+  "score_hit200": {
+    "n": 2,
+    "min": 0.1115056357435445,
+    "median": 0.11200891755326506,
+    "mean": 0.11200891755326506,
+    "max": 0.11251219936298563,
+    "n_ge_0_5": 0,
+    "n_ge_0_8": 0,
+    "n_ge_thr": 0
+  },
+  "score_nohit": {
+    "n": 500,
+    "min": 0.011078039472461486,
+    "median": 0.11028946085873055,
+    "mean": 0.12744551184856343,
+    "max": 0.8348527042509934,
+    "n_ge_0_5": 2,
+    "n_ge_0_8": 1,
+    "n_ge_thr": 0
+  },
+  "thr_trainQ_top1": 0.9998068280570067,
+  "max_score": 0.8348527042509934,
+  "n_ge_thr": 0,
+  "hitters": [
+    {
+      "mint": "9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr",
+      "score": 0.1115056357435445,
+      "mc_usd_t0": 9801.875911559708,
+      "mc_usd_now": 469502.0,
+      "max_mc_lb": 469502.0,
+      "t0_ts": "2026-10-01T13:15:42.767+00:00",
+      "dex_id": "pumpswap"
+    },
+    {
+      "mint": "BVF8qXM6wu1pGrsLd4SH3DLU62EadaKWPjVsCGRypump",
+      "score": 0.11251219936298563,
+      "mc_usd_t0": 8392.990269913136,
+      "mc_usd_now": 256715.28,
+      "max_mc_lb": 256715.28,
+      "t0_ts": "2026-10-01T11:34:58.246+00:00",
+      "dex_id": "pumpfun"
+    }
+  ],
+  "method": "DexScreener latest/dex/tokens batch30; max_mc_lb=max(mc_t0, mc_now) underestimates ATH",
+  "fetched_batches": 19,
+  "sample": "FULL scored pump cohort (not a subsample)"
+}

@@ -1,0 +1,78 @@
+-- Q4 flow smoke 5 (5 mints) — Dune-safe UNION ALL, no ORDER BY
+-- HYGIENE 2026-10-01 (SolDatos): raw_sample requires tok_amt > 0 (same as Q5a). Excludes tok_amt=0 legs (e.g. CREATE_POOL / zero-token) that falsely inflate buy_count_*/buy_vol_usd_*. See cycle0/diagnostics/usd-q4-q5a-parity-anchor-20261001.md
+WITH sample AS (
+SELECT '6EVuUQo1xwGLBCXrSmSGc63PN51gZFAT7Eu33n8bpump' AS mint, CAST('2026-09-19 20:54:40' AS TIMESTAMP) AS t0_ts
+UNION ALL
+SELECT '7SGnMrNL32CSnxZE6HwkC6HNQYoKDZbmvryrLnTpump' AS mint, CAST('2026-09-11 09:01:52' AS TIMESTAMP) AS t0_ts
+UNION ALL
+SELECT 'DEsxB16DoTdNkz9nmuMnXkR48YBtaBzNqxZCXjVPpump' AS mint, CAST('2026-09-13 18:46:56' AS TIMESTAMP) AS t0_ts
+UNION ALL
+SELECT 'EgiZjjaFv3KWUwPtZtuH4RBsHco8qrF8qkHQJx28pump' AS mint, CAST('2026-09-21 05:31:13' AS TIMESTAMP) AS t0_ts
+UNION ALL
+SELECT 'HKsgPimpjbNGuDWjAQDMnLymt5Gb63wTLn3839Uxpump' AS mint, CAST('2026-08-31 11:54:57' AS TIMESTAMP) AS t0_ts
+),
+bounds AS (
+  SELECT MIN(t0_ts) - INTERVAL '7' DAY AS t_lo, MAX(t0_ts) AS t_hi FROM sample
+),
+raw AS (
+  SELECT
+    CASE WHEN token_sold_mint_address = 'So11111111111111111111111111111111111111112'
+         THEN token_bought_mint_address ELSE token_sold_mint_address END AS mint,
+    CASE
+      WHEN token_bought_mint_address <> 'So11111111111111111111111111111111111111112'
+           AND token_sold_mint_address = 'So11111111111111111111111111111111111111112' THEN 'buy'
+      WHEN token_sold_mint_address <> 'So11111111111111111111111111111111111111112'
+           AND token_bought_mint_address = 'So11111111111111111111111111111111111111112' THEN 'sell'
+      ELSE NULL END AS side,
+    amount_usd, block_time, trader_id,
+    CASE WHEN token_sold_mint_address = 'So11111111111111111111111111111111111111112'
+         THEN token_bought_amount ELSE token_sold_amount END AS tok_amt
+  FROM dex_solana.trades
+  CROSS JOIN bounds b
+  WHERE block_time >= b.t_lo
+    AND block_time <= b.t_hi
+    AND blockchain = 'solana'
+    AND project IN ('pumpdotfun', 'pumpswap')
+    AND (token_sold_mint_address = 'So11111111111111111111111111111111111111112'
+         OR token_bought_mint_address = 'So11111111111111111111111111111111111111112')
+    AND amount_usd >= 1
+),
+raw_sample AS (
+  SELECT r.*
+  FROM raw r
+  INNER JOIN (SELECT DISTINCT mint FROM sample) s ON s.mint = r.mint
+  WHERE r.side IS NOT NULL
+    AND r.tok_amt > 0
+),
+joined_all AS (
+  SELECT
+    s.mint,
+    s.t0_ts,
+    r.side,
+    r.amount_usd,
+    r.block_time,
+    r.trader_id,
+    date_diff('second', r.block_time, s.t0_ts) AS secs_before_t0
+  FROM sample s
+  INNER JOIN raw_sample r
+    ON r.mint = s.mint
+   AND r.block_time <= s.t0_ts
+)
+SELECT
+  mint,
+  t0_ts,
+  SUM(CASE WHEN side = 'buy'  AND secs_before_t0 BETWEEN 0 AND 60 THEN 1 ELSE 0 END) AS buy_count_60s,
+  SUM(CASE WHEN side = 'sell' AND secs_before_t0 BETWEEN 0 AND 60 THEN 1 ELSE 0 END) AS sell_count_60s,
+  SUM(CASE WHEN side = 'buy'  AND secs_before_t0 BETWEEN 0 AND 60 THEN amount_usd ELSE 0 END) AS buy_vol_usd_60s,
+  SUM(CASE WHEN side = 'sell' AND secs_before_t0 BETWEEN 0 AND 60 THEN amount_usd ELSE 0 END) AS sell_vol_usd_60s,
+  COUNT(DISTINCT IF(secs_before_t0 BETWEEN 0 AND 60, trader_id, NULL)) AS unique_traders_60s,
+  SUM(CASE WHEN side = 'buy'  AND secs_before_t0 BETWEEN 0 AND 300 THEN 1 ELSE 0 END) AS buy_count_5m,
+  SUM(CASE WHEN side = 'sell' AND secs_before_t0 BETWEEN 0 AND 300 THEN 1 ELSE 0 END) AS sell_count_5m,
+  SUM(CASE WHEN side = 'buy'  AND secs_before_t0 BETWEEN 0 AND 300 THEN amount_usd ELSE 0 END) AS buy_vol_usd_5m,
+  SUM(CASE WHEN side = 'sell' AND secs_before_t0 BETWEEN 0 AND 300 THEN amount_usd ELSE 0 END) AS sell_vol_usd_5m,
+  COUNT(DISTINCT IF(secs_before_t0 BETWEEN 0 AND 300, trader_id, NULL)) AS unique_traders_5m,
+  COUNT(*) AS trade_count_total,
+  COUNT(DISTINCT trader_id) AS unique_traders_total,
+  MAX(secs_before_t0) AS time_since_first_trade_s
+FROM joined_all
+GROUP BY mint, t0_ts

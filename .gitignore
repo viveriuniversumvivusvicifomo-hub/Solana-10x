@@ -1,0 +1,25 @@
+.venv/
+.env
+.env.*
+!.env.example
+
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+
+data/samples/
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+data/paper_live/logs/
+
+# large dumps
+*.parquet
+*.jsonl.zst
+*.csv.gz
+*.json.gz
+*.zst
+data/dumps/
+data/raw/
+data/**/*.jsonl

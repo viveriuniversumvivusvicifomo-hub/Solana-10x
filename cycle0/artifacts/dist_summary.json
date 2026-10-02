@@ -1,0 +1,14 @@
+{
+  "live_n_complete_histgb": 804,
+  "live_score_max": 0.9259144462606774,
+  "live_score_median": 0.10633066542304674,
+  "live_pct_ge_0.99": 0.0,
+  "live_pct_ge_0.89": 0.0012437810945273632,
+  "train_hi_n": 4959,
+  "train_hi_buy60_median": 59145.52088962301,
+  "live_buy60_median": 183.0382894662437,
+  "train_hi_age_s_median": 0.0,
+  "live_age_s_median": 44.7268205,
+  "train_hi_sniper5_median": 1.0,
+  "live_sniper5_median": 0.5055155423907803
+}

@@ -1,0 +1,82 @@
+{
+  "before_journal_histgb": {
+    "n": 210,
+    "min": 0.01162437988676474,
+    "median": 0.09709241548471043,
+    "mean": 0.11525670465026401,
+    "max": 0.9259144462606774,
+    "n_ge_trainQ_top1": 0,
+    "n_ge_0_9": 1,
+    "n_ge_0_99": 0
+  },
+  "after_journal_histgb": {
+    "n": 214,
+    "median": 0.09697108381620685,
+    "mean": 0.11495802302490025,
+    "max": 0.9259144462606774,
+    "n_ge_trainQ_top1": 0
+  },
+  "live_hybrid_batch_post_fix": {
+    "live_batch_scores": [
+      0.16534677919641175,
+      0.10568570910685401,
+      0.1861944053769317
+    ],
+    "live_batch_max": 0.1861944053769317,
+    "live_batch_n_ge_trainQ": 0,
+    "oracle_examples": [
+      {
+        "mint": "8AB1ApHPrQwX",
+        "sol_usd": 117.94480080897355,
+        "source": "jupiter",
+        "cq": "MED",
+        "refined": false,
+        "prior7": 3.0,
+        "prior30": 20.0
+      },
+      {
+        "mint": "EDygYXVnJ71Z",
+        "sol_usd": 117.94480080897355,
+        "source": "jupiter",
+        "cq": "MED",
+        "refined": false,
+        "prior7": 0.0,
+        "prior30": 0.0
+      },
+      {
+        "mint": "AMU7o4JpPV9B",
+        "sol_usd": 117.94480080897355,
+        "source": "jupiter",
+        "cq": "LOW",
+        "refined": false,
+        "prior7": 0.0,
+        "prior30": 0.0
+      }
+    ],
+    "thr": 0.9998068280570067
+  },
+  "train_sniper_capability": {
+    "n_sniper_vectors": 50,
+    "max": 0.9998359072677577,
+    "mean": 0.9997843511680082,
+    "n_ge_0_9998": 20,
+    "n_ge_trainQ_top1": 19,
+    "thr_trainQ_top1": 0.9998068280570067,
+    "conclusion": "Exported histgb_q5b reaches \u22650.9998 on true sniper feature vectors; live journal will when such mints are enriched complete."
+  },
+  "calibration_fixes": {
+    "sol_usd_oracle": "Pyth\u2192Jupiter\u2192CoinGecko\u2192ref; live smoke used jupiter \u2248117.94 (was fixed 103.11)",
+    "creator_priors_30d": "paginate Pump creator coins to 30d; live example prior7=3 prior30=20 (was prior7==prior30)",
+    "t0_c1_c6": "find_t0_c1_c6 MC path + C4/C5 validation; live often MED first-sight with c4_c5_ok when MC path misses"
+  },
+  "honest_remaining_gaps": [
+    "PYTH_API_KEY unset \u2192 Hermes 401; Jupiter MED fallback (capture HIGH needs pyth)",
+    "Bonding-curve MC reconstruction from Enhanced trades often misses first band cross vs Pump usd_market_cap (late sight / page truncation / SOL attribution) \u2192 T0 refined=False residual",
+    "Enhanced HTTP 429 / max_pages can zero Q5a on hot mints",
+    "Pump frontend creator index \u2260 full Dune on-chain create archive (30d window covered when index lists them)",
+    "Typical live band mints are not train top1% snipers (age>>0, buy60\u226a100k, curve\u226a85) so scores stay <<0.9998 until true snipers appear"
+  ],
+  "journal_can_hit_ge_0_9998": true,
+  "journal_currently_hits_ge_0_9998": false,
+  "trading": false
+}

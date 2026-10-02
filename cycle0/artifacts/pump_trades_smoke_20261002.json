@@ -1,0 +1,75 @@
+{
+  "probed_at_cet": "2026-10-02T08:16:27.571158+02:00",
+  "endpoint": "GET /trades/{urlencoded solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp}/{mint}?limit=&cursor=",
+  "legacy_broken": "GET /trades/all/{mint|chainId} \u2192 400",
+  "n_band_polled": 5,
+  "n_raw_first_mint": 10,
+  "results": [
+    {
+      "mint": "88o6Ju5L9GCyFATNKFmjmHbt6rnyVioZs4Jcefkcpump",
+      "mc_usd": 9017.437653271201,
+      "capture_scoreable": true,
+      "n_trades_pre_t0": 10,
+      "buy_vol_usd_60s": 0.0,
+      "buy_count_60s": 0,
+      "q5a_ok": true,
+      "score_reject": null,
+      "gaps": [
+        "meta_source=create"
+      ],
+      "detail": "def=pump_mc_band_sighting_v1 mc=9017.4 t0_refined=True scoreable=True n_trades_pre_t0=10 buy60=0.00",
+      "t0_iso": "2026-10-02T06:16:27.571+00:00",
+      "create_ts": 1790921636000
+    },
+    {
+      "mint": "9pRgJc9f82jmAkpnzwLRT3oRwnKCix37YM7NQntqpump",
+      "mc_usd": 10032.478418502124,
+      "capture_scoreable": true,
+      "n_trades_pre_t0": 200,
+      "buy_vol_usd_60s": 1022.9753790505596,
+      "buy_count_60s": 25,
+      "q5a_ok": true,
+      "score_reject": null,
+      "gaps": [
+        "meta_source=create"
+      ],
+      "detail": "def=pump_mc_band_sighting_v1 mc=10032.5 t0_refined=True scoreable=True n_trades_pre_t0=200 buy60=1022.98",
+      "t0_iso": "2026-10-02T06:16:27.571+00:00",
+      "create_ts": 1790921564000
+    },
+    {
+      "mint": "5hpck3FaHXqhQnL4RwwdaNQFeBka6CpoVBxT1dWupump",
+      "mc_usd": 15785.189128237304,
+      "capture_scoreable": true,
+      "n_trades_pre_t0": 199,
+      "buy_vol_usd_60s": 2070.994213893296,
+      "buy_count_60s": 52,
+      "q5a_ok": true,
+      "score_reject": null,
+      "gaps": [
+        "meta_source=create"
+      ],
+      "detail": "def=pump_mc_band_sighting_v1 mc=15785.2 t0_refined=True scoreable=True n_trades_pre_t0=199 buy60=2070.99",
+      "t0_iso": "2026-10-02T06:16:27.571+00:00",
+      "create_ts": 1790921545000
+    }
+  ],
+  "api_log": {
+    "n_calls": 12,
+    "status_codes": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "n_retries_429": 0
+  }
+}

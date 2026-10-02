@@ -1,0 +1,98 @@
+[
+  {
+    "mint": "69xneXbByUnx7WtEC7tqHHo1NJoXJqM9dNFYYu8pump",
+    "src": "n200_ckpt",
+    "max_abs_dfeat": 23.371798423231667,
+    "n_differ": 19,
+    "sc_store": 0.9994911956626782,
+    "sc_live_vec": 0.9994030624774972,
+    "csv_live": 0.9994030624774972,
+    "d_score": 8.813318518097191e-05,
+    "top_cols": [
+      [
+        "buy_vol_usd_60s",
+        23.371798423231667
+      ],
+      [
+        "buy_vol_first_10s",
+        23.371798423231667
+      ],
+      [
+        "buy_vol_first_5s",
+        23.371798423231667
+      ],
+      [
+        "buy_vol_usd_15m",
+        23.371798423231667
+      ],
+      [
+        "buy_vol_usd_30s",
+        23.371798423231667
+      ]
+    ]
+  },
+  {
+    "mint": "BZofTtkyrBM2EDdRBN6GCavdWvxd61xbLTVFnoPgpump",
+    "src": "dump_parse",
+    "max_abs_dfeat": 116.89939521171618,
+    "n_differ": 20,
+    "sc_store": 0.9998178426097191,
+    "sc_live_vec": 0.9997958937369965,
+    "csv_live": 0.9997958937369964,
+    "d_score": 2.1948872722554746e-05,
+    "top_cols": [
+      [
+        "first_buy_usd",
+        -116.89939521171618
+      ],
+      [
+        "max_buy_usd",
+        -116.89939521171618
+      ],
+      [
+        "buy_vol_first_10s",
+        -81.27721976059547
+      ],
+      [
+        "buy_vol_first_5s",
+        -81.27721976059547
+      ],
+      [
+        "first10_buy_vol_usd",
+        -81.27721976059547
+      ]
+    ]
+  },
+  {
+    "mint": "4M3gYZ2dQ39KuBuJYVmQi5qrtFfMpMWHpJhhx7Wapump",
+    "src": "dump_parse",
+    "max_abs_dfeat": 3427.469587705971,
+    "n_differ": 20,
+    "sc_store": 0.9998456806403022,
+    "sc_live_vec": 0.9998384816914451,
+    "csv_live": 0.9998384816914452,
+    "d_score": 7.1989488571455595e-06,
+    "top_cols": [
+      [
+        "buy_vol_usd_60s",
+        -3427.469587705971
+      ],
+      [
+        "buy_vol_first_10s",
+        -3427.469587705971
+      ],
+      [
+        "buy_vol_first_5s",
+        -3427.469587705971
+      ],
+      [
+        "buy_vol_usd_15m",
+        -3427.469587705971
+      ],
+      [
+        "buy_vol_usd_30s",
+        -3427.469587705971
+      ]
+    ]
+  }
+]

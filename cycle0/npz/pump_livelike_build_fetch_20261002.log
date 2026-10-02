@@ -1,0 +1,66 @@
+{
+  "live_target": {
+    "source": "q5a_trades",
+    "n_used": 108,
+    "medians": {
+      "unique_sellers_total": 21.0,
+      "net_sol_curve": 14.098079712500002,
+      "sell_vol_usd_30s": 1005.4205896725323,
+      "sell_vol_usd_total": 2269.7805906119206,
+      "buy_vol_usd_60s": 2342.44587396152,
+      "n_trades_pre_t0": 110.5
+    }
+  }
+}
+{
+  "universe": {
+    "n_scale": 2800,
+    "n_extra_pos": 2500,
+    "n_extra_neg": 800,
+    "n_universe": 6100,
+    "n_pos_expand": 4100,
+    "n_neg_expand": 2000,
+    "seed": 42,
+    "n_extra_pos_requested": 2500,
+    "n_extra_neg_requested": 800
+  }
+}
+{"fetch_progress": 900, "of": 6100, "n_done": 900, "n_ok": 899, "n_fail": 1, "n_reused": 893, "skipped_cached_loop": 893, "fail_frac": 0.0011111111111111111, "http_calls": 47, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 51.3, "last_i": 899}
+{"fetch_progress": 925, "of": 6100, "n_done": 925, "n_ok": 924, "n_fail": 1, "n_reused": 905, "skipped_cached_loop": 905, "fail_frac": 0.001081081081081081, "http_calls": 167, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 171.3, "last_i": 924}
+{"fetch_progress": 950, "of": 6100, "n_done": 950, "n_ok": 949, "n_fail": 1, "n_reused": 905, "skipped_cached_loop": 905, "fail_frac": 0.0010526315789473684, "http_calls": 378, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 382.8, "last_i": 949}
+{"fetch_progress": 975, "of": 6100, "n_done": 975, "n_ok": 974, "n_fail": 1, "n_reused": 905, "skipped_cached_loop": 905, "fail_frac": 0.0010256410256410256, "http_calls": 584, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 588.9, "last_i": 974}
+{"fetch_progress": 1000, "of": 6100, "n_done": 1000, "n_ok": 999, "n_fail": 1, "n_reused": 905, "skipped_cached_loop": 905, "fail_frac": 0.001, "http_calls": 825, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 831.7, "last_i": 999}
+{"fetch_progress": 1025, "of": 6100, "n_done": 1025, "n_ok": 1024, "n_fail": 1, "n_reused": 905, "skipped_cached_loop": 905, "fail_frac": 0.000975609756097561, "http_calls": 1045, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1054.7, "last_i": 1024}
+{"fetch_progress": 1050, "of": 6100, "n_done": 1050, "n_ok": 1049, "n_fail": 1, "n_reused": 906, "skipped_cached_loop": 906, "fail_frac": 0.0009523809523809524, "http_calls": 1242, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1256.3, "last_i": 1049}
+{"fetch_progress": 1075, "of": 6100, "n_done": 1075, "n_ok": 1074, "n_fail": 1, "n_reused": 906, "skipped_cached_loop": 906, "fail_frac": 0.0009302325581395349, "http_calls": 1457, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1471.8, "last_i": 1074}
+{"fetch_progress": 1100, "of": 6100, "n_done": 1100, "n_ok": 1099, "n_fail": 1, "n_reused": 906, "skipped_cached_loop": 906, "fail_frac": 0.0009090909090909091, "http_calls": 1656, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1671.1, "last_i": 1099}
+{"fetch_progress": 1125, "of": 6100, "n_done": 1125, "n_ok": 1124, "n_fail": 1, "n_reused": 906, "skipped_cached_loop": 906, "fail_frac": 0.0008888888888888889, "http_calls": 1854, "n_retries_429": 0, "consec_hard_fail": 0, "elapsed_s": 1868.9, "last_i": 1124}
+Traceback (most recent call last):
+  File "/workspace/solana-10x/scripts/build_pump_path_a_livelike.py", line 693, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/workspace/solana-10x/scripts/build_pump_path_a_livelike.py", line 556, in main
+    ck = fetch_missing_band_aware(
+        mints_sorted,
+    ...<6 lines>...
+        min_interval_s=args.min_interval_s,
+    )
+  File "/workspace/solana-10x/scripts/build_pump_mcband_scale.py", line 250, in fetch_missing_band_aware
+    raw, fmeta = deep_fetch_trades(
+                 ~~~~~~~~~~~~~~~~~^
+        mint,
+        ^^^^^
+    ...<3 lines>...
+        pre_band_s=120.0,  # 2m pre-band; throughput vs 15m pilot
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/workspace/solana-10x/scripts/build_pump_mcband_pilot.py", line 212, in deep_fetch_trades
+    data = client.get_json(path, params=params)
+  File "/workspace/solana-10x/src/ingestion/pump_frontend.py", line 106, in get_json
+    self._throttle()
+    ~~~~~~~~~~~~~~^^
+  File "/workspace/solana-10x/src/ingestion/pump_frontend.py", line 99, in _throttle
+    time.sleep(wait)
+    ~~~~~~~~~~^^^^^^
+KeyboardInterrupt

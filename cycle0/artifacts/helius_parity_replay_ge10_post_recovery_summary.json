@@ -1,0 +1,34 @@
+{
+  "n": 12,
+  "n_ge_0.99": 12,
+  "pct_ge_0.99": 1.0,
+  "pct_ge_0.89": 1.0,
+  "median_live": 0.9998258517557969,
+  "mean_live": 0.9991820033367,
+  "scale_enabled": false,
+  "sol_usd_sources": [
+    "pyth_asof"
+  ],
+  "threshold_product": 0.99,
+  "threshold_note": "Sinck product abs 0.99; trainQ top1%~0.9998 / top5% / top10% fold thr 0.66\u20130.92",
+  "dump": "/workspace/solana-10x/data/samples/helius_parity_tx_dump_ge10_20261001.csv",
+  "csv": "/workspace/solana-10x/cycle0/artifacts/helius_parity_replay_ge10_post_recovery_20261001.csv",
+  "qa_merged": "data/samples/qa_helius_parity_tx_dump_merged_le_t0_report.json",
+  "paper_live": "FROZEN_untouched",
+  "fail_targets": {
+    "4M3gYZ2dQ39K": {
+      "before": 0.5733110582686363,
+      "after": 0.9998384816914451,
+      "n_trades_before": 1,
+      "n_trades_after": 3,
+      "pass_ge_0.99": true
+    },
+    "BZofTtkyrBM2": {
+      "before": 0.7307414447202645,
+      "after": 0.9997958937369965,
+      "n_trades_before": 1,
+      "n_trades_after": 4,
+      "pass_ge_0.99": true
+    }
+  }
+}

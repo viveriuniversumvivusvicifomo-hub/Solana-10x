@@ -1,0 +1,56 @@
+/workspace/solana-10x/.venv/lib/python3.13/site-packages/sklearn/impute/_base.py:647: UserWarning: Skipping features without any observed values: [50]. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+/workspace/solana-10x/.venv/lib/python3.13/site-packages/sklearn/impute/_base.py:647: UserWarning: Skipping features without any observed values: [50]. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+/workspace/solana-10x/.venv/lib/python3.13/site-packages/sklearn/impute/_base.py:647: UserWarning: Skipping features without any observed values: [50]. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+/workspace/solana-10x/src/models/walk_forward_expand_v2.py:201: RuntimeWarning: invalid value encountered in divide
+  f1 = np.where((prec + rec) > 0, 2 * prec * rec / (prec + rec), 0.0)
+/workspace/solana-10x/.venv/lib/python3.13/site-packages/sklearn/impute/_base.py:647: UserWarning: Skipping features without any observed values: [50]. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+/workspace/solana-10x/.venv/lib/python3.13/site-packages/sklearn/impute/_base.py:647: UserWarning: Skipping features without any observed values: [50]. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+{"n_before": 424, "n_after_filters": 319, "label_rate": 0.08150470219435736, "n_pos": 26, "features_path": "/workspace/solana-10x/data/samples/pump_livelike_usable_20261002.csv"}
+{
+  "status": "ok",
+  "joblib": "/workspace/solana-10x/data/paper_live/models/q5b_pump_livelike_20261002.joblib",
+  "calibration": "/workspace/solana-10x/data/paper_live/models/q5b_pump_livelike_20261002_calibration.json",
+  "metrics": "/workspace/solana-10x/cycle0/npz/q5b_pump_livelike_20261002_wf_metrics.json",
+  "n": 319,
+  "n_pos": 26,
+  "oos_auc": 0.5526315789473684,
+  "oos_ap": 0.05555555555555555,
+  "oos_frac_ge_0.9": 0.0,
+  "oos_median": 0.00495487248882281,
+  "oos_max": 0.28395111867641876,
+  "absurd_oos": false,
+  "live_rescore": {
+    "available": true,
+    "n": 500,
+    "pilot": {
+      "median": 0.009494775255741997,
+      "mean": 0.05547513477557784,
+      "max": 0.9465386299736036,
+      "min": 8.76167356659388e-05,
+      "frac_ge_0.9": 0.004,
+      "p90": 0.1275294809876949,
+      "p99": 0.7374686599104852
+    },
+    "q5b_last": {
+      "median": 0.16797413312181403,
+      "mean": 0.17730037236340604,
+      "max": 0.9079596445249635,
+      "min": 0.013231089556220947,
+      "frac_ge_0.9": 0.002,
+      "p90": 0.28085687995238623,
+      "p99": 0.5066488929468344
+    },
+    "lift_max": 0.038578985448640135,
+    "lift_median": -0.15847935786607203,
+    "lift_frac_ge_0.9": 0.002
+  },
+  "q5b_last_untouched": true,
+  "dune_api_calls": 0,
+  "go_nogo": "GO",
+  "go_reason": "live_max_and_frac_ge_0.9_improved_vs_q5b_last_oos_ok"
+}

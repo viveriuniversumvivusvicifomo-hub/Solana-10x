@@ -1,0 +1,7 @@
+parity n=2 fail_targets=['4M3gYZ2dQ39KuBuJYVmQi5qrtFfMpMWHpJhhx7Wapump', 'BZofTtkyrBM2EDdRBN6GCavdWvxd61xbLTVFnoPgpump'] only_fail=True
+[1/2] BZofTtkyrBM2… fail=True prior_n=1
+  → trades=4 buys=4 txs_le=14 dump=14 le_false=0 improved=True mode=enhanced+rpc_sig_window+slot
+[2/2] 4M3gYZ2dQ39K… fail=True prior_n=1
+  → trades=3 buys=3 txs_le=5 dump=5 le_false=0 improved=True mode=enhanced+rpc_sig_window+slot
+Wrote /workspace/solana-10x/data/samples/helius_parity_tx_dump_ge10_20261001_fail2_20261001.csv rows=19
+Wrote /workspace/solana-10x/data/samples/helius_parity_tx_dump_ge10_20261001_meta_fail2_20261001.json

@@ -1,0 +1,68 @@
+{
+  "ts": "2026-10-02T06:26:39.933556+00:00",
+  "note": "rebuild smoke after box wipe ~08:19 CEST",
+  "n_polled": 26,
+  "n_enriched": 3,
+  "n_scoreable": 3,
+  "n_buy_vol_gt0": 3,
+  "rows": [
+    {
+      "mint": "2T6HZLQEmyANf4L4kQ9tTKV2aqFHidy9yvZ1cssdTAw3",
+      "mc_usd": 8267.16,
+      "capture_scoreable": true,
+      "score_reject": null,
+      "t0_refined": true,
+      "n_trades_pre_t0": 110,
+      "buy_vol_usd_60s": 5015.667619780986,
+      "buy_count_60s": 63,
+      "gaps": [
+        "meta_source=create"
+      ],
+      "detail": "def=pump_mc_band_sighting_v1 mc=8267.2 t0_refined=True scoreable=True n_trades_pre_t0=110 buy60=5015.67"
+    },
+    {
+      "mint": "3SPKMAEWTToz21AeaQyiMRTDEEwRVPxxbJQJ7iUajztb",
+      "mc_usd": 14426.85,
+      "capture_scoreable": true,
+      "score_reject": null,
+      "t0_refined": true,
+      "n_trades_pre_t0": 195,
+      "buy_vol_usd_60s": 2196.0664019369005,
+      "buy_count_60s": 43,
+      "gaps": [
+        "meta_source=create"
+      ],
+      "detail": "def=pump_mc_band_sighting_v1 mc=14426.8 t0_refined=True scoreable=True n_trades_pre_t0=195 buy60=2196.07"
+    },
+    {
+      "mint": "BvsC81QatszTq2oqYm8EtpqoubAAdb1XU8VGdeJPpump",
+      "mc_usd": 8016.27,
+      "capture_scoreable": true,
+      "score_reject": null,
+      "t0_refined": true,
+      "n_trades_pre_t0": 196,
+      "buy_vol_usd_60s": 5.911503183495171,
+      "buy_count_60s": 2,
+      "gaps": [
+        "meta_source=create"
+      ],
+      "detail": "def=pump_mc_band_sighting_v1 mc=8016.3 t0_refined=True scoreable=True n_trades_pre_t0=196 buy60=5.91"
+    }
+  ],
+  "call_log": {
+    "n_calls": 10,
+    "status_codes": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "n_retries_429": 0
+  }
+}

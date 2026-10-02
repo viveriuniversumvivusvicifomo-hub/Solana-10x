@@ -1,0 +1,379 @@
+{
+  "schema": "path_a_debt_inventory_v1",
+  "date": "2026-10-02",
+  "generated_at_europe_madrid": "2026-10-02T14:25:30+02:00",
+  "repo": "/workspace/solana-10x",
+  "inventory_md": "cycle0/path-a-debt-inventory-20261002.md",
+  "rules_of_engagement": {
+    "fix_requires": [
+      "code",
+      "tests",
+      "note",
+      "SolAuditor_GO"
+    ],
+    "no_paper_live_restart_without_sinck": true,
+    "paper_live_pid": 121466,
+    "paper_live_cmd": ".venv/bin/python -m paper_live --live --cycles 0 --feed pump --enrich-via pump --score-mode histgb_q5b --entry-rule train_quantile --score-threshold 0.9 --max-calls 100000",
+    "never_overwrite": [
+      "q5b_last.joblib",
+      "q5b_calibration.json"
+    ],
+    "q5b_last_md5": "4df6d5a8dff6bf66528d4ee4cf6641b2",
+    "q5b_calibration_md5": "586e2af105e8b890594a4f70612915a0",
+    "dune_api_unless_sinck_go": false,
+    "lite": "OFF",
+    "usd_scale": "OFF"
+  },
+  "summary_counts": {
+    "P0": {
+      "open": 1,
+      "accepted-documented": 0,
+      "done": 1,
+      "total": 2
+    },
+    "ALL": {
+      "open": 7,
+      "accepted-documented": 5,
+      "done": 5,
+      "total": 17
+    },
+    "P1": {
+      "open": 5,
+      "accepted-documented": 2,
+      "done": 2,
+      "total": 9
+    },
+    "P2": {
+      "open": 2,
+      "accepted-documented": 3,
+      "done": 1,
+      "total": 6
+    }
+  },
+  "must_include_crosswalk": {
+    "1": "D-03",
+    "2": "D-12",
+    "3": [
+      "D-04",
+      "D-10"
+    ],
+    "4": "D-01",
+    "5": "D-05",
+    "6": "D-13",
+    "7": [
+      "D-14",
+      "D-15"
+    ],
+    "8": "D-09",
+    "9": "D-06",
+    "10": "D-07",
+    "11": "D-02",
+    "12": "D-08"
+  },
+  "items": [
+    {
+      "id": "D-01",
+      "priority": "P0",
+      "title": "Score mass live\u2260train (product blocker)",
+      "must_include": 4,
+      "owner": "SolModelos|SolDatos",
+      "status": "open",
+      "dod": "Pump-true POS\u2248live geometry \u2192 WF candidate (no q5b_last overwrite) \u2192 journal max+med+frac\u22650.9 lift vs q5b_last \u2192 note + SolAuditor GO",
+      "evidence": [
+        "cycle0/path-a-mcband-feat-diag-20261002.md",
+        "cycle0/path-a-pump-pilot500-20261002.md",
+        "cycle0/path-a-pump-livelike-20261002.md",
+        "cycle0/go-criterion-q5b-candidate-vs-last-20261002.md"
+      ],
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-02",
+      "priority": "P0",
+      "title": "Protocol gaps: GO criteria before coding",
+      "must_include": 11,
+      "owner": "BOSS|SolAuditor",
+      "status": "done_pending_solauditor_go",
+      "dod": "Hard GO/NO-GO+cost fence before build/train/HTTP; GO_CARD+check_go_gate+train --go-card; protocolos ack on card; SolAuditor GO stamp",
+      "evidence": [
+        "cycle0/go-before-coding-gate-20261002.md",
+        "cycle0/templates/GO_CARD.md",
+        "scripts/check_go_gate.py",
+        "scripts/train_q5b_path_a_candidate_wf.py",
+        "cycle0/d-02-go-before-coding-20261002.md",
+        "cycle0/protocolos-verificacion.md",
+        "cycle0/go-criterion-q5b-candidate-vs-last-20261002.md"
+      ],
+      "solauditor_go_pending": true,
+      "code_done": true
+    },
+    {
+      "id": "D-03",
+      "priority": "P1",
+      "title": "features_stub naming/legacy \u2192 features_t0",
+      "must_include": 1,
+      "owner": "SolQA",
+      "status": "done",
+      "dod": "Rename+contract+imports+tests; SolAuditor GO to formally close lane",
+      "evidence": [
+        "src/paper_live/features_t0.py"
+      ],
+      "solauditor_go_pending": true,
+      "code_done": true
+    },
+    {
+      "id": "D-04",
+      "priority": "P1",
+      "title": "Duplicate Pump build/train scripts (pilot500/mcband/scale/livelike/twin)",
+      "must_include": 3,
+      "owner": "SolModelos|SolDatos",
+      "status": "done_pending_solauditor_go",
+      "dod": "Canonical recipe SoT; archive/quarantine NO-GO scripts+joblibs; SolAuditor GO",
+      "evidence": [
+        "scripts/train_q5b_path_a_candidate_wf.py",
+        "scripts/build_pump_path_a_pilot500.py",
+        "scripts/build_pump_mcband_pilot.py",
+        "scripts/build_pump_mcband_scale.py",
+        "scripts/build_pump_path_a_livelike.py",
+        "scripts/archive/train_q5b_pump_*.py",
+        "cycle0/quarantine-q5b-pump-joblibs-20261002.md",
+        "cycle0/recipe-path-a-train-canonical-20261002.md"
+      ],
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-05",
+      "priority": "P1",
+      "title": "Residual USD/holders/priors \u2014 accept or fix",
+      "must_include": 5,
+      "owner": "SolDatos",
+      "status": "accepted-documented",
+      "dod": "USD/holders/T0/prior-store accept documented; priors stamp live post-restart",
+      "evidence": [
+        "cycle0/path-a-residual-parity-20261002.md",
+        "cycle0/path-a-restart-curve-age-20261002.md"
+      ],
+      "notes": {
+        "usd_scale": "OFF",
+        "priors_post_restart_skip_prior": 0,
+        "priors_stamp": "dune_cohort_*"
+      },
+      "solauditor_go_pending": false
+    },
+    {
+      "id": "D-06",
+      "priority": "P1",
+      "title": "Journal pc1=158 Bitquery/stub legacy stock pollution",
+      "must_include": 9,
+      "owner": "SolQA|SolDatos",
+      "status": "open",
+      "dod": "Quarantine/filter paper_candidates legacy (20 rule_buy60 stub + 138 early histgb); analytics exclude; no delete without Sinck; SolAuditor GO",
+      "evidence": [
+        "data/paper_live/paper_journal.sqlite#paper_candidates"
+      ],
+      "facts": {
+        "n_paper_candidates": 158,
+        "rule_buy60": 20,
+        "histgb_q5b": 138,
+        "window": "2026-10-01T10:23\u201311:00+02"
+      },
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-07",
+      "priority": "P1",
+      "title": "Incomplete scale script from cancelled B",
+      "must_include": 10,
+      "owner": "SolDatos",
+      "status": "done",
+      "dod": "Quarantine archive/quarantine/mcband_scale_20261002 as NO-GO incomplete; default ordered_cache_dirs excludes scale; CLI+script refuse; note + SolAuditor GO",
+      "evidence": [
+        "archive/quarantine/mcband_scale_20261002/NO-GO_INCOMPLETE.md",
+        "archive/quarantine/mcband_scale_20261002/manifest.json",
+        "scripts/build_pump_mcband_scale.py",
+        "scripts/pump_path_a_common.py",
+        "cycle0/d-07-mcband-scale-quarantine-20261002.md",
+        "cycle0/path-a-mcband-feat-diag-20261002.md"
+      ],
+      "facts": {
+        "fetch_progress_last": "~1352/2800 checkpoint",
+        "n_trade_json_quarantined": 837,
+        "features_matrix": null,
+        "quarantine_dir": "archive/quarantine/mcband_scale_20261002",
+        "verdict": "scale-n alone NO; quarantined",
+        "paper_pid": 121466,
+        "q5b_last_md5": "4df6d5a8dff6bf66528d4ee4cf6641b2"
+      },
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-08",
+      "priority": "P1",
+      "title": "Test gaps pump_enrich curve/age/priors",
+      "must_include": 12,
+      "owner": "SolQA",
+      "status": "open",
+      "dod": "Fill holders/sol_usd/post-restart invariant gaps; existing curve/age/prior tests keep green; note + SolAuditor GO",
+      "evidence": [
+        "tests/paper_live/test_path_a_pump_capture.py",
+        "tests/paper_live/test_creator_priors_and_threshold.py"
+      ],
+      "existing_tests": [
+        "test_pump_enrich_keeps_trade_curve_and_age_proxy_when_trades_present",
+        "test_pump_enrich_coin_overlay_gapfill_when_no_trades",
+        "test_pump_enrich_stamps_dune_cohort_*"
+      ],
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-09",
+      "priority": "P1",
+      "title": "Lite model disabled but code paths remain",
+      "must_include": 8,
+      "owner": "SolQA",
+      "status": "accepted-documented",
+      "dod": "Keep enable_lite_lane=False; document OR hard-gate default path never loads LiteScorer",
+      "evidence": [
+        "src/paper_live/config.py",
+        "src/paper_live/score_lite.py",
+        "src/paper_live/multi_score.py",
+        "cycle0/score-mode-lite-cycle0-20261002.md"
+      ],
+      "facts": {
+        "enable_lite_lane": false
+      },
+      "solauditor_go_pending": false
+    },
+    {
+      "id": "D-10",
+      "priority": "P1",
+      "title": "Train script forest vs single Path A entry",
+      "must_include": 3,
+      "owner": "SolModelos",
+      "status": "done_pending_solauditor_go",
+      "dod": "One canonical train entry (or wrappers); refuse overwrite q5b_last; SolAuditor GO",
+      "evidence": [
+        "scripts/train_q5b_path_a_candidate_wf.py",
+        "scripts/archive/",
+        "cycle0/depur-d04-d10-train-forest-20261002.md"
+      ],
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-11",
+      "priority": "P1",
+      "title": "WS3 residual-accept formal close note",
+      "must_include": 5,
+      "owner": "SolDatos",
+      "status": "open",
+      "dod": "Formal residual-accept doc with revisit triggers; SolAuditor GO",
+      "evidence": [
+        "cycle0/path-a-residual-parity-20261002.md",
+        "cycle0/path-a-debt-inventory-PROVISIONAL-20261002.md#PA-WS3"
+      ],
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-12",
+      "priority": "P2",
+      "title": "ModelStub / cycle0 stubs in live paths?",
+      "must_include": 2,
+      "owner": "SolQA",
+      "status": "done",
+      "dod": "Confirm not imported by paper_live; offline-only docstring",
+      "evidence": [
+        "src/models/__init__.py",
+        "src/models/stub.py",
+        "tests/models/test_stub.py"
+      ],
+      "facts": {
+        "in_paper_live": false
+      },
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-13",
+      "priority": "P2",
+      "title": "skip_sol_usd_not_pyth / skip_prior_not_train after Pump restart",
+      "must_include": 6,
+      "owner": "SolQA",
+      "status": "accepted-documented",
+      "dod": "Document: skip_prior gate stays (rate 0 post-restart); skip_sol Helius-only residual; keep gates",
+      "evidence": [
+        "src/paper_live/score.py",
+        "data/paper_live/paper_journal.sqlite"
+      ],
+      "facts": {
+        "skip_prior_post_restart_1213pt": 0,
+        "skip_prior_historical_total": 562,
+        "skip_sol_usd_sightings": 0
+      },
+      "solauditor_go_pending": false
+    },
+    {
+      "id": "D-14",
+      "priority": "P2",
+      "title": "Helius enrich in live path when enrich=pump?",
+      "must_include": 7,
+      "owner": "SolQA",
+      "status": "accepted-documented",
+      "dod": "Confirm no Helius call on via=pump; keep opt-in helius branch",
+      "evidence": [
+        "src/paper_live/loop.py",
+        "src/paper_live/config.py"
+      ],
+      "facts": {
+        "DEFAULT_ENRICH_VIA": "pump",
+        "runtime_helius_when_pump": false
+      },
+      "solauditor_go_pending": false
+    },
+    {
+      "id": "D-15",
+      "priority": "P2",
+      "title": "Stale loop.py docstring (default enrich Helius)",
+      "must_include": 7,
+      "owner": "SolQA",
+      "status": "open",
+      "dod": "Align module docstring with DEFAULT_ENRICH_VIA=pump; SolAuditor GO",
+      "evidence": [
+        "src/paper_live/loop.py:1-10"
+      ],
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-16",
+      "priority": "P2",
+      "title": "Followup poll_pump_mcs errors in state.json",
+      "must_include": null,
+      "owner": "SolQA",
+      "status": "open",
+      "dod": "Clear/rotate stale followup_errors; verify FollowupTracker.poll_pump_mcs; no restart without Sinck",
+      "evidence": [
+        "data/paper_live/state.json",
+        "src/paper_live/followup.py"
+      ],
+      "solauditor_go_pending": true
+    },
+    {
+      "id": "D-17",
+      "priority": "P2",
+      "title": "Companion NO-GO q5b_pump_* joblibs in-situ quarantine",
+      "must_include": 3,
+      "owner": "SolModelos",
+      "status": "accepted-documented",
+      "dod": "Keep paper on q5b_last; inventory NO-GO; optional physical quarantine only with Sinck",
+      "evidence": [
+        "cycle0/quarantine-q5b-pump-joblibs-20261002.md",
+        "cycle0/depuracion-modelos-lane-20261002.md"
+      ],
+      "solauditor_go_pending": false
+    }
+  ],
+  "production_untouched": true,
+  "writes": [
+    "cycle0/path-a-debt-inventory-20261002.md",
+    "cycle0/diagnostics/debt_inventory_20261002.json"
+  ],
+  "d02_close_note": "cycle0/d-02-go-before-coding-20261002.md"
+}

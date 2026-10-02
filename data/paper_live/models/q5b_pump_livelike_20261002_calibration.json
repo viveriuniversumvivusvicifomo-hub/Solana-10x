@@ -1,0 +1,75 @@
+{
+  "kind": "paper_live_train_quantile_calibration",
+  "set_name": "+q5b",
+  "score_mode": "histgb_q5b",
+  "model_path": "q5b_pump_livelike_20261002.joblib",
+  "recipe": "pump_mc_band_from_trades_v1_livelike_filter",
+  "t0_policy": "pump_mc_band_from_trades_v1",
+  "fold": 5,
+  "train_n": 292,
+  "train_t0_max": "2026-09-21 18:32:55+00:00",
+  "generated_at": "2026-10-02T13:48:15+02:00",
+  "rule": "score >= quantile(train_scores, 1-top_frac); TRAIN only",
+  "why": "Pump MC-band T0 + live-like geometry filter on POS/NEG; NOT a live swap without Sinck GO.",
+  "thresholds": {
+    "0.01": 0.9690386485659255,
+    "0.05": 0.9545751167628823
+  },
+  "train_score_stats": {
+    "min": 0.0001901130736346495,
+    "median": 0.030527099888226564,
+    "p99": 0.9690386485659255,
+    "p95": 0.9545751167628823,
+    "max": 0.9938015006331916
+  },
+  "oos_held_out": {
+    "n": 40,
+    "auc": 0.75,
+    "ap": 0.4095496894409938,
+    "frac_ge_0.9": 0.0,
+    "median": 0.025633570578480445,
+    "max": 0.48945725490162123,
+    "base_rate": 0.1,
+    "absurd_oos": 0
+  },
+  "baseline_q5b_last_same_oos": {
+    "available": 1,
+    "path": "/workspace/solana-10x/data/paper_live/models/q5b_last.joblib",
+    "auc": 0.6319444444444443,
+    "ap": 0.2638888888888889,
+    "frac_ge_0.9": 0.0,
+    "median": 0.18015324400223043,
+    "max": 0.4125157905090965
+  },
+  "live_journal_rescore": {
+    "available": 1,
+    "n": 500,
+    "pilot": {
+      "median": 0.03639183333530484,
+      "mean": 0.1254447980233917,
+      "max": 0.9194222628490147,
+      "min": 0.0003822380023337904,
+      "frac_ge_0.9": 0.006,
+      "p90": 0.43243159609779036,
+      "p99": 0.826573405195842
+    },
+    "q5b_last": {
+      "median": 0.17062963503774026,
+      "mean": 0.1770312104304988,
+      "max": 0.7310718172344891,
+      "min": 0.013231089556220947,
+      "frac_ge_0.9": 0.0,
+      "p90": 0.26904965584703683,
+      "p99": 0.47922469249246963
+    },
+    "lift_max": 0.18835044561452563,
+    "lift_median": -0.13423780170243543,
+    "lift_frac_ge_0.9": 0.006
+  },
+  "go_nogo": "NO-GO",
+  "go_reason": "live_max_and_frac_ge_0.9_improved_vs_q5b_last_oos_ok",
+  "go_nogo_formal": "GO",
+  "go_nogo_paper_swap": "NO-GO",
+  "go_reason_formal": "live_max_and_frac_ge_0.9_improved_vs_q5b_last_oos_ok",
+  "go_reason_paper_swap": "live median score mass collapsed vs q5b_last (0.0364 vs 0.1706); train POS still quieter than live captura; only ~7 mid-live-like positives; keep paper on q5b_last"
+}

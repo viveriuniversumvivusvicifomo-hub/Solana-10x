@@ -1,0 +1,91 @@
+{
+  "kind": "helius_parity_tx_dump_ge10",
+  "generated_at": "2026-10-01T15:10:53.137Z",
+  "source_parity_csv": "cycle0/artifacts/helius_parity_replay_ge10_20261001.csv",
+  "out_csv": "data/samples/helius_parity_tx_dump_ge10_20261001_fail2_20261001.csv",
+  "apply_dune_helius_usd_scale": false,
+  "n_mints": 2,
+  "n_dump_rows": 19,
+  "n_le_t0_false": 0,
+  "fail_targets": [
+    {
+      "mint": "BZofTtkyrBM2EDdRBN6GCavdWvxd61xbLTVFnoPgpump",
+      "prior_parity_n_trades_pre_t0": 1,
+      "n_trades_le_t0": 4,
+      "n_buys_le_t0": 4,
+      "n_txs_le_t0": 14,
+      "train_buy_count_total": "4.0",
+      "recovery_improved": true,
+      "n_dump_rows": 14,
+      "n_le_t0_false": 0,
+      "fetch_mode": "enhanced+rpc_sig_window+slot",
+      "gaps": [
+        "helius_bc:pages=1 stop=create_sig",
+        "helius_mint:pages=60 stop=max_pages",
+        "helius_merged n=5847 le_t0=2 floor=1790090994",
+        "rpc_window addr=BZofTtky\u2026 n_sigs=14 n_parsed=14 reason=short_reached@page29",
+        "rpc_window addr=D1xejWeD\u2026 n_sigs=2 n_parsed=2 reason=short_reached@page1",
+        "rpc_anchor addr=BZofTtky\u2026 n_sigs=1 n_parsed=1 reason=anchor_empty@0",
+        "rpc_anchor addr=D1xejWeD\u2026 n_sigs=1 n_parsed=1 reason=anchor_empty@0",
+        "getBlock_449419639_n=1091_new=1091",
+        "getBlock_449419640_n=1517_new=1517",
+        "getBlock_449419641_n=1151_new=1151",
+        "slot_window slot=449419640 n_sigs=3759 mint_hit=5",
+        "after_rpc_merge le_t0=14 dump_candidates=14"
+      ],
+      "stuck_rpc_gap": false
+    },
+    {
+      "mint": "4M3gYZ2dQ39KuBuJYVmQi5qrtFfMpMWHpJhhx7Wapump",
+      "prior_parity_n_trades_pre_t0": 1,
+      "n_trades_le_t0": 3,
+      "n_buys_le_t0": 3,
+      "n_txs_le_t0": 5,
+      "train_buy_count_total": "3.0",
+      "recovery_improved": true,
+      "n_dump_rows": 5,
+      "n_le_t0_false": 0,
+      "fetch_mode": "enhanced+rpc_sig_window+slot",
+      "gaps": [
+        "helius_bc:pages=1 stop=create_sig",
+        "helius_mint:pages=60 stop=max_pages",
+        "helius_merged n=5998 le_t0=2 floor=1790060579",
+        "rpc_empty:4M3gYZ2d:max_pages=60",
+        "rpc_window addr=ZnWfBeWb\u2026 n_sigs=3 n_parsed=3 reason=short_reached@page1",
+        "rpc_anchor addr=4M3gYZ2d\u2026 n_sigs=1 n_parsed=1 reason=anchor_empty@0",
+        "rpc_anchor addr=ZnWfBeWb\u2026 n_sigs=1 n_parsed=1 reason=anchor_empty@0",
+        "getBlock_449305517_n=1306_new=1306",
+        "getBlock_449305518_n=1528_new=1528",
+        "getBlock_449305519_n=1683_new=1683",
+        "slot_window slot=449305518 n_sigs=4517 mint_hit=4",
+        "after_rpc_merge le_t0=5 dump_candidates=5"
+      ],
+      "stuck_rpc_gap": false
+    }
+  ],
+  "per_mint": [
+    {
+      "mint": "BZofTtkyrBM2EDdRBN6GCavdWvxd61xbLTVFnoPgpump",
+      "n_trades_le_t0": 4,
+      "n_txs_le_t0": 14,
+      "n_dump_rows": 14,
+      "n_le_t0_false": 0,
+      "fetch_mode": "enhanced+rpc_sig_window+slot",
+      "is_fail_target": true
+    },
+    {
+      "mint": "4M3gYZ2dQ39KuBuJYVmQi5qrtFfMpMWHpJhhx7Wapump",
+      "n_trades_le_t0": 3,
+      "n_txs_le_t0": 5,
+      "n_dump_rows": 5,
+      "n_le_t0_false": 0,
+      "fetch_mode": "enhanced+rpc_sig_window+slot",
+      "is_fail_target": true
+    }
+  ],
+  "notes": [
+    "Dump rows = Enhanced/RPC txs in \u2264T0 feature window (le_t0) plus any parsed trades with le_t0=false (QA hard-gate evidence).",
+    "Recovery for 2 failures: max_pages\u2265120, BC-first helper, create floor, create_signature stop (tx_id_t0), RPC sig window on mint+BC (create\u221230s\u2026t0).",
+    "If n_trades still 1 vs Dune 3\u20134: likely RPC/Enhanced gap on age\u22480 migrated_pre_t0 snipers (post-grad volume not on BC; mint crawl buried)."
+  ]
+}

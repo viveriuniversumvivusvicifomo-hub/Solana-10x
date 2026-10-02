@@ -1,0 +1,61 @@
+scale_off OK; dump= helius_parity_tx_dump_ge10_20261001.csv
+priors=train_store_v1 n=79378 features=51
+[1/12] 69xneXbByUnx7WtE… oos=0.9995 before=0.9994
+  live=0.9994 before=0.9994 trades=3/3 mode=enhanced+rpc(+slot)_fallback pass99=True
+[2/12] BZofTtkyrBM2EDdR… oos=0.9998 before=0.7307
+  live=0.9998 before=0.7307 trades=4/4 mode=dump_parse_by_sig pass99=True
+[3/12] 4M3gYZ2dQ39KuBuJ… oos=0.9998 before=0.5733
+  live=0.9998 before=0.5733 trades=3/3 mode=dump_parse_by_sig pass99=True
+[4/12] wbf55KygjChmSMkT… oos=0.9999 before=0.9998
+  live=0.9998 before=0.9998 trades=3/3 mode=enhanced+rpc(+slot)_fallback pass99=True
+[5/12] 2ahcm3vhbPTi7WzE… oos=0.9998 before=0.9998
+  live=0.9998 before=0.9998 trades=3/3 mode=enhanced+rpc(+slot)_fallback pass99=True
+[6/12] 4X9d1Mc1cXJUFXtA… oos=0.9998 before=0.9998
+  live=0.9998 before=0.9998 trades=3/3 mode=enhanced+rpc(+slot)_fallback pass99=True
+[7/12] G4G4cN8BLGaDe7yS… oos=0.9998 before=0.9998
+  live=0.9998 before=0.9998 trades=3/3 mode=enhanced+rpc(+slot)_fallback pass99=True
+[8/12] 2DU2GNLBhXg2Gqkg… oos=0.9998 before=0.9998
+  live=0.9998 before=0.9998 trades=3/3 mode=enhanced+rpc(+slot)_fallback pass99=True
+[9/12] wXcbD8Sr23SoN1J8… oos=0.9995 before=0.9994
+  live=0.9994 before=0.9994 trades=3/3 mode=enhanced+rpc(+slot)_fallback pass99=True
+[10/12] 2hCEWYZcFZNWV59a… oos=0.9954 before=0.9929
+  live=0.9929 before=0.9929 trades=4/6 mode=enhanced+rpc(+slot)_fallback pass99=True
+[11/12] 6mCCo1Abfz2riT4U… oos=0.9998 before=0.9998
+  live=0.9998 before=0.9998 trades=4/4 mode=enhanced+rpc(+slot)_fallback pass99=True
+[12/12] 56ofoyzfMaGwzgee… oos=0.9998 before=0.9998
+  live=0.9998 before=0.9998 trades=3/3 mode=enhanced+rpc(+slot)_fallback pass99=True
+{
+  "n": 12,
+  "n_ge_0.99": 12,
+  "pct_ge_0.99": 1.0,
+  "pct_ge_0.89": 1.0,
+  "median_live": 0.9998258517557969,
+  "mean_live": 0.9991820033367,
+  "scale_enabled": false,
+  "sol_usd_sources": [
+    "pyth_asof"
+  ],
+  "threshold_product": 0.99,
+  "threshold_note": "Sinck product abs 0.99; trainQ top1%~0.9998 / top5% / top10% fold thr 0.66\u20130.92",
+  "dump": "/workspace/solana-10x/data/samples/helius_parity_tx_dump_ge10_20261001.csv",
+  "csv": "/workspace/solana-10x/cycle0/artifacts/helius_parity_replay_ge10_post_recovery_20261001.csv",
+  "qa_merged": "data/samples/qa_helius_parity_tx_dump_merged_le_t0_report.json",
+  "paper_live": "FROZEN_untouched",
+  "fail_targets": {
+    "4M3gYZ2dQ39K": {
+      "before": 0.5733110582686363,
+      "after": 0.9998384816914451,
+      "n_trades_before": 1,
+      "n_trades_after": 3,
+      "pass_ge_0.99": true
+    },
+    "BZofTtkyrBM2": {
+      "before": 0.7307414447202645,
+      "after": 0.9997958937369965,
+      "n_trades_before": 1,
+      "n_trades_after": 4,
+      "pass_ge_0.99": true
+    }
+  }
+}
+wrote /workspace/solana-10x/cycle0/artifacts/helius_parity_replay_ge10_post_recovery_20261001.csv /workspace/solana-10x/cycle0/live-parity-replay-post-recovery-20261001.md

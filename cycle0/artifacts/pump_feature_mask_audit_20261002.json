@@ -1,0 +1,24 @@
+{
+  "n": 3000,
+  "masked_cols": [
+    "buy_vol_usd_60s",
+    "sniper_vol_share_5s",
+    "top1_buyer_vol_share",
+    "top5_buyer_vol_share",
+    "buy_vol_usd_total",
+    "buy_count_total"
+  ],
+  "baseline_score": {
+    "median": 0.03248978661330894,
+    "p95": 0.0385220806241549,
+    "frac_ge_0.9": 0.0
+  },
+  "masked_score": {
+    "median": 0.033112049493612974,
+    "p95": 0.03909215547013809,
+    "frac_ge_0.9": 0.0
+  },
+  "mean_abs_delta": 0.0019668965350681075,
+  "dune_calls": 0,
+  "note": "Imputer fills NaN \u2014 live Path A currently SKIPS on missing buy_vol (stricter than this audit)."
+}

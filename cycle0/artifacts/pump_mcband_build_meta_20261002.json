@@ -1,0 +1,63 @@
+{
+  "kind": "pump_mcband_pilot_build",
+  "generated_at": "2026-10-02T11:10:53+02:00",
+  "t0_policy": "pump_mc_band_from_trades_v1",
+  "t0_definition": "pump_mc_band_sighting_v1",
+  "t0_recipe": {
+    "implied_mc": "priceUsd * 1e9",
+    "band": [
+      8000.0,
+      20000.0
+    ],
+    "t0": "first chronological Pump trade with MC in band",
+    "proxies": {
+      "deep_fetch": true,
+      "expand_create_proxy": false
+    },
+    "non_reconstructable": "never_in_band or no_trades after deep fetch"
+  },
+  "label_recipe": {
+    "hit": "max_mc_after_t0 >= 10 * mc_t0 within 30d",
+    "local_trades": "implied MC from Pump trades (t0, t0+30d]",
+    "expand_max": "labels_dune_expand_v2.max_mc_after_t0 when expand_t0>=new_t0 or |\u0394|<= 1:00:00",
+    "dune_api": 0
+  },
+  "anti_lookahead": {
+    "features": "Q5a/buy60 from trades with ts <= new_t0 only",
+    "labels": "only post-T0 prices/MC; expand max only if expand_t0>=new_t0 or \u22641h slack"
+  },
+  "n_sample": 500,
+  "n_reconstructable": 494,
+  "n_reconstructable_trade_band": 494,
+  "n_unreconstructable": 6,
+  "reconstruct_method_counts": {
+    "pump_trade_mc_band": 455,
+    "pump_trade_mc_band_deep": 39,
+    "never_in_band": 4,
+    "no_trades": 2
+  },
+  "n_matrix_rows": 500,
+  "n_usable_wf": 467,
+  "label_rate_usable": 0.0728051391862955,
+  "label_rate_all_recon": 0.06882591093117409,
+  "n_empty_pre_t0_usable": 0,
+  "frac_empty_pre_t0_usable": 0.0,
+  "deep_fetch": {
+    "attempted": 16,
+    "ok": 45,
+    "found_band": 39,
+    "http_calls": 526,
+    "skipped": 29
+  },
+  "paths": {
+    "matrix": "/workspace/solana-10x/data/samples/features_pump_path_a_mcband_20261002.csv",
+    "sample_usable": "/workspace/solana-10x/data/samples/pump_mcband_sample_20261002.csv",
+    "t0_recon": "/workspace/solana-10x/cycle0/artifacts/pump_mcband_t0_recon_20261002.csv",
+    "trades_cache_reused": "/workspace/solana-10x/data/samples/pump_pilot500_trades_20261002",
+    "deep_trades": "/workspace/solana-10x/data/samples/pump_mcband_trades_extra_20261002"
+  },
+  "dune_api_calls": 0,
+  "lite": false,
+  "usd_scale": false,
+  "allow_expand_proxy": false
+}
